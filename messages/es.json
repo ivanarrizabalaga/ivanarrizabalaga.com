@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "experience": "Experiencia",
+    "writing": "Escritos",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "home": {
+    "about": "Sobre mí",
+    "firstComputer": "Primer ordenador",
+    "bio": "Más de 20 años construyendo software, equipos y empresas. VP hands-on que sigue programando.",
+    "cta": {
+      "experience": "Ver Experiencia",
+      "skills": "Ver Habilidades",
+      "contact": "Contactar"
+    }
+  },
+  "experience": {
+    "filter": {
+      "all": "Todo terreno",
+      "lead": "Lead",
+      "ic": "IC"
+    },
+    "explore": "Explora mi experiencia como"
+  },
+  "writing": {
+    "title": "Escritos y Charlas"
+  },
+  "skills": {
+    "education": "Formación",
+    "courses": "Cursos",
+    "books": "Libros Recomendados",
+    "hardSkills": "Habilidades",
+    "languages": "Idiomas"
+  },
+  "contact": {
+    "title": "Contacto",
+    "location": "Ubicación"
+  },
+  "theme": {
+    "system": "Sistema",
+    "light": "Claro",
+    "dark": "Oscuro"
+  }
+}

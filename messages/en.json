@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "home": "Home",
+    "experience": "Experience",
+    "writing": "Writing",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "home": {
+    "about": "About",
+    "firstComputer": "First computer",
+    "bio": "20+ years building software, teams, and companies. Hands-on VP who still codes.",
+    "cta": {
+      "experience": "View Experience",
+      "skills": "View Skills",
+      "contact": "Get in Touch"
+    }
+  },
+  "experience": {
+    "filter": {
+      "all": "All around player",
+      "lead": "Lead",
+      "ic": "IC"
+    },
+    "explore": "Explore my experiences as"
+  },
+  "writing": {
+    "title": "Writing & Talks"
+  },
+  "skills": {
+    "education": "Education",
+    "courses": "Courses",
+    "books": "Book Recommendations",
+    "hardSkills": "Skills",
+    "languages": "Languages"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "location": "Location"
+  },
+  "theme": {
+    "system": "System",
+    "light": "Light",
+    "dark": "Dark"
+  }
+}

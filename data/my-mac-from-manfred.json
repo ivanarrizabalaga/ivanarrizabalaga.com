@@ -1,0 +1,1646 @@
+{
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.5/schema/schema.json",
+  "settings": {
+    "language": "EN",
+    "MACVersion": "0.5"
+  },
+  "aboutMe": {
+    "profile": {
+      "name": "Iván",
+      "surnames": "Arrizabalaga Getino",
+      "title": "VP of Engineering @ JOOR",
+      "description": "It all started with War Games; I watched Matthew Broderick hacking a phone, and it looked reeeeeeally cool.\n\nSo I first started breaking stuff (I called it research). Then I got my Spectrum 48k at 6, and... voila, suddenly I knew what I wanted to do for a living.\n\nI studied for a bachelor's and master's in **Computer Science** at the University of Oviedo and then started working.\n\nAfter **20 years in the business**, I've done pretty much everything: research, **data analysis**, consulting, freelancing as a software architect, **building a company** from scratch, and, lastly, shaping remote and efficient engineering organizations **(30 to 50 people)**.\n\nNow, I focus on getting the optimal balance between devs happiness & business efficiency by making things as lean as possible.\n\nI still dedicate 10-15% of my time to coding, to stay technically relevant and support my engineering team better, but finally, because I genuinely enjoy it. \n\nMy next goal, joining a purposeful org made of great and talented human beings and working in reasonable \"zero shit\" contexts. \n\nDetails on next pages👇\n",
+      "avatar": {
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/ae7bef5f-c719-4fd9-b2cf-e0f0617a0f15_ivan.jpg",
+        "alt": "ivan.jpg"
+      },
+      "location": {
+        "notes": "Autocompleted using Google Maps API (id: ChIJZxysYJqMNg0RJGJezA5ENDE)",
+        "country": "España",
+        "region": "Principado de Asturias",
+        "municipality": "Oviedo"
+      }
+    },
+    "interestingFacts": [
+      {
+        "topic": "First computer",
+        "fact": "Sinclair ZX Spectrum"
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Peopleware: Productive Projects and Teams (Second Edition)",
+        "type": "reading",
+        "URL": "http://www.amazon.com/Peopleware-Productive-Projects-Teams-Second/dp/0932633439%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0932633439",
+        "authors": [
+          {
+            "name": "Tom",
+            "surnames": "DeMarco",
+            "title": "Author"
+          }
+        ]
+      },      
+      {
+        "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+        "type": "reading",
+        "URL": "http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0201633612",
+        "authors": [
+          {
+            "name": "Erich",
+            "surnames": "Gamma",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "Designing Data Intensive Applications",
+        "type": "reading",
+        "URL": "https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/",
+        "summary": "The best book I've read to help you navigate this diverse data-intensive landscape by examining the pros and cons of various technologies for processing, storing, and scaling apps with massive amounts of data.",
+        "authors": [
+          {
+            "name": "Martin",
+            "surnames": "Kleppmann",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "Effective Programming: More Than Writing Code",
+        "type": "reading",
+        "URL": "http://www.amazon.com/Effective-Programming-More-Than-Writing-ebook/dp/B008HUMTO0%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB008HUMTO0",
+        "authors": [
+          {
+            "name": "Jeff",
+            "surnames": "Atwood (Coding Horror)",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "Getting Real: The Smarter, Faster, Easier Way to Build a Successful Web Applica...",
+        "type": "reading",
+        "URL": "http://www.amazon.com/Getting-Real-Smarter-Successful-Application/dp/0578012812%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0578012812",
+        "authors": [
+          {
+            "name": "Jason",
+            "surnames": "Fried",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "Growing Object-Oriented Software, Guided by Tests",
+        "type": "reading",
+        "URL": "http://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0321503627",
+        "authors": [
+          {
+            "name": "Steve",
+            "surnames": "Freeman",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "JavaScript: The Good Parts",
+        "type": "reading",
+        "URL": "http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0596517742",
+        "authors": [
+          {
+            "name": "Douglas",
+            "surnames": "Crockford",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "Refactoring: Improving the Design of Existing Code",
+        "type": "reading",
+        "URL": "http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0201485672",
+        "authors": [
+          {
+            "name": "Martin",
+            "surnames": "Fowler",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "Rework",
+        "type": "reading",
+        "URL": "http://www.amazon.com/Rework-Jason-Fried/dp/0307463745%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0307463745",
+        "authors": [
+          {
+            "name": "Jason",
+            "surnames": "Fried",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create...",
+        "type": "reading",
+        "URL": "http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0307887898",
+        "authors": [
+          {
+            "name": "Eric",
+            "surnames": "Ries",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "The Pragmatic Programmer: From Journeyman to Master",
+        "type": "reading",
+        "URL": "http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D020161622X",
+        "authors": [
+          {
+            "name": "Andrew",
+            "surnames": "Hunt",
+            "title": "Author"
+          }
+        ]
+      }
+    ],
+    "relevantLinks": [
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/ivanarrizabalaga/"
+      },
+      {
+        "type": "github",
+        "URL": "https://github.com/ivanarrizabalaga"
+      }
+    ]
+  },
+  "experience": {
+    "jobs": [
+      {
+        "organization": {
+          "name": "JOOR",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/01/09/efe685ca-987b-416a-88b8-3b21abc1005d_joor_logo.png",
+            "alt": "joor_logo.png"
+          },
+          "URL": "https://joor.com"
+        },
+        "roles": [
+          {
+            "name": "VP of Engineering",
+            "startDate": "2026-01-01",
+            "challenges": [
+              {
+                "description": "As VP of Engineering, my role is centered on scaling impact, not distance from the work.\n\nI aim to stay close to technical conversations so I can lead by example, informed judgment, and real context rather than abstraction. This allows me to guide architectural decisions, platform direction, and engineering standards with credibility and pragmatism.\n\nBeyond engineering, I’m intentionally broadening my influence across the organization—partnering with product, operations, and leadership to extend strong engineering practices into how we plan, execute, and measure work company-wide.\n\nKey focus areas for the role include:\n\n - Consolidating and modernizing core platform initiatives to reduce systemic risk, improve resilience, and create a foundation for long-term scalability.\n\n - Defining and driving an AI strategy that transforms our SDLC end-to-end—from discovery and design to delivery, operations, and learning—far beyond code assistance.\n\n - Shaping an execution model that favors clarity, ownership, and outcomes over process density, as teams and scope continue to grow.\n\nMy goal as VP is to ensure engineering remains a strategic advantage for the company: technically excellent, operationally efficient, and deeply aligned with business outcomes."
+              }
+            ],
+            "competences": [
+              {
+                "name": "AWS",
+                "type": "technology"
+              },
+              {
+                "name": "Kubernetes",
+                "type": "technology"
+              },
+              {
+                "name": "PostgreSQL",
+                "type": "technology"
+              },
+              {
+                "name": "Python",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "gRPC",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "JOOR",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/01/09/9df0a7c2-f00b-49c9-9d98-ef504650df41_joor_logo.png",
+            "alt": "joor_logo.png"
+          },
+          "URL": "http://joor.com"
+        },
+        "roles": [
+          {
+            "name": "Senior Director of Engineering",
+            "startDate": "2023-08-01",
+            "finishDate": "2025-12-01",
+            "challenges": [
+              {
+                "description": "As Senior Director of Engineering, I led a globally distributed team of 30+ engineers across multiple time zones, operating with an async-first mindset and a lean, pragmatic approach to the SDLC.\n\nMy focus has been on scaling impact rather than process: optimizing how teams work, how systems perform, and how the organization makes decisions. Key outcomes include:\n\n - Driving a **cost-efficiency** initiative that reduced AWS spend by over $200K while achieving 99.99% availability and improving platform **performance** by 15%.\n\n - Reinforcing an **async-first, low-ceremony operating model** that enabled high autonomy and consistent delivery across geographies.\n\n - Serving on an internal executive task force to **audit company operations** and propose structural and process changes to improve overall efficiency.\n\n - Leading the company’s initial **adoption of AI**, from accelerating development cycles to shipping the first major AI-powered customer features into production.\n\nThroughout this role, I’ve stayed close to both the technical and organizational layers, balancing system-level thinking with hands-on leadership to ensure we deliver measurable business outcomes without sacrificing engineering quality."
+              }
+            ],
+            "competences": [
+              {
+                "name": "AWS",
+                "type": "technology"
+              },
+              {
+                "name": "Kubernetes",
+                "type": "technology"
+              },
+              {
+                "name": "Python",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "gRPC",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "JOOR",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/01/09/b4f959dd-d2fa-4e47-bd48-6914e7255f46_joor_logo.png",
+            "alt": "joor_logo.png"
+          },
+          "URL": "https://joor.com"
+        },
+        "roles": [
+          {
+            "name": "Director of Engineering at JOOR",
+            "startDate": "2022-04-01",
+            "finishDate": "2023-08-01",
+            "challenges": [
+              {
+                "description": "Managing a tribe made of exceptional engineers while building the world´s premier wholesale management system.\n\nFor the past two and a half years, I've served as a director of engineering, overseeing a transformation within our engineering department. Initially, the team comprised approximately 50 engineers, with 30 being consultants. Recognizing the low quality of the code and high costs, I initiated a comprehensive overhaul to improve our efficiency and deliverability.\n\nKey achievements include:\n\n - Leading a cultural shift towards asynchronous communication, critical minimal documentation, and the elimination of low-value agile ceremonies.\n - Streamlining the team to 35 members while enhancing productivity, resulting in significantly improved code quality.\n - Boosting CI/CD performance by 50% and reducing infrastructure costs by 50%.\n - Achieving high retention, with only three team members leaving since the transformation began.\n\nCurrently, I manage three engineering managers, two tech leads, and two staff engineers. I remain technically engaged, contributing to critical technical decisions and dedicating 15% of my time to hands-on coding (js, python, or even small legacy php bits if needed), ensuring I stay connected with the team's day-to-day challenges."
+              }
+            ],
+            "competences": [
+              {
+                "name": "AWS",
+                "type": "technology"
+              },
+              {
+                "name": "Django",
+                "type": "technology"
+              },
+              {
+                "name": "Kubernetes",
+                "type": "technology"
+              },
+              {
+                "name": "PostgreSQL",
+                "type": "technology"
+              },
+              {
+                "name": "Python",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "ClickDimensions",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/508a74c0-ee6b-4ec5-870f-1918229e3571_bzwcs.png",
+            "alt": "ClickDimensions"
+          },
+          "URL": "https://clickdimensions.com"
+        },
+        "roles": [
+          {
+            "name": "Head of analytics",
+            "startDate": "2020-07-01",
+            "finishDate": "2022-04-01",
+            "challenges": [
+              {
+                "description": "For almost two years, I've been the Head of Engineering, leading a diverse team of up to 15 engineers from Ukraine, Belarus, Israel, and primarily Spain. My main responsibility has been overseeing the technical integration of Sweetspot Intelligence, a Spain-based startup specializing in data visualization with RoR and BigQuery, into the data systems of ClickDimensions.\n\nKey achievements include:\n\n - Successfully leading the integration of Sweetspot Intelligence's product into ClickDimensions' data systems.\n - Refactoring data pipelines using a combination of Azure Data Factory and PySpark, resulting in a 90% reduction in solution costs.\n - Managing a geographically dispersed team while maintaining high levels of collaboration and productivity by redefining the SDLC processes."
+              }
+            ],
+            "competences": [
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "Python",
+                "type": "technology"
+              },
+              {
+                "name": "Ruby on Rails",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Zapiens Technologies",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/460e57ac-344c-4f9c-8ddd-25ec1ace3244_yaaoc.png",
+            "alt": "Zapiens Technologies"
+          },
+          "URL": "https://zapiens.ai/"
+        },
+        "roles": [
+          {
+            "name": "CTO",
+            "startDate": "2015-05-01",
+            "finishDate": "2020-07-31",
+            "challenges": [
+              {
+                "description": "I was the technical co-founder of Zapiens, initially working part-time with just 2.5 people on the team. As the idea gained traction, I transitioned to full-time and progressively built an engineering team of up to 15 members.\n\nKey achievements include:\n\n - Single-handedly developing the first version of the solution, which included a hybrid mobile app (available on Android, iOS, and even Blackberry) built with Ionic, a Spring Boot API, an Angular-based web admin site, and a MySQL database.\n - Evolving the original solution by dockerizing it for deployment in, both, shared AWS and private clouds for specific customers.\n - Introducing a **custom chatbot**, leveraging Python and Elasticsearch, before GPT models and during the early days of BERT.\n - Taking on the role of COO for several months, gaining exposure to support, sales, product, and marketing challenges, as the **company grew to 45 employees**.\n - Helping the company achieve around 10k recurring monthly users and nearly €1M in ARR.\n - Securing €1.5M in funding from the EU and establishing Zapiens' first partnership with Microsoft before my departure."
+              }
+            ],
+            "competences": [
+              {
+                "name": "AWS",
+                "type": "technology"
+              },
+              {
+                "name": "Angular2+",
+                "type": "technology"
+              },
+              {
+                "name": "Elasticsearch",
+                "type": "technology"
+              },
+              {
+                "name": "Ionic",
+                "type": "technology"
+              },
+              {
+                "name": "Java",
+                "type": "technology"
+              },
+              {
+                "name": "MySQL",
+                "type": "technology"
+              },
+              {
+                "name": "Spring",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "EyeSeeTea",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/6bcf721f-ba63-49c7-914e-3d83185b119b_7t7ct.png",
+            "alt": "EyeSeeTea"
+          },
+          "URL": "http://eyeseetea.com/"
+        },
+        "roles": [
+          {
+            "name": "Software engineer",
+            "startDate": "2015-05-01",
+            "finishDate": "2016-11-30",
+            "challenges": [
+              {
+                "description": "I was hired as a freelance software engineer by EyeSeeTea (https://eyeseetea.com/). As their first hire, I joined the three founders in building solutions to address infectious disease containment in third-world countries.\n\nKey achievements include:\n\n - Developing a couple of Android native mobile apps in collaboration with the founders.\n - Utilizing DHIS2 (https://dhis2.org/) as the backend solution for these apps.\n - Localizing the apps into several languages to enhance accessibility and usability in diverse regions."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Android",
+                "type": "technology"
+              },
+              {
+                "name": "Android Studio",
+                "type": "technology"
+              },
+              {
+                "name": "React Native",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Nortia In (Freelance)",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/1989821c-fc5d-4fb9-b0a8-a0260120a53a_nortia.png",
+            "alt": "nortia.png"
+          }
+        },
+        "roles": [
+          {
+            "name": "Software engineer",
+            "startDate": "2011-08-01",
+            "finishDate": "2015-05-31",
+            "challenges": [
+              {
+                "description": "Nortia was a small startup that developed software products to help large companies make data-driven decisions based on metrics rather than opinions.\n\nAs the team leader of a small group of engineers (4 people), I:\n - Defined the product roadmap in collaboration with one of the founders.\n - Designed and implemented clear approaches to tackle programming challenges.\n - Promoted best practices in testing, designing, and programming within the team.\n\nOur main product, Segmentia, was a marketing automation tool that enabled non-technical users to find and communicate with segments of entities (customers, providers, etc.) within any datamart using a visual interface. Key achievements included:\n - Creating a full abstraction of the database and its drivers by developing an intermediate DSL that dynamically transformed into different SQL flavors.\n - Utilizing Grails for the backend, Griffon for the frontend, and a Groovy engine that connected both via RMI, with Gradle for build automation.\n - Deploying the software at several major clients, running on diverse datamarts with millions of rows.\n\nAdditionally, we developed other products, such as:\n - A POS-CRM: A Grails + Redis web app that provided real-time client information to the POS systems of a major supermarket chain via a REST API.\n - Konfides: A Grails-based solution for SMEs to engage clients with personalized communications and offers, built on top of a Drools rules engine."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Gradle",
+                "type": "technology"
+              },
+              {
+                "name": "Grails",
+                "type": "technology"
+              },
+              {
+                "name": "Groovy",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Periodicis"
+        },
+        "roles": [
+          {
+            "name": "Founder",
+            "startDate": "2011-08-01",
+            "finishDate": "2012-09-30",
+            "challenges": [
+              {
+                "description": "Periodicis aimed to create real-time relationships between news from various sources, enabling users to follow stories from multiple perspectives and simplifying professionals' tasks.\n\nAs a founder, I:\n - Developed the startup's vision and business plan.\n - Engaged with potential investors and made critical decisions.\n\nAs an engineer, I created a native JavaScript extension for the Chrome browser that:\n - Detected when a user was on a 'news' page.\n - Extracted key information and displayed a real-time carousel of related news from other sources.\n\nThe project was selected twice as a Wayra finalist, Spain's leading accelerator, among hundreds of projects, and received excellent feedback.\n\nIf curious, here’s a presentation of Periodicis at the Innovation Convention in Brussels in 2011: Video."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Grails",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "IECISA (Informática el Corte Inglés, S.A)",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/fa3eb9a8-e1a2-4eb3-ba27-b54398a2a050_iecisa.png",
+            "alt": "iecisa.png"
+          }
+        },
+        "roles": [
+          {
+            "name": "Software factory manager, eBusiness division",
+            "startDate": "2009-12-01",
+            "finishDate": "2011-08-31",
+            "challenges": [
+              {
+                "description": "IECISA (Informática el Corte Inglés, S.A.) is the largest Spanish consulting firm, specializing in consulting services and outsourcing solutions.\n\nAfter serving as the regional eBusiness manager, I was promoted to software factory manager for the eBusiness division. In this role, I:\n\n - Managed a team of 25-30 people, overseeing a remote software factory that supported numerous projects across Spain (IECISA , Inves).\n - Promoted the adoption of agile practices within the team, reviewed workflows, and established a set of good practices to enhance efficiency.\n - Supervised projects primarily involving portal solutions, such as Vignette (now OpenText) and Liferay, for which I actively worked to secure a partnership in Spain."
+              }
+            ],
+            "competences": [
+              {
+                "name": "J2EE",
+                "type": "technology"
+              },
+              {
+                "name": "Java",
+                "type": "technology"
+              },
+              {
+                "name": "Liferay",
+                "type": "technology"
+              },
+              {
+                "name": "SQL",
+                "type": "technology"
+              },
+              {
+                "name": "jQuery",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "IECISA (Informática el Corte Inglés, S.A)",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/36da335b-0556-4514-b8ae-3645f6ed5ebf_iecisa.png",
+            "alt": "iecisa.png"
+          }
+        },
+        "roles": [
+          {
+            "name": "Regional manager, eBusiness division",
+            "startDate": "2007-07-01",
+            "finishDate": "2009-12-31",
+            "challenges": [
+              {
+                "description": "As a regional manager, I began with a team of 4 people, which grew to 10 as we earned customer trust by delivering projects on time despite challenging circumstances.\n\nThis role taught me the importance of meticulous attention to detail, including:\n - Creating accurate estimations and following up with customers.\n - Choosing the right technical approaches.\n - Managing team motivation, addressing issues, and handling all related responsibilities.\n\nWe worked with both private and public clients, with a notable specialization in eGovernment. Some of our projects are still operational today (https://www.asturias.es/, https://www.astursalud.es/)."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Liferay",
+                "type": "technology"
+              },
+              {
+                "name": "SQL",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Neo Metrics Analytics",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/7cfaf6f7-3222-4848-8bb5-dc6e64a10719_neometrics.png",
+            "alt": "neometrics.png"
+          }
+        },
+        "roles": [
+          {
+            "name": "Project Manager",
+            "startDate": "2007-01-01",
+            "finishDate": "2007-07-31",
+            "challenges": [
+              {
+                "description": "Neo Metrics (now acquired by Accenture and renamed Accenture Analytics) was the first Spanish firm specializing in consulting analytics. During my time there, the company grew from 30 to 100 employees, providing me with the opportunity to navigate rapidly changing environments and occasional chaos.\n\nAs a project manager, I:\n\n - Led a team of 4 engineers to develop a Web 2.0 central repository of commercial actions for Spain’s largest bank, which operates globally.\n - Faced challenges including tight deadlines, a steep learning curve, and mastering a full stack (Spring MVC)."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Prototype",
+                "type": "technology"
+              },
+              {
+                "name": "SAS",
+                "type": "technology"
+              },
+              {
+                "name": "Spring",
+                "type": "technology"
+              },
+              {
+                "name": "Struts",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Neo Metrics Analytics",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/714de942-dc7e-4d8c-bd68-df87edc4fb85_neometrics.png",
+            "alt": "neometrics.png"
+          }
+        },
+        "roles": [
+          {
+            "name": "Software engineer",
+            "startDate": "2005-07-01",
+            "finishDate": "2006-12-31",
+            "challenges": [
+              {
+                "description": "As a software engineer, I collaborated with data scientists to develop processes and applications that helped customers interpret their extensive data. I played a key engineering role in several notable projects, including:\n\n - Optimizing Advertisement Scheduling: Developed a system for a TV channel to find the optimal schedule for advertisements while meeting numerous constraints. This involved solving a system of 300,000 inequations using Ilog (a commercial mathematical library), managing JVM Garbage Collector issues, consuming SOAP services via XFire, and providing a remote API via RMI.\n\n - Social Network Analysis Prototype: Built a prototype for a Spanish telco using Eclipse RCP, enabling the examination of customer relationships as a graph (using JUNG) to forecast behavior when a community member leaves.\n\n - Custom Struts-based Pipeline Dashboard: Designed and programmed a custom dashboard for a leading media group. This project included developing the web application, designing the datamart, and creating ETL processes (using PL/SQL) to generate forecasts and metrics for billing and income projections.\n\n - Other Projects: Worked on various smaller yet impactful projects using SAS."
+              }
+            ],
+            "competences": [
+              {
+                "name": "J2EE",
+                "type": "technology"
+              },
+              {
+                "name": "Java",
+                "type": "technology"
+              },
+              {
+                "name": "SAS",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "API (Project Area Engineering) - University of Oviedo",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/01/09/a5fdd89e-ad7a-4e52-9884-2ffe2ab4b868_images.png",
+            "alt": "images.png"
+          },
+          "URL": "http://www.api.uniovi.es"
+        },
+        "roles": [
+          {
+            "name": "Interim Researcher",
+            "startDate": "2004-09-01",
+            "finishDate": "2005-05-31",
+            "challenges": [
+              {
+                "description": "My first working experience was as a software engineer intern at the University of Oviedo's research lab ([API Uniovi](http://www.api.uniovi.es)).\n\nDuring this internship, I contributed to two projects:\n\n- **KM4SME (Knowledge Management for Small and Medium Enterprises)**: Developed an interactive web-based knowledge management model for SMEs, funded by the European Union, using SharePoint and .NET.\n\n- **Data Mining Application**: Created an application for a German factory to automatically optimize cutting widths in their production process, using .NET and DLLs.\n"
+              }
+            ],
+            "competences": [
+              {
+                "name": ".NET",
+                "type": "technology"
+              },
+              {
+                "name": "Microsoft Sharepoint",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "details": {
+          "name": "deepmimic",
+          "description": "DeepMimic - Synthetic Market Research. Spot market signals and validate strategy, messaging, design and pricing, prior to launch, powered by synthetic personas & simulated markets",
+          "URL": "https://deepmimic.ai/"
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Technical advisor",
+            "startDate": "2025-03-01",
+            "finishDate": "2026-02-28",
+            "competences": [
+              {
+                "name": "Nextjs",
+                "type": "technology"
+              },
+              {
+                "name": "Typescript",
+                "type": "technology"
+              },
+              {
+                "name": "Python",
+                "type": "technology"
+              },
+              {
+                "name": "AI Agents",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "pictureapp",
+          "description": "QIS Malaria Surveillance - Open-source mobile application designed to report positive cases of malaria detected in Cambodia in near real-time to a DHIS2 server. Used by healthcare providers in the field after mRDT tests.",
+          "URL": "https://github.com/EyeSeeTea/pictureapp"
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Contributor",
+            "startDate": "2015-05-01",
+            "finishDate": "2016-11-30",
+            "competences": [
+              {
+                "name": "Java",
+                "type": "technology"
+              },
+              {
+                "name": "Android",
+                "type": "technology"
+              },
+              {
+                "name": "DHIS2",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "malariapp",
+          "description": "QoC Android App - Open-source quality assessments tool connected with DHIS2 Health Information Servers. Helps with health center assessments, featuring automatic survey generation and data sync with DHIS2.",
+          "URL": "https://github.com/EyeSeeTea/malariapp"
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Contributor",
+            "startDate": "2015-05-01",
+            "finishDate": "2016-11-30",
+            "competences": [
+              {
+                "name": "Java",
+                "type": "technology"
+              },
+              {
+                "name": "Android",
+                "type": "technology"
+              },
+              {
+                "name": "DHIS2",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "pagerank",
+          "description": "A groovy implementation of the pagerank algorithm from the MMDS course from Standford (via Coursera)",
+          "URL": "https://github.com/ivanarrizabalaga/pagerank"
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2014-10-01",
+            "competences": [
+              {
+                "name": "Groovy",
+                "type": "technology"
+              }
+            ],
+            "finishDate": "2014-10-31"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "binary-tree-challenge",
+          "description": "Programming mini-challenge: Building a binary tree builder",
+          "URL": "https://github.com/ivanarrizabalaga/binary-tree-challenge"
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2014-07-01",
+            "competences": [
+              {
+                "name": "Groovy",
+                "type": "technology"
+              }
+            ],
+            "finishDate": "2014-07-31"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "state-diagram-challenge",
+          "description": "Programming mini-challenge: Building a state diagram evaluator",
+          "URL": "https://github.com/ivanarrizabalaga/state-diagram-challenge"
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2014-06-01",
+            "competences": [
+              {
+                "name": "Groovy",
+                "type": "technology"
+              }
+            ],
+            "finishDate": "2014-06-30"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "periodicis",
+          "description": "Chrome extension that finds related stories to the one you are reading in real time (prototype)",
+          "URL": "https://github.com/ivanarrizabalaga/periodicis"
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2014-05-01",
+            "competences": [
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              }
+            ],
+            "finishDate": "2014-08-31"
+          }
+        ]
+      }
+    ],
+    "publicArtifacts": [
+      {
+        "details": {
+          "name": "Why was I rejected from my JOOR interview?",
+          "description": "A transparency exercise to show how and why we hire the way we do them in JOOR.",
+          "URL": "https://medium.com/joor-engineering/why-was-i-rejected-from-my-joor-interview-f7af1aafa2dc"
+        },
+        "type": "post",
+        "publishingDate": "2024-03-01",
+        "tags": [
+          "Management"
+        ]
+      },
+      {
+        "details": {
+          "name": "Getting back to the basics",
+          "description": "Why following the latest trend is not a great idea?",
+          "URL": "https://medium.com/joor-engineering/getting-back-to-basics-358ba3d0f1dcGettin"
+        },
+        "type": "post",
+        "publishingDate": "2023-10-01",
+        "tags": [
+          "Foundations"
+        ]
+      },
+      {
+        "details": {
+          "name": "Theseus’s software engineering team",
+          "description": "What makes a team a real team? How does this change in time?",
+          "URL": "https://medium.com/joor-engineering/theseuss-software-engineering-team-d5be2003d9f9"
+        },
+        "type": "post",
+        "publishingDate": "2023-04-01",
+        "tags": [
+          "Management"
+        ]
+      },
+      {
+        "details": {
+          "name": "ivo43: Grails in prod with an external log4j properties",
+          "description": "Configuring external log4j for a production grails app.",
+          "URL": "http://ivo43.blogspot.com/2015/02/grails-in-prod-with-external-log4j.html"
+        },
+        "type": "post",
+        "publishingDate": "2015-02-01"
+      },
+      {
+        "details": {
+          "name": "Importing external domain classes into Grails",
+          "URL": "https://stackoverflow.com/questions/23654116/importing-external-domain-classes-into-grails/23737647#23737647"
+        },
+        "type": "post",
+        "publishingDate": "2014-05-01"
+      },
+      {
+        "details": {
+          "name": "ivo43: Integrando Gorm en Griffon (only Spanish)",
+          "description": "Using Gorm inside a Griffon project.",
+          "URL": "http://ivo43.blogspot.com/2014/05/integrando-gorm-en-griffon.html"
+        },
+        "type": "post",
+        "publishingDate": "2014-05-01"
+      },
+      {
+        "details": {
+          "name": "console2 uses the wrong JAVA_HOME",
+          "URL": "https://stackoverflow.com/questions/16009082/console2-uses-the-wrong-java-home/16912735#16912735"
+        },
+        "type": "post",
+        "publishingDate": "2013-06-01"
+      },
+      {
+        "details": {
+          "name": "ivo43: Griffon: flujo creacion mvc (only spanish available)",
+          "description": "Cuando se crea un MVC a través de una de las variantes de:",
+          "URL": "http://ivo43.blogspot.com/2013/03/griffon-flujo-creacion-mvc.html"
+        },
+        "type": "post",
+        "publishingDate": "2013-03-01"
+      },
+      {
+        "details": {
+          "name": "ivo43: Desmontando Log4j (only spanish available)",
+          "description": "Buenas, a quién queremos engañar, la mayoría llevamos años haciendo configuraciones de Log4j gracias a Google, copiando y pegando cachos hasta que funciona...técnicamente es lo que se conoce como…",
+          "URL": "http://ivo43.blogspot.com/2013/02/desmontando-log4j.html"
+        },
+        "type": "post",
+        "publishingDate": "2013-02-01"
+      },
+      {
+        "details": {
+          "name": "Debugging Griffon in Eclipse/STS — ivo43",
+          "description": "How to debug your Griffon project under Eclipse/STS? Finally the answer.",
+          "URL": "http://ivo43.blogspot.com.es/2012/02/debugging-griffon-in-eclipsests.html"
+        },
+        "type": "post",
+        "publishingDate": "2012-02-01"
+      },
+      {
+        "details": {
+          "name": "\"Adku is hiring\", the solution — ivo43",
+          "description": "The answer to a funny recruitment game posted by Adku, and a couple of thoughts about computing science and consulting.",
+          "URL": "http://ivo43.blogspot.com.es/2011/03/un-juego-ii.html"
+        },
+        "type": "post",
+        "publishingDate": "2011-03-01"
+      },
+      {
+        "details": {
+          "name": "Online HTML/CSS/Javascript learning reference alternative to w3schools?",
+          "URL": "https://stackoverflow.com/questions/4662304/online-html-css-javascript-learning-reference-alternative-to-w3schools/4662820#4662820"
+        },
+        "type": "post",
+        "publishingDate": "2011-01-01"
+      },
+      {
+        "details": {
+          "name": "JAVASCRIPT - Why isn't this object changed?",
+          "URL": "https://stackoverflow.com/questions/4557185/javascript-why-isnt-this-object-changed/4557522#4557522"
+        },
+        "type": "post",
+        "publishingDate": "2010-12-01"
+      },
+      {
+        "details": {
+          "name": "Somos unos mantas (only available in spanish) — ivo43",
+          "description": "Cuando empece a estudiar Informática tenía la ilusión de convertirme en alguien que hiciera un montón de cosas interesantes, cuyo trabajo en el día a día fuera respetado...",
+          "URL": "http://ivo43.blogspot.com/2007/11/somos-unos-mantas.html"
+        },
+        "type": "post",
+        "publishingDate": "2007-11-01"
+      }
+    ]
+  },
+  "knowledge": {
+    "languages": [
+      {
+        "name": "EN",
+        "fullName": "Inglés",
+        "level": "Native or bilingual proficiency"
+      },
+      {
+        "name": "ES",
+        "fullName": "Español",
+        "level": "Native or bilingual proficiency"
+      }
+    ],
+    "hardSkills": [
+      {
+        "skill": {
+          "name": "AWS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Kubernetes",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Python",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Java",
+          "type": "technology"
+        }
+      },      
+      {
+        "skill": {
+          "name": "SQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Javascript",
+          "type": "technology"
+        }
+      },      
+      {
+        "skill": {
+          "name": "TypeScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Nextjs",
+          "type": "technology"
+        }
+      }      
+    ],
+    "studies": [
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "2022 Complete Python Bootcamp From Zero to Hero in Python",
+        "startDate": "2022-11-01",
+        "institution": {
+          "name": "Udemy",
+          "URL": "https://www.udemy.com/certificate/UC-07f8498a-174e-425f-8c83-696c213cc7fe/"
+        },
+        "linkedCompetences": [
+          {
+            "name": "Python",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Algorithms",
+        "startDate": "2013-01-01",
+        "institution": {
+          "name": "Princeton (via Coursera)"
+        },
+        "finishDate": "2013-01-01"
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "BS Computer Science",
+        "startDate": "1997-01-01",
+        "institution": {
+          "name": "University of Oviedo"
+        },
+        "finishDate": "2001-01-01",
+        "linkedCompetences": [
+          {
+            "name": "C",
+            "type": "technology"
+          },
+          {
+            "name": "C++",
+            "type": "technology"
+          },
+          {
+            "name": "Haskell",
+            "type": "technology"
+          },
+          {
+            "name": "Pascal",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Certificate in Advanced English (CAE)",
+        "startDate": "2005-01-01",
+        "institution": {
+          "name": "Cambridge ESOL"
+        },
+        "finishDate": "2005-06-30"
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Continuous Integration: Tools",
+        "startDate": "2020-05-01",
+        "institution": {
+          "name": "LinkedIn",
+          "URL": "https://www.linkedin.com/learning/certificates/70ac8e4b9fb8fb97b51fa6c72ae09e8f873b923cbc872ee2a7785eed6254242e?trk=backfilled_certificate"
+        },
+        "linkedCompetences": [
+          {
+            "name": "Github Actions",
+            "type": "technology"
+          },
+          {
+            "name": "Jenkins",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": true,
+        "name": "Creative Serious and Playful Science of Android Apps (via Cousera)",
+        "startDate": "2014-01-01",
+        "institution": {
+          "name": "Coursera (University of Maryland)"
+        },
+        "finishDate": "2014-01-01",
+        "linkedCompetences": [
+          {
+            "name": "Android",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "DevOps Foundations: Continous Delivery/Continous Integration",
+        "startDate": "2020-05-01",
+        "institution": {
+          "name": "LinkedIn",
+          "URL": "https://www.linkedin.com/learning/certificates/346f171964e7427f2bf5343e6aa687e6e610e831a7f8d65705c0618ebc8eb8ee?trk=backfilled_certificate"
+        }
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "DevOps Foundations: Infrastructure as Code",
+        "startDate": "2020-01-01",
+        "institution": {
+          "name": "LinkedIn",
+          "URL": "https://www.linkedin.com/learning/certificates/c6cb839d150d33347cb2ebd877f6e7a74e6f58dcee05a2cfa1992b1fdd6a297a?trk=backfilled_certificate"
+        },
+        "linkedCompetences": [
+          {
+            "name": "Chef",
+            "type": "technology"
+          },
+          {
+            "name": "Docker",
+            "type": "technology"
+          },
+          {
+            "name": "Kubernetes",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Go Essential Training",
+        "startDate": "2020-02-01",
+        "institution": {
+          "name": "LinkedIn",
+          "URL": "https://www.linkedin.com/learning/certificates/48328e80fe6d105c992a1082901279fdbcbb05f7adc62430996ead5b6fb605fa?trk=backfilled_certificate"
+        },
+        "linkedCompetences": [
+          {
+            "name": "Golang",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Go: The Complete Developer's Guide (Golang)",
+        "startDate": "2024-11-01",
+        "institution": {
+          "name": "Udemy",
+          "URL": "https://joor.udemy.com/certificate/UC-e742b6ce-c997-49ad-90c8-1b17fd124804/",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/01/23/4e444553-7649-475f-905a-82521ac62f8a_go-logo_lightblue.png",
+            "alt": "Go-Logo_LightBlue.png"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "Go",
+            "type": "technology"
+          },
+          {
+            "name": "Golang",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Kubernetes for the Absolute Beginners - Hands-on",
+        "startDate": "2022-10-01",
+        "institution": {
+          "name": "Udemy",
+          "URL": "https://www.udemy.com/certificate/UC-5b775f33-42cb-45ad-b29a-17e4c3cc517b/"
+        },
+        "linkedCompetences": [
+          {
+            "name": "Kubernetes",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Learn LangChain, Pinecone, OpenAI and Google's Gemini Models",
+        "startDate": "2024-05-01",
+        "institution": {
+          "name": "Udemy",
+          "URL": "https://joor.udemy.com/certificate/UC-a1509796-e737-4ab6-967f-37324567d25d/",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/01/23/63a4fcb2-a215-4e75-be3c-b3f828c9e18a_lang_square.png",
+            "alt": "Lang_Square.png"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "LangChain",
+            "type": "technology"
+          },
+          {
+            "name": "Python",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Learning Docker",
+        "startDate": "2020-01-01",
+        "institution": {
+          "name": "LinkedIn",
+          "URL": "https://www.linkedin.com/learning/certificates/2c42f78a89111d48d4a6f596dd60f3283736b37f79dd49cfaa6c408d5f8fc5e4?trk=backfilled_certificate"
+        },
+        "linkedCompetences": [
+          {
+            "name": "Docker",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Learning Kubernetes",
+        "startDate": "2020-07-01",
+        "institution": {
+          "name": "LinkedIn",
+          "URL": "https://www.linkedin.com/learning/certificates/3d92724791fa94d677b4f69a6e4b1c5c1de23bcb67064c9b3aa76462224bece8?trk=backfilled_certificate"
+        },
+        "linkedCompetences": [
+          {
+            "name": "Kubernetes",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "MS Computer Science",
+        "startDate": "2002-01-01",
+        "institution": {
+          "name": "University of Oviedo"
+        },
+        "finishDate": "2004-01-01",
+        "linkedCompetences": [
+          {
+            "name": "C",
+            "type": "technology"
+          },
+          {
+            "name": "C++",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": true,
+        "name": "MongoDB for DBAs (10gen)",
+        "startDate": "2013-01-01",
+        "institution": {
+          "name": "MongoDB"
+        },
+        "finishDate": "2013-01-01",
+        "linkedCompetences": [
+          {
+            "name": "MongoDB",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": true,
+        "name": "MongoDB for Java Developers (10gen)",
+        "startDate": "2013-01-01",
+        "institution": {
+          "name": "MongoDB"
+        },
+        "finishDate": "2013-01-01",
+        "linkedCompetences": [
+          {
+            "name": "MongoDB",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Multi AI Agent Systems with crewAI",
+        "startDate": "2025-06-01",
+        "institution": {
+          "name": "CrewAI",
+          "description": "CrewAI official course to learn key principles of designing effective AI agents, and organizing a team of AI agents to perform complex, multi-step tasks. ",
+          "URL": "https://learn.deeplearning.ai/accomplishments/41aacc58-eaad-45cf-b39f-b9945f25de8d",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/01/23/b213061d-68c5-4935-817a-71836bde4213_crewai_logo.svg",
+            "alt": "crewai_logo.svg"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "Python",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Programming Mobile Applications for Android Handheld Systems (via Coursera)",
+        "startDate": "2014-01-01",
+        "institution": {
+          "name": "Coursera (University of Maryland)"
+        },
+        "linkedCompetences": [
+          {
+            "name": "Android",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Python in Practice: 15 Projects to Master Python",
+        "startDate": "2022-08-01",
+        "institution": {
+          "name": "Udemy",
+          "URL": "https://www.udemy.com/certificate/UC-30169972-a11e-4719-85d2-2e1ad1d7d9a9/"
+        },
+        "linkedCompetences": [
+          {
+            "name": "Python",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "Software Architecture: Domain-Driven Design",
+        "startDate": "2020-05-01",
+        "institution": {
+          "name": "LinkedIn",
+          "URL": "https://www.linkedin.com/learning/certificates/f0b6784d717bf71e36917ba6aa52292ceb7fd7d5ea0ef9cc20cc51a3fc0fdcf6?trk=backfilled_certificate"
+        }
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Startup Engineering",
+        "startDate": "2013-01-01",
+        "institution": {
+          "name": "Standford (via Coursera)"
+        },
+        "finishDate": "2013-01-01",
+        "linkedCompetences": [
+          {
+            "name": "Git",
+            "type": "technology"
+          },
+          {
+            "name": "NodeJS",
+            "type": "technology"
+          }
+        ]
+      }
+    ],
+    "softSkills": [
+      {
+        "skill": {
+          "name": "Analytical thinking",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Leadership skills",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Strategic vision",
+          "type": "practice"
+        }
+      }
+    ]
+  },
+  "careerPreferences": {
+    "contact": {
+      "publicProfiles": [
+        {
+          "URL": "https://www.linkedin.com/in/ivanarrizabalaga/",
+          "type": "linkedin"
+        },
+        {
+          "URL": "https://stackoverflow.com/users/2249/ivan-arrizabalaga",
+          "type": "stackoverflow"
+        },
+        {
+          "URL": "https://github.com/ivanarrizabalaga",
+          "type": "github"
+        }
+      ]
+    },
+    "preferences": {
+      "preferredCompetences": [
+        {
+          "name": "Django",
+          "type": "technology"
+        },
+        {
+          "name": "Go",
+          "type": "technology"
+        },
+        {
+          "name": "Ionic",
+          "type": "technology"
+        },
+        {
+          "name": "Java",
+          "type": "technology"
+        },
+        {
+          "name": "JavaScript",
+          "type": "technology"
+        },
+        {
+          "name": "Kotlin",
+          "type": "technology"
+        },
+        {
+          "name": "Python",
+          "type": "technology"
+        },
+        {
+          "name": "Spring Boot",
+          "type": "technology"
+        },
+        {
+          "name": "TypeScript",
+          "type": "technology"
+        }
+      ],
+      "discardedCompetences": [
+        {
+          "name": "Abap",
+          "type": "technology"
+        },
+        {
+          "name": "C#",
+          "type": "technology"
+        },
+        {
+          "name": "PHP",
+          "type": "technology"
+        },
+        {
+          "name": "Ruby on Rails",
+          "type": "technology"
+        },
+        {
+          "name": "SAS",
+          "type": "technology"
+        }
+      ],
+      "preferredRoles": [
+        "Backend Developer",
+        "Data Engineer",
+        "Director / General Manager",
+        "Engineering Management"
+      ]
+    },
+    "status": "openToOffers",
+    "requirements": {
+      "contractTypes": [
+        "permanent"
+      ]
+    }
+  },
+  "manfredSpecificData": {
+    "mainStackTechs": [
+      {
+        "name": "AWS",
+        "type": "technology"
+      },
+      {
+        "name": "Kubernetes",
+        "type": "technology"
+      },
+      {
+        "name": "Python",
+        "type": "technology"
+      },
+      {
+        "name": "SQL",
+        "type": "technology"
+      },
+      {
+        "name": "TypeScript",
+        "type": "technology"
+      }
+    ],
+    "desiredJobDescription": "My dream job is based on 3 main features:\n - Purpose: it must have a meaningful or, at least, honest purpose. Better ads, Bet houses ... are not.\n - People: it must be a place for sharing my experience and learn from others (I love learning). No rockstars or superstars inside, just lovely people to give and take.\n - Perks: reasonable salary for a seasoned father of 2 (>50k), remote friendly (I will work from Asturias)\n\nRegarding my duties, It depends on the challenge. I've been the manager, the CTO, the head of engineering, the project manager, the consultant, the data engineer ... but I mostly consider myself a software engineer with good communication skills.\n\nLastly, in terms of tech, I feel comfortable working with lots of different technologies like java, js, sql, aws, elasticsearch but I dont really think this is important per se. I'm much more inclined to focus on strong backgrounds and the hability to learn whatever is needed.\n\nPD: Please keep this guy away from css, ;)",
+    "goodPractices": "Generalist, pragmatic, passionate.\n\nAs an engineering lead (head, director, VP, ..), I focus on removing unnecessary complexity from solutions and processes, enabling teams to stay focused and excel.\n\nI enjoy building teams that are humble, curious, and ambitious.\n\n\n\n\n\n",
+    "projects": [
+      {
+        "name": "BookGorm"
+      },
+      {
+        "name": "angular-course"
+      },
+      {
+        "name": "binary-tree-challenge"
+      },
+      {
+        "name": "grails-domain-griffon"
+      },
+      {
+        "name": "pagerank"
+      },
+      {
+        "name": "periodicis"
+      },
+      {
+        "name": "state-diagram-challenge"
+      }
+    ],
+    "bookmarks": [
+      {
+        "name": "Building Scalable Web Sites: Building, Scaling, and Optimizing the Next Generat..."
+      },
+      {
+        "name": "Clean Code: A Handbook of Agile Software Craftsmanship"
+      },
+      {
+        "name": "Design Patterns: Elements of Reusable Object-Oriented Software"
+      },
+      {
+        "name": "Designing Data Intensive Applications"
+      },
+      {
+        "name": "Effective Programming: More Than Writing Code"
+      },
+      {
+        "name": "Getting Real: The Smarter, Faster, Easier Way to Build a Successful Web Applica..."
+      },
+      {
+        "name": "Growing Object-Oriented Software, Guided by Tests"
+      },
+      {
+        "name": "JavaScript: The Good Parts"
+      },
+      {
+        "name": "Peopleware: Productive Projects and Teams (Second Edition)"
+      },
+      {
+        "name": "Refactoring: Improving the Design of Existing Code"
+      },
+      {
+        "name": "Rework"
+      },
+      {
+        "name": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create..."
+      },
+      {
+        "name": "The Pragmatic Programmer: From Journeyman to Master"
+      },
+      {
+        "name": "Zero to One: Notes on Startups, or How to Build the Future"
+      }
+    ]
+  }
+}
