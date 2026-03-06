@@ -287,57 +287,6 @@
       },
       {
         "organization": {
-          "name": "Halioooo Ventures",
-          "image": {
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/03/05/fe32a70f-21a6-4c19-a08a-1252a31828f4_logo.png",
-            "alt": "logo.png"
-          },
-          "URL": "https://deepmimic.ai"
-        },
-        "roles": [
-          {
-            "name": "Fractional Tech Advisor",
-            "startDate": "2025-03-01",
-            "finishDate": "2026-02-01",
-            "challenges": [
-              {
-                "description": {
-                  "en": "I helped Haliooo Ventures build their first initiative with https://deepmimic.ai.\n\nThis platform allows businesses to create simulated markets, synthetic focus groups, and people to spot market signals, validate strategies, messages, pricing, ... prior to the real launch.\n\nAs a fractional tech advisor, I acted mostly as a senior IC, from design to programming and deploying.\n\nThe platform was built using DDD on top of NextJS, Typescript, Clerk, FastAPI, Postgres and served via Kubernetes in AWS.",
-                  "es": "Ayudé a Haliooo Ventures a construir su primera iniciativa con https://deepmimic.ai.\n\nEsta plataforma permite a las empresas crear mercados simulados, grupos focales sintéticos y detectar señales de mercado, validar estrategias, mensajes, precios, etc. antes del lanzamiento real.\n\nComo asesor técnico fractional, actué principalmente como IC senior, desde el diseño hasta la programación y el despliegue.\n\nLa plataforma se construyó usando DDD sobre NextJS, Typescript, Clerk, FastAPI, Postgres y se sirve vía Kubernetes en AWS."
-                }
-              }
-            ],
-            "competences": [
-              {
-                "name": "AWS",
-                "type": "technology"
-              },
-              {
-                "name": "Fastapi",
-                "type": "technology"
-              },
-              {
-                "name": "Kubernetes",
-                "type": "technology"
-              },
-              {
-                "name": "NextJS",
-                "type": "technology"
-              },
-              {
-                "name": "PostgreSQL",
-                "type": "technology"
-              },
-              {
-                "name": "Python",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
           "name": "JOOR",
           "image": {
             "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/01/09/9df0a7c2-f00b-49c9-9d98-ef504650df41_joor_logo.png",
@@ -837,6 +786,54 @@
       }
     ],
     "projects": [
+      {
+        "details": {
+          "name": "deepmimic.ai",
+          "description": {
+            "en": "I helped [Haliooo Ventures](https://halioooo.com) build their first initiative with https://deepmimic.ai.\n\nThis platform allows businesses to create simulated markets, synthetic focus groups, and people to spot market signals, validate strategies, messages, pricing, ... prior to the real launch.\n\nAs a fractional tech advisor, I acted mostly as a senior IC, from design to programming and deploying.\n\nThe platform was built using DDD on top of NextJS, Typescript, Clerk, FastAPI, Postgres and served via Kubernetes in AWS.",
+            "es": "Ayudé a [Haliooo Ventures](https://halioooo.com) a construir su primera iniciativa con https://deepmimic.ai.\n\nEsta plataforma permite a las empresas crear mercados simulados, grupos focales sintéticos y detectar señales de mercado, validar estrategias, mensajes, precios, etc. antes del lanzamiento real.\n\nComo asesor técnico fractional, actué principalmente como IC senior, desde el diseño hasta la programación y el despliegue.\n\nLa plataforma se construyó usando DDD sobre NextJS, Typescript, Clerk, FastAPI, Postgres y se sirve vía Kubernetes en AWS."
+          },
+          "URL": "https://deepmimic.ai",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/03/05/fe32a70f-21a6-4c19-a08a-1252a31828f4_logo.png",
+            "alt": "logo.png"
+          }
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Fractional Tech Advisor",
+            "startDate": "2025-03-01",
+            "finishDate": "2026-02-01",
+            "competences": [
+              {
+                "name": "AWS",
+                "type": "technology"
+              },
+              {
+                "name": "Fastapi",
+                "type": "technology"
+              },
+              {
+                "name": "Kubernetes",
+                "type": "technology"
+              },
+              {
+                "name": "NextJS",
+                "type": "technology"
+              },
+              {
+                "name": "PostgreSQL",
+                "type": "technology"
+              },
+              {
+                "name": "Python",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
       {
         "details": {
           "name": "Malariapp",

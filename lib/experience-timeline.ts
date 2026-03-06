@@ -67,6 +67,7 @@ export function getTimelineItems(locale: Locale): TimelineItem[] {
         roleType,
         description: challenge,
         competences: role.competences.map((c) => c.name),
+        image: project.details.image?.link,
         url: project.details.URL,
       });
     }
