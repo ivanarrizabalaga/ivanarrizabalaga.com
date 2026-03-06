@@ -3,6 +3,7 @@
 import { useTranslations, useLocale } from "next-intl";
 import { useState, useMemo } from "react";
 import Image from "next/image";
+import ReactMarkdown from "react-markdown";
 import { getTimelineItems, type TimelineItem } from "@/lib/experience-timeline";
 import { matchesFilter } from "@/lib/role-classifier";
 import { cn } from "@/lib/utils";
@@ -57,18 +58,18 @@ export function ExperienceTimeline() {
                   ? "right"
                   : "both";
             return (
-              <div
-                key={item.id}
-                className="relative flex min-h-[120px] items-center py-8"
-              >
-                {/* Date tick on the center line */}
-                <div className="absolute left-1/2 top-1/2 z-20 flex -translate-x-1/2 -translate-y-1/2 flex-col items-center gap-1">
-                  <div className="size-3 shrink-0 rounded-full border-2 border-border bg-background" />
-                  <span className="whitespace-nowrap font-mono text-xs text-foreground/60">
-                    {formatDate(item.startDate, locale)}
+              <div key={item.id} className="relative py-8 first:pt-0">
+                {/* Date as subtle header between rows */}
+                <div className="mb-4 flex justify-center">
+                  <span className="whitespace-nowrap font-mono text-xs text-foreground/50">
+                    {item.endDate
+                      ? formatDate(item.endDate, locale)
+                      : "Present"}
                   </span>
                 </div>
-                <TimelineCard item={item} side={side} blur={blur} locale={locale} />
+                <div className="relative flex min-h-[80px] items-start">
+                  <TimelineCard item={item} side={side} blur={blur} locale={locale} />
+                </div>
               </div>
             );
           })}
@@ -137,9 +138,9 @@ function TimelineCard({
           </p>
         </div>
       </div>
-      <p className="mt-4 text-sm text-foreground/80">
-        {expanded ? item.description : shortDesc}
-      </p>
+      <div className="mt-4 prose prose-sm prose-neutral dark:prose-invert max-w-none text-foreground/80 prose-headings:text-foreground prose-strong:text-foreground prose-ul:my-2 prose-li:my-0">
+        <ReactMarkdown>{expanded ? item.description : shortDesc}</ReactMarkdown>
+      </div>
       {item.description.length > 200 && (
         <button
           onClick={() => setExpanded(!expanded)}

@@ -38,6 +38,7 @@
       {
         "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
         "type": "reading",
+        "publicationDate": "2008-08-01",
         "URL": "http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0132350882",
         "authors": [
           {
@@ -50,6 +51,7 @@
       {
         "title": "Peopleware: Productive Projects and Teams (Second Edition)",
         "type": "reading",
+        "publicationDate": "1999-01-01",
         "URL": "http://www.amazon.com/Peopleware-Productive-Projects-Teams-Second/dp/0932633439%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0932633439",
         "authors": [
           {
@@ -62,6 +64,7 @@
       {
         "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
         "type": "reading",
+        "publicationDate": "1994-10-01",
         "URL": "http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0201633612",
         "authors": [
           {
@@ -74,6 +77,7 @@
       {
         "title": "Designing Data Intensive Applications",
         "type": "reading",
+        "publicationDate": "2017-03-01",
         "URL": "https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/",
         "summary": {
           "en": "The best book I've read to help you navigate this diverse data-intensive landscape by examining the pros and cons of various technologies for processing, storing, and scaling apps with massive amounts of data.",
@@ -90,6 +94,7 @@
       {
         "title": "Effective Programming: More Than Writing Code",
         "type": "reading",
+        "publicationDate": "2012-09-01",
         "URL": "http://www.amazon.com/Effective-Programming-More-Than-Writing-ebook/dp/B008HUMTO0%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB008HUMTO0",
         "authors": [
           {
@@ -102,6 +107,7 @@
       {
         "title": "Getting Real: The Smarter, Faster, Easier Way to Build a Successful Web Applica...",
         "type": "reading",
+        "publicationDate": "2006-01-01",
         "URL": "http://www.amazon.com/Getting-Real-Smarter-Successful-Application/dp/0578012812%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0578012812",
         "authors": [
           {
@@ -114,6 +120,7 @@
       {
         "title": "Growing Object-Oriented Software, Guided by Tests",
         "type": "reading",
+        "publicationDate": "2009-10-01",
         "URL": "http://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0321503627",
         "authors": [
           {
@@ -126,6 +133,7 @@
       {
         "title": "JavaScript: The Good Parts",
         "type": "reading",
+        "publicationDate": "2008-05-01",
         "URL": "http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0596517742",
         "authors": [
           {
@@ -138,6 +146,7 @@
       {
         "title": "Refactoring: Improving the Design of Existing Code",
         "type": "reading",
+        "publicationDate": "1999-07-01",
         "URL": "http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0201485672",
         "authors": [
           {
@@ -150,6 +159,7 @@
       {
         "title": "Rework",
         "type": "reading",
+        "publicationDate": "2010-03-01",
         "URL": "http://www.amazon.com/Rework-Jason-Fried/dp/0307463745%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0307463745",
         "authors": [
           {
@@ -162,6 +172,7 @@
       {
         "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create...",
         "type": "reading",
+        "publicationDate": "2011-09-01",
         "URL": "http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0307887898",
         "authors": [
           {
@@ -174,6 +185,7 @@
       {
         "title": "The Pragmatic Programmer: From Journeyman to Master",
         "type": "reading",
+        "publicationDate": "1999-10-01",
         "URL": "http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D020161622X",
         "authors": [
           {
@@ -186,6 +198,7 @@
       {
         "title": "Team Topologies",
         "type": "reading",
+        "publicationDate": "2019-09-01",
         "URL": "https://teamtopologies.com/",
         "summary": {
           "en": "Awesome material to understand the different nature of software teams and the dynamics between them.",

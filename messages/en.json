@@ -7,6 +7,7 @@
     "contact": "Contact"
   },
   "home": {
+    "title": "About",
     "about": "About",
     "firstComputer": "First computer",
     "bio": "20+ years building software, teams, and companies. Hands-on VP who still codes.",
@@ -17,6 +18,7 @@
     }
   },
   "experience": {
+    "title": "Experiences and projects",
     "filter": {
       "all": "All around player",
       "lead": "Lead",
@@ -28,6 +30,8 @@
     "title": "Writing & Talks"
   },
   "skills": {
+    "title": "A unique set of skills",
+    "navLabel": "Jump to section",
     "education": "Education",
     "courses": "Courses",
     "books": "Book Recommendations",

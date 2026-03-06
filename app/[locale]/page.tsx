@@ -16,7 +16,7 @@ export default async function HomePage({ params }: Props) {
     <div className="container relative z-10 mx-auto max-w-3xl px-4 py-16 md:py-24">
       <section className="space-y-6">
         <h1 className="font-mono text-2xl font-bold tracking-tight text-foreground md:text-3xl">
-        {t("about")}
+          {t("title")}
         </h1>
         <p className="text-xl text-foreground/80">{profile.title}</p>
       </section>

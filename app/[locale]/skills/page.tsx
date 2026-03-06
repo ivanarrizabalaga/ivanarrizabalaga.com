@@ -19,28 +19,57 @@ export default async function SkillsPage({ params }: Props) {
   const languages = getLanguages(locale as "en" | "es");
   const t = await getTranslations("skills");
 
-  const degrees = studies.filter((s) => s.studyType === "officialDegree");
-  const certifications = studies.filter((s) => s.studyType === "certification");
+  const degrees = studies
+    .filter((s) => s.studyType === "officialDegree")
+    .sort(
+      (a, b) =>
+        new Date(b.startDate).getTime() - new Date(a.startDate).getTime()
+    );
+  const certifications = studies
+    .filter((s) => s.studyType === "certification")
+    .sort(
+      (a, b) =>
+        new Date(b.startDate).getTime() - new Date(a.startDate).getTime()
+    );
+  const sortedRecommendations = [...recommendations].sort((a, b) => {
+    const dateA = a.publicationDate
+      ? new Date(a.publicationDate).getTime()
+      : 0;
+    const dateB = b.publicationDate
+      ? new Date(b.publicationDate).getTime()
+      : 0;
+    return dateB - dateA;
+  });
+
+  const sections: { id: string; label: string }[] = [
+    { id: "languages", label: t("languages") },
+    { id: "education", label: t("education") },
+    ...(certifications.length > 0
+      ? [{ id: "courses", label: t("courses") }]
+      : []),
+    { id: "books", label: t("books") },
+  ];
 
   return (
     <div className="container relative z-10 mx-auto max-w-3xl px-4 py-16 md:py-24">
-      <h1 className="font-mono text-2xl font-bold md:text-3xl">{t("skills")}</h1>
+      <h1 className="font-mono text-2xl font-bold md:text-3xl">{t("title")}</h1>
 
-      <section className="mt-12">
-        <h2 className="font-mono text-lg font-semibold">{t("hardSkills")}</h2>
-        <div className="mt-4 flex flex-wrap gap-2">
-          {hardSkills.map((h) => (
-            <span
-              key={h.skill.name}
-              className="rounded-md bg-foreground/10 px-3 py-1 font-mono text-sm"
-            >
-              {h.skill.name}
-            </span>
-          ))}
-        </div>
-      </section>
+      <nav
+        className="mt-6 flex flex-wrap gap-2"
+        aria-label={t("navLabel")}
+      >
+        {sections.map(({ id, label }) => (
+          <a
+            key={id}
+            href={`#${id}`}
+            className="rounded-md bg-foreground/10 px-3 py-1.5 font-mono text-sm transition-colors hover:bg-foreground/20"
+          >
+            {label}
+          </a>
+        ))}
+      </nav>
 
-      <section className="mt-12">
+      <section id="languages" className="mt-12 scroll-mt-24">
         <h2 className="font-mono text-lg font-semibold">{t("languages")}</h2>
         <ul className="mt-4 space-y-2">
           {languages.map((lang) => (
@@ -51,7 +80,7 @@ export default async function SkillsPage({ params }: Props) {
         </ul>
       </section>
 
-      <section className="mt-12">
+      <section id="education" className="mt-12 scroll-mt-24">
         <h2 className="font-mono text-lg font-semibold">{t("education")}</h2>
         <ul className="mt-4 space-y-4">
           {degrees.map((s) => (
@@ -69,7 +98,7 @@ export default async function SkillsPage({ params }: Props) {
       </section>
 
       {certifications.length > 0 && (
-        <section className="mt-12">
+        <section id="courses" className="mt-12 scroll-mt-24">
           <h2 className="font-mono text-lg font-semibold">{t("courses")}</h2>
           <ul className="mt-4 space-y-4">
             {certifications.map((s) => (
@@ -83,16 +112,21 @@ export default async function SkillsPage({ params }: Props) {
                   {s.name}
                 </a>
                 <p className="text-sm text-foreground/70">{s.institution.name}</p>
+                {(s.finishDate || s.startDate) && (
+                  <p className="mt-1 text-xs text-foreground/50">
+                    {new Date(s.finishDate ?? s.startDate).getFullYear()}
+                  </p>
+                )}
               </li>
             ))}
           </ul>
         </section>
       )}
 
-      <section className="mt-12">
+      <section id="books" className="mt-12 scroll-mt-24">
         <h2 className="font-mono text-lg font-semibold">{t("books")}</h2>
         <ul className="mt-4 space-y-4">
-          {recommendations.map((r) => (
+          {sortedRecommendations.map((r) => (
             <li key={r.title} className="rounded-lg border border-border p-4">
               <a
                 href={r.URL}
@@ -105,6 +139,11 @@ export default async function SkillsPage({ params }: Props) {
               {r.authors?.length && (
                 <p className="mt-1 text-sm text-foreground/70">
                   {r.authors.map((a) => `${a.name} ${a.surnames}`).join(", ")}
+                </p>
+              )}
+              {r.publicationDate && (
+                <p className="mt-1 text-xs text-foreground/50">
+                  {new Date(r.publicationDate).getFullYear()}
                 </p>
               )}
               {r.summary && (

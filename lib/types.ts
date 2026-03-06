@@ -87,6 +87,7 @@ export interface Recommendation {
   URL?: string;
   summary?: Bilingual<string>;
   authors?: Author[];
+  publicationDate?: string;
 }
 
 export interface Location {

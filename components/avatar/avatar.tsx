@@ -1,18 +1,37 @@
 "use client";
 
-import Image from "next/image";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
+import { useScrollEyes } from "@/hooks/use-scroll-eyes";
 
-const EYE_OFFSET_MAX = 4;
-const AVATAR_SIZE = 120;
+const EYE_OFFSET_MAX = 6;
+const AVATAR_SIZE_MD = 320;
 
-export function Avatar({ className }: { className?: string }) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [eyeOffset, setEyeOffset] = useState({ x: 0, y: 0 });
-  const rafRef = useRef<number>();
+export type EyePosition = { x: number; y: number };
 
-  const updateEyes = useCallback((clientX: number, clientY: number, scrollY: number) => {
+export type AvatarEyePositions = {
+  left: EyePosition;
+  right: EyePosition;
+};
+
+const DEFAULT_EYE_POSITIONS: AvatarEyePositions = {
+  left: { x: 35, y: 42 },
+  right: { x: 65, y: 42 },
+};
+
+type AvatarProps = {
+  className?: string;
+  /** Custom base positions for the eyes (in viewBox units, 0-100) */
+  eyePositions?: AvatarEyePositions;
+};
+
+export function Avatar({ className, eyePositions = DEFAULT_EYE_POSITIONS }: AvatarProps) {
+  const containerRef = useRef<SVGSVGElement>(null);
+  const [pointerOffset, setPointerOffset] = useState({ x: 0, y: 0 });
+  const scrollOffset = useScrollEyes();
+  const rafRef = useRef<number | undefined>(undefined);
+
+  const updatePointerEyes = useCallback((clientX: number, clientY: number) => {
     if (!containerRef.current) return;
     const rect = containerRef.current.getBoundingClientRect();
     const centerX = rect.left + rect.width / 2;
@@ -24,93 +43,85 @@ export function Avatar({ className }: { className?: string }) {
     const normalizedX = deltaX / distance;
     const normalizedY = deltaY / distance;
 
-    const pointerX = normalizedX * Math.min(EYE_OFFSET_MAX, distance / 20);
-    const pointerY = normalizedY * Math.min(EYE_OFFSET_MAX, distance / 20);
-
-    const scrollFactor = 0.5;
-    const scrollNormalized = Math.min(1, scrollY / (window.innerHeight * 2));
-    const scrollYOffset = (scrollNormalized - 0.5) * EYE_OFFSET_MAX * scrollFactor;
-
-    setEyeOffset({
-      x: pointerX,
-      y: pointerY + scrollYOffset,
+    const scale = Math.min(EYE_OFFSET_MAX, distance / 15);
+    setPointerOffset({
+      x: normalizedX * scale,
+      y: normalizedY * scale,
     });
   }, []);
 
   useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      if (rafRef.current) cancelAnimationFrame(rafRef.current);
-      rafRef.current = requestAnimationFrame(() => {
-        updateEyes(e.clientX, e.clientY, window.scrollY);
-        rafRef.current = undefined;
-      });
-    };
-
-    const handleScroll = () => {
-      if (rafRef.current) cancelAnimationFrame(rafRef.current);
-      rafRef.current = requestAnimationFrame(() => {
-        const lastMouse = { current: { x: 0, y: 0 } };
-        updateEyes(lastMouse.current.x || window.innerWidth / 2, lastMouse.current.y || window.innerHeight / 2, window.scrollY);
-        rafRef.current = undefined;
-      });
-    };
-
     let lastX = window.innerWidth / 2;
     let lastY = window.innerHeight / 2;
-    const handleMouseMoveWithStore = (e: MouseEvent) => {
+
+    const handleMouseMove = (e: MouseEvent) => {
       lastX = e.clientX;
       lastY = e.clientY;
-      handleMouseMove(e);
-    };
-
-    const throttledScroll = () => {
-      if (rafRef.current) return;
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
       rafRef.current = requestAnimationFrame(() => {
-        updateEyes(lastX, lastY, window.scrollY);
+        updatePointerEyes(lastX, lastY);
         rafRef.current = undefined;
       });
     };
 
-    window.addEventListener("mousemove", handleMouseMoveWithStore);
-    window.addEventListener("scroll", throttledScroll, { passive: true });
+    updatePointerEyes(lastX, lastY);
 
-    updateEyes(lastX, lastY, window.scrollY);
-
+    window.addEventListener("mousemove", handleMouseMove);
     return () => {
-      window.removeEventListener("mousemove", handleMouseMoveWithStore);
-      window.removeEventListener("scroll", throttledScroll);
+      window.removeEventListener("mousemove", handleMouseMove);
       if (rafRef.current) cancelAnimationFrame(rafRef.current);
     };
-  }, [updateEyes]);
+  }, [updatePointerEyes]);
+
+  const leftEye = eyePositions.left;
+  const rightEye = eyePositions.right;
+
+  const totalOffsetX = pointerOffset.x + scrollOffset.x;
+  const totalOffsetY = pointerOffset.y + scrollOffset.y;
+
+  // Convert pixel offset to viewBox units (viewBox is 100x100)
+  // Use md size for scale calc since ref reports rendered size
+  const scale = 100 / AVATAR_SIZE_MD;
+  const offsetX = totalOffsetX * scale;
+  const offsetY = totalOffsetY * scale;
 
   return (
-    <div
+    <svg
       ref={containerRef}
-      className={cn("relative select-none", className)}
+      viewBox="0 0 100 100"
+      className={cn("select-none w-[240px] md:w-[320px] h-[240px] md:h-[320px]", className)}
       aria-hidden
     >
-      <div className="relative size-[120px] md:size-[140px]">
-        <Image
-          src="/logo_profile.png"
-          alt=""
-          width={AVATAR_SIZE}
-          height={AVATAR_SIZE}
-          className="size-full object-contain"
-          priority
-        />
-        <div
-          className="pointer-events-none absolute left-[32%] top-[42%] size-2 rounded-full bg-foreground transition-transform duration-150 ease-out"
-          style={{
-            transform: `translate(${eyeOffset.x}px, ${eyeOffset.y}px)`,
-          }}
-        />
-        <div
-          className="pointer-events-none absolute left-[58%] top-[42%] size-2 rounded-full bg-foreground transition-transform duration-150 ease-out"
-          style={{
-            transform: `translate(${eyeOffset.x}px, ${eyeOffset.y}px)`,
-          }}
-        />
-      </div>
-    </div>
+      {/* Character body - minimalist person at desk with screen */}
+      <g fill="currentColor" className="text-foreground/70">
+        {/* Head */}
+        <ellipse cx="50" cy="38" rx="18" ry="20" />
+        {/* Body/torso - simplified block */}
+        <rect x="32" y="55" width="36" height="28" rx="4" />
+        {/* Desk */}
+        <rect x="20" y="78" width="60" height="6" rx="2" />
+        {/* Screen/laptop */}
+        <rect x="38" y="48" width="24" height="18" rx="2" fill="currentColor" className="text-foreground/50" />
+        <line x1="50" y1="66" x2="50" y2="78" stroke="currentColor" strokeWidth="1.5" className="text-foreground/50" />
+      </g>
+
+      {/* Eyes - customizable position, animated by scroll + pointer */}
+      <circle
+        cx={leftEye.x}
+        cy={leftEye.y}
+        r="4"
+        fill="currentColor"
+        className="text-foreground transition-transform duration-150 ease-out"
+        style={{ transform: `translate(${offsetX}, ${offsetY})` }}
+      />
+      <circle
+        cx={rightEye.x}
+        cy={rightEye.y}
+        r="4"
+        fill="currentColor"
+        className="text-foreground transition-transform duration-150 ease-out"
+        style={{ transform: `translate(${offsetX}, ${offsetY})` }}
+      />
+    </svg>
   );
 }
