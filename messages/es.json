@@ -22,7 +22,12 @@
     "filter": {
       "all": "Todo terreno",
       "lead": "Lead",
-      "ic": "IC"
+      "ic": "IC",
+      "entryAll": "Todo",
+      "entryJob": "Trabajos",
+      "entryProject": "Proyectos",
+      "roleLabel": "Rol",
+      "entryLabel": "Tipo"
     },
     "explore": "Explora mi experiencia como"
   },

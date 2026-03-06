@@ -4,27 +4,46 @@ import { useTranslations, useLocale } from "next-intl";
 import { useState, useMemo } from "react";
 import Image from "next/image";
 import ReactMarkdown from "react-markdown";
+import { motion, AnimatePresence } from "framer-motion";
 import { getTimelineItems, type TimelineItem } from "@/lib/experience-timeline";
 import { matchesFilter } from "@/lib/role-classifier";
 import { cn } from "@/lib/utils";
 
-type Filter = "all" | "lead" | "ic";
+type RoleFilter = "all" | "lead" | "ic";
+type EntryFilter = "all" | "job" | "project";
 
 type ExperienceTimelineProps = {
-  filter?: Filter;
+  roleFilter?: RoleFilter;
+  entryFilter?: EntryFilter;
 };
 
-export function ExperienceTimeline({ filter: filterProp }: ExperienceTimelineProps = {}) {
+export function ExperienceTimeline({
+  roleFilter: roleFilterProp,
+  entryFilter: entryFilterProp,
+}: ExperienceTimelineProps = {}) {
   const t = useTranslations("experience");
   const locale = useLocale() as "en" | "es";
-  const [internalFilter, setInternalFilter] = useState<Filter>("all");
-  const filter = filterProp ?? internalFilter;
+  const [internalRoleFilter, setInternalRoleFilter] = useState<RoleFilter>("all");
+  const [internalEntryFilter, setInternalEntryFilter] = useState<EntryFilter>("all");
+  const roleFilter = roleFilterProp ?? internalRoleFilter;
+  const entryFilter = entryFilterProp ?? internalEntryFilter;
 
   const items = useMemo(() => getTimelineItems(locale), [locale]);
 
+  const visibleItems = useMemo(
+    () =>
+      items.filter((item) => {
+        const matchesRole = matchesFilter(item.roleType, roleFilter);
+        const matchesEntry =
+          entryFilter === "all" || item.type === entryFilter;
+        return matchesRole && matchesEntry;
+      }),
+    [items, roleFilter, entryFilter]
+  );
+
   return (
     <div className="space-y-12">
-      {filterProp === undefined && (
+      {roleFilterProp === undefined && entryFilterProp === undefined && (
         <div>
           <p className="mb-4 font-mono text-sm text-foreground/70">
             {t("explore")}
@@ -33,10 +52,10 @@ export function ExperienceTimeline({ filter: filterProp }: ExperienceTimelinePro
             {(["all", "lead", "ic"] as const).map((f) => (
               <button
                 key={f}
-                onClick={() => setInternalFilter(f)}
+                onClick={() => setInternalRoleFilter(f)}
                 className={cn(
                   "rounded-md px-4 py-2 text-sm font-medium transition-colors",
-                  filter === f
+                  roleFilter === f
                     ? "bg-foreground text-background"
                     : "bg-foreground/10 hover:bg-foreground/20"
                 )}
@@ -54,31 +73,48 @@ export function ExperienceTimeline({ filter: filterProp }: ExperienceTimelinePro
           aria-hidden
         />
         <div className="space-y-0">
-          {items.map((item) => {
-            const matches = matchesFilter(item.roleType, filter);
-            const blur = !matches;
-            const side =
-              item.roleType === "lead"
-                ? "left"
-                : item.roleType === "ic"
-                  ? "right"
-                  : "both";
-            return (
-              <div key={item.id} className="relative py-8 first:pt-0">
-                {/* Date as subtle header between rows */}
-                <div className="mb-4 flex justify-center">
-                  <span className="whitespace-nowrap font-mono text-xs text-foreground/50">
-                    {item.endDate
-                      ? formatDate(item.endDate, locale)
-                      : "Present"}
-                  </span>
-                </div>
-                <div className="relative flex min-h-[80px] items-start">
-                  <TimelineCard item={item} side={side} blur={blur} locale={locale} />
-                </div>
-              </div>
-            );
-          })}
+          <AnimatePresence mode="popLayout" initial={false}>
+            {visibleItems.map((item) => {
+              const side =
+                item.roleType === "lead"
+                  ? "left"
+                  : item.roleType === "ic"
+                    ? "right"
+                    : "both";
+              return (
+                <motion.div
+                  key={item.id}
+                  layout
+                  initial={{ opacity: 0, scale: 0.96, filter: "blur(4px)" }}
+                  animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
+                  exit={{
+                    opacity: 0,
+                    scale: 1.08,
+                    filter: "blur(6px)",
+                    transition: { duration: 0.3, ease: [0.4, 0, 0.2, 1] },
+                  }}
+                  transition={{
+                    layout: { duration: 0.35, ease: [0.4, 0, 0.2, 1] },
+                    opacity: { duration: 0.25 },
+                    scale: { duration: 0.25 },
+                  }}
+                  className="relative py-8 first:pt-0"
+                >
+                  {/* Date as subtle header between rows */}
+                  <div className="mb-4 flex justify-center">
+                    <span className="whitespace-nowrap font-mono text-xs text-foreground/50">
+                      {item.endDate
+                        ? formatDate(item.endDate, locale)
+                        : "Present"}
+                    </span>
+                  </div>
+                  <div className="relative flex min-h-[80px] items-start">
+                    <TimelineCard item={item} side={side} locale={locale} />
+                  </div>
+                </motion.div>
+              );
+            })}
+          </AnimatePresence>
         </div>
       </div>
     </div>
@@ -88,12 +124,10 @@ export function ExperienceTimeline({ filter: filterProp }: ExperienceTimelinePro
 function TimelineCard({
   item,
   side,
-  blur,
   locale,
 }: {
   item: TimelineItem;
   side: "left" | "right" | "both";
-  blur: boolean;
   locale: "en" | "es";
 }) {
   const [expanded, setExpanded] = useState(false);
@@ -105,8 +139,7 @@ function TimelineCard({
         "relative z-10 w-full rounded-lg border border-border bg-background p-4 transition-all",
         side === "left" && "md:mr-auto md:max-w-[calc(50%-1.5rem)] md:pr-12",
         side === "right" && "md:ml-auto md:max-w-[calc(50%-1.5rem)] md:pl-12",
-        side === "both" && "md:mx-4 md:max-w-[calc(100%-2rem)]",
-        blur && "opacity-50 blur-sm"
+        side === "both" && "md:mx-4 md:max-w-[calc(100%-2rem)]"
       )}
     >
       <div className="flex items-start gap-4">

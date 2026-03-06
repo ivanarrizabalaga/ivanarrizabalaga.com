@@ -22,7 +22,12 @@
     "filter": {
       "all": "All around player",
       "lead": "Lead",
-      "ic": "IC"
+      "ic": "IC",
+      "entryAll": "All",
+      "entryJob": "Jobs",
+      "entryProject": "Projects",
+      "roleLabel": "Role",
+      "entryLabel": "Entry"
     },
     "explore": "Explore my experiences as"
   },
