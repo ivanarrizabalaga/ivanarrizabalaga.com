@@ -10,37 +10,43 @@ import { cn } from "@/lib/utils";
 
 type Filter = "all" | "lead" | "ic";
 
-export function ExperienceTimeline() {
+type ExperienceTimelineProps = {
+  filter?: Filter;
+};
+
+export function ExperienceTimeline({ filter: filterProp }: ExperienceTimelineProps = {}) {
   const t = useTranslations("experience");
   const locale = useLocale() as "en" | "es";
-  const [filter, setFilter] = useState<Filter>("all");
+  const [internalFilter, setInternalFilter] = useState<Filter>("all");
+  const filter = filterProp ?? internalFilter;
 
   const items = useMemo(() => getTimelineItems(locale), [locale]);
 
   return (
     <div className="space-y-12">
-      <div>
-        <p className="mb-4 font-mono text-sm text-foreground/70">
-          {t("explore")}
-        </p>
-        <div className="flex flex-wrap gap-2">
-          {(["all", "lead", "ic"] as const).map((f) => (
-            <button
-              key={f}
-              onClick={() => setFilter(f)}
-              className={cn(
-                "rounded-md px-4 py-2 text-sm font-medium transition-colors",
-                filter === f
-                  ? "bg-foreground text-background"
-                  : "bg-foreground/10 hover:bg-foreground/20"
-              )}
-            >
-              {t(`filter.${f}`)}
-            </button>
-          ))}
+      {filterProp === undefined && (
+        <div>
+          <p className="mb-4 font-mono text-sm text-foreground/70">
+            {t("explore")}
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {(["all", "lead", "ic"] as const).map((f) => (
+              <button
+                key={f}
+                onClick={() => setInternalFilter(f)}
+                className={cn(
+                  "rounded-md px-4 py-2 text-sm font-medium transition-colors",
+                  filter === f
+                    ? "bg-foreground text-background"
+                    : "bg-foreground/10 hover:bg-foreground/20"
+                )}
+              >
+                {t(`filter.${f}`)}
+              </button>
+            ))}
+          </div>
         </div>
-      </div>
-
+      )}
       <div className="relative">
         {/* Center line - full height */}
         <div

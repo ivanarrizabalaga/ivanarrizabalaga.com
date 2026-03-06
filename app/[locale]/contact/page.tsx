@@ -17,7 +17,9 @@ export default async function ContactPage({ params }: Props) {
 
   return (
     <div className="container relative z-10 mx-auto max-w-3xl px-4 py-16 md:py-24">
-      <h1 className="font-mono text-2xl font-bold md:text-3xl">{t("title")}</h1>
+      <div className="sticky top-[var(--header-height)] z-40 -mx-4 border-b border-border/40 bg-background/95 px-4 py-4 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+        <h1 className="font-mono text-2xl font-bold md:text-3xl">{t("title")}</h1>
+      </div>
 
       <div className="mt-12 space-y-8">
         <div>

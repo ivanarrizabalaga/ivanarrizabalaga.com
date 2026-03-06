@@ -52,24 +52,25 @@ export default async function SkillsPage({ params }: Props) {
 
   return (
     <div className="container relative z-10 mx-auto max-w-3xl px-4 py-16 md:py-24">
-      <h1 className="font-mono text-2xl font-bold md:text-3xl">{t("title")}</h1>
+      <div className="sticky top-[var(--header-height)] z-40 -mx-4 border-b border-border/40 bg-background/95 px-4 py-4 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+        <h1 className="font-mono text-2xl font-bold md:text-3xl">{t("title")}</h1>
+        <nav
+          className="mt-6 flex flex-wrap gap-2"
+          aria-label={t("navLabel")}
+        >
+          {sections.map(({ id, label }) => (
+            <a
+              key={id}
+              href={`#${id}`}
+              className="rounded-md bg-foreground/10 px-3 py-1.5 font-mono text-sm transition-colors hover:bg-foreground/20"
+            >
+              {label}
+            </a>
+          ))}
+        </nav>
+      </div>
 
-      <nav
-        className="mt-6 flex flex-wrap gap-2"
-        aria-label={t("navLabel")}
-      >
-        {sections.map(({ id, label }) => (
-          <a
-            key={id}
-            href={`#${id}`}
-            className="rounded-md bg-foreground/10 px-3 py-1.5 font-mono text-sm transition-colors hover:bg-foreground/20"
-          >
-            {label}
-          </a>
-        ))}
-      </nav>
-
-      <section id="languages" className="mt-12 scroll-mt-24">
+      <section id="languages" className="mt-12 scroll-mt-40">
         <h2 className="font-mono text-lg font-semibold">{t("languages")}</h2>
         <ul className="mt-4 space-y-2">
           {languages.map((lang) => (
@@ -80,7 +81,7 @@ export default async function SkillsPage({ params }: Props) {
         </ul>
       </section>
 
-      <section id="education" className="mt-12 scroll-mt-24">
+      <section id="education" className="mt-12 scroll-mt-40">
         <h2 className="font-mono text-lg font-semibold">{t("education")}</h2>
         <ul className="mt-4 space-y-4">
           {degrees.map((s) => (
@@ -98,7 +99,7 @@ export default async function SkillsPage({ params }: Props) {
       </section>
 
       {certifications.length > 0 && (
-        <section id="courses" className="mt-12 scroll-mt-24">
+        <section id="courses" className="mt-12 scroll-mt-40">
           <h2 className="font-mono text-lg font-semibold">{t("courses")}</h2>
           <ul className="mt-4 space-y-4">
             {certifications.map((s) => (
@@ -123,7 +124,7 @@ export default async function SkillsPage({ params }: Props) {
         </section>
       )}
 
-      <section id="books" className="mt-12 scroll-mt-24">
+      <section id="books" className="mt-12 scroll-mt-40">
         <h2 className="font-mono text-lg font-semibold">{t("books")}</h2>
         <ul className="mt-4 space-y-4">
           {sortedRecommendations.map((r) => (
