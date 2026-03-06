@@ -9,7 +9,7 @@
       "name": "Iván",
       "surnames": "Arrizabalaga Getino",
       "title": "VP of Engineering @ JOOR",
-      "description": "It all started with War Games; I watched Matthew Broderick hacking a phone, and it looked reeeeeeally cool.\n\nSo I first started breaking stuff (I called it research). Then I got my Spectrum 48k at 6, and... voila, suddenly I knew what I wanted to do for a living.\n\nI studied for a bachelor's and master's in **Computer Science** at the University of Oviedo and then started working.\n\nAfter **20 years in the business**, I've done pretty much everything: research, **data analysis**, consulting, freelancing as a software architect, **building a company** from scratch, and, lastly, shaping remote and efficient engineering organizations **(30 to 50 people)**.\n\nNow, I focus on getting the optimal balance between devs happiness & business efficiency by making things as lean as possible.\n\nI still dedicate 10-15% of my time to coding, to stay technically relevant and support my engineering team better, but finally, because I genuinely enjoy it. \n\nMy next goal, joining a purposeful org made of great and talented human beings and working in reasonable \"zero shit\" contexts. \n\nDetails on next pages👇\n",
+      "description": "It all started with War Games; I watched Matthew Broderick hacking a phone, and it looked reeeeeeally cool.\n\nSo I first started breaking stuff (I called it research). Then I got my Spectrum 48k at 6, and... voila, suddenly I knew what I wanted to do for a living.\n\nI studied for a bachelor's and master's in **Computer Science** at the University of Oviedo and then started working.\n\nAfter **20 years in the business**, I've done pretty much everything: research, **data analysis**, consulting, freelancing as a software architect, **building a company** from scratch, and, lastly, shaping remote and efficient engineering organizations **(30 to 50 people)**.\n\nNow, I focus on getting the optimal balance between devs happiness & business efficiency by making things as lean as possible.\n\nI still dedicate 20% of my time to coding, to stay technically relevant and support my engineering team better, but finally, because I genuinely enjoy it. \n\nNext?\nJoining a purposeful org made of great and talented human beings and working in reasonable \"zero shit\" contexts, ideally as a hands-on lead.\n",
       "avatar": {
         "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/ae7bef5f-c719-4fd9-b2cf-e0f0617a0f15_ivan.jpg",
         "alt": "ivan.jpg"
@@ -29,20 +29,20 @@
     ],
     "recommendations": [
       {
-        "title": "Peopleware: Productive Projects and Teams (Second Edition)",
-        "type": "reading",
-        "URL": "http://www.amazon.com/Peopleware-Productive-Projects-Teams-Second/dp/0932633439%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0932633439",
+        "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+        "type": "other",
+        "URL": "http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0132350882",
         "authors": [
           {
-            "name": "Tom",
-            "surnames": "DeMarco",
+            "name": "Robert C.",
+            "surnames": "Martin",
             "title": "Author"
           }
         ]
-      },      
+      },
       {
         "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
-        "type": "reading",
+        "type": "other",
         "URL": "http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0201633612",
         "authors": [
           {
@@ -54,7 +54,7 @@
       },
       {
         "title": "Designing Data Intensive Applications",
-        "type": "reading",
+        "type": "other",
         "URL": "https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/",
         "summary": "The best book I've read to help you navigate this diverse data-intensive landscape by examining the pros and cons of various technologies for processing, storing, and scaling apps with massive amounts of data.",
         "authors": [
@@ -67,7 +67,7 @@
       },
       {
         "title": "Effective Programming: More Than Writing Code",
-        "type": "reading",
+        "type": "other",
         "URL": "http://www.amazon.com/Effective-Programming-More-Than-Writing-ebook/dp/B008HUMTO0%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB008HUMTO0",
         "authors": [
           {
@@ -79,7 +79,7 @@
       },
       {
         "title": "Getting Real: The Smarter, Faster, Easier Way to Build a Successful Web Applica...",
-        "type": "reading",
+        "type": "other",
         "URL": "http://www.amazon.com/Getting-Real-Smarter-Successful-Application/dp/0578012812%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0578012812",
         "authors": [
           {
@@ -91,7 +91,7 @@
       },
       {
         "title": "Growing Object-Oriented Software, Guided by Tests",
-        "type": "reading",
+        "type": "other",
         "URL": "http://www.amazon.com/Growing-Object-Oriented-Software-Guided-Tests/dp/0321503627%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0321503627",
         "authors": [
           {
@@ -103,7 +103,7 @@
       },
       {
         "title": "JavaScript: The Good Parts",
-        "type": "reading",
+        "type": "other",
         "URL": "http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0596517742",
         "authors": [
           {
@@ -114,8 +114,20 @@
         ]
       },
       {
+        "title": "Peopleware: Productive Projects and Teams (Second Edition)",
+        "type": "other",
+        "URL": "http://www.amazon.com/Peopleware-Productive-Projects-Teams-Second/dp/0932633439%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0932633439",
+        "authors": [
+          {
+            "name": "Tom",
+            "surnames": "DeMarco",
+            "title": "Author"
+          }
+        ]
+      },
+      {
         "title": "Refactoring: Improving the Design of Existing Code",
-        "type": "reading",
+        "type": "other",
         "URL": "http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0201485672",
         "authors": [
           {
@@ -127,7 +139,7 @@
       },
       {
         "title": "Rework",
-        "type": "reading",
+        "type": "other",
         "URL": "http://www.amazon.com/Rework-Jason-Fried/dp/0307463745%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0307463745",
         "authors": [
           {
@@ -138,8 +150,21 @@
         ]
       },
       {
+        "title": "Team Topologies",
+        "type": "other",
+        "URL": "https://teamtopologies.com/",
+        "summary": "Awesome material to understand the different nature of software teams and the dynamics between them.",
+        "authors": [
+          {
+            "name": "Mathew",
+            "surnames": "Skelton, Manuel Pais",
+            "title": "Author"
+          }
+        ]
+      },
+      {
         "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create...",
-        "type": "reading",
+        "type": "other",
         "URL": "http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0307887898",
         "authors": [
           {
@@ -151,7 +176,7 @@
       },
       {
         "title": "The Pragmatic Programmer: From Journeyman to Master",
-        "type": "reading",
+        "type": "other",
         "URL": "http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D020161622X",
         "authors": [
           {
@@ -170,6 +195,15 @@
       {
         "type": "github",
         "URL": "https://github.com/ivanarrizabalaga"
+      },
+      {
+        "type": "stackoverflow",
+        "URL": "https://stackoverflow.com/users/2249/ivan-arrizabalaga"
+      },
+      {
+        "type": "other",
+        "URL": "https://medium.com/@ivanarrizabalagagetino",
+        "description": "Medium"
       }
     ]
   },
@@ -216,6 +250,54 @@
               },
               {
                 "name": "gRPC",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Halioooo Ventures",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/03/05/fe32a70f-21a6-4c19-a08a-1252a31828f4_logo.png",
+            "alt": "logo.png"
+          },
+          "URL": "https://deepmimic.ai"
+        },
+        "roles": [
+          {
+            "name": "Fractional Tech Advisor",
+            "startDate": "2025-03-01",
+            "finishDate": "2026-02-01",
+            "challenges": [
+              {
+                "description": "I helped Haliooo Ventures build their first initiative with https://deepmimic.ai.\n\nThis platform allows businesses to create simulated markets, synthetic focus groups, and people to spot market signals, validate strategies, messages, pricing, ... prior to the real launch.\n\nAs a fractional tech advisor, I acted mostly as a senior IC, from design to programming and deploying.\n\nThe platform was built using DDD on top of NextJS, Typescript, Clerk, FastAPI, Postgres and served via Kubernetes in AWS."
+              }
+            ],
+            "competences": [
+              {
+                "name": "AWS",
+                "type": "technology"
+              },
+              {
+                "name": "Fastapi",
+                "type": "technology"
+              },
+              {
+                "name": "Kubernetes",
+                "type": "technology"
+              },
+              {
+                "name": "NextJS",
+                "type": "technology"
+              },
+              {
+                "name": "PostgreSQL",
+                "type": "technology"
+              },
+              {
+                "name": "Python",
                 "type": "technology"
               }
             ]
@@ -440,6 +522,38 @@
       },
       {
         "organization": {
+          "name": "Periodicis",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/03/04/1774bf64-c561-4b06-af63-2df8b96f1453_periodicis_128.png",
+            "alt": "periodicis_128.png"
+          },
+          "URL": "https://github.com/ivanarrizabalaga/periodicis"
+        },
+        "roles": [
+          {
+            "name": "Founder",
+            "startDate": "2011-08-01",
+            "finishDate": "2012-09-30",
+            "challenges": [
+              {
+                "description": "Periodicis aimed to create real-time relationships between news from various sources, enabling users to follow stories from multiple perspectives and simplifying professionals' tasks.\n\nAs a founder, I:\n - Developed the startup's vision and business plan.\n - Engaged with potential investors and made critical decisions.\n\nAs an engineer, I created a native JavaScript extension for the Chrome browser that:\n - Detected when a user was on a 'news' page.\n - Extracted key information and displayed a real-time carousel of related news from other sources.\n\nThe project was selected twice as a Wayra finalist, Spain's leading accelerator, among hundreds of projects, and received excellent feedback.\n\nIf curious, here’s a presentation of Periodicis at the Innovation Convention in Brussels in 2011: Video."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Grails",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
           "name": "Nortia In (Freelance)",
           "image": {
             "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/1989821c-fc5d-4fb9-b0a8-a0260120a53a_nortia.png",
@@ -467,33 +581,6 @@
               },
               {
                 "name": "Groovy",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "Periodicis"
-        },
-        "roles": [
-          {
-            "name": "Founder",
-            "startDate": "2011-08-01",
-            "finishDate": "2012-09-30",
-            "challenges": [
-              {
-                "description": "Periodicis aimed to create real-time relationships between news from various sources, enabling users to follow stories from multiple perspectives and simplifying professionals' tasks.\n\nAs a founder, I:\n - Developed the startup's vision and business plan.\n - Engaged with potential investors and made critical decisions.\n\nAs an engineer, I created a native JavaScript extension for the Chrome browser that:\n - Detected when a user was on a 'news' page.\n - Extracted key information and displayed a real-time carousel of related news from other sources.\n\nThe project was selected twice as a Wayra finalist, Spain's leading accelerator, among hundreds of projects, and received excellent feedback.\n\nIf curious, here’s a presentation of Periodicis at the Innovation Convention in Brussels in 2011: Video."
-              }
-            ],
-            "competences": [
-              {
-                "name": "Grails",
-                "type": "technology"
-              },
-              {
-                "name": "JavaScript",
                 "type": "technology"
               }
             ]
@@ -684,23 +771,26 @@
     "projects": [
       {
         "details": {
-          "name": "deepmimic",
-          "description": "DeepMimic - Synthetic Market Research. Spot market signals and validate strategy, messaging, design and pricing, prior to launch, powered by synthetic personas & simulated markets",
-          "URL": "https://deepmimic.ai/"
+          "name": "Deepmimic",
+          "description": "I served as a tech advisor and architect for this side project, programming key features in my free time.\n\nPowered by synthetic personas and simulated markets, the system spots market signals and validates strategy, messaging, design, and pricing prior to launch.\n\nIt is built using a custom multi-agent solution on top of a NextJS + FastAPI stack.",
+          "URL": "https://deepmimic.ai/",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/03/04/0e3b6312-3b48-4aa0-bade-de9a9b9d41a9_logo.png",
+            "alt": "logo.png"
+          }
         },
-        "type": "openSource",
+        "type": "sideProject",
         "roles": [
           {
-            "name": "Technical advisor",
+            "name": "Developer",
             "startDate": "2025-03-01",
-            "finishDate": "2026-02-28",
             "competences": [
               {
-                "name": "Nextjs",
+                "name": "Kubernetes",
                 "type": "technology"
               },
               {
-                "name": "Typescript",
+                "name": "NextJS",
                 "type": "technology"
               },
               {
@@ -708,68 +798,69 @@
                 "type": "technology"
               },
               {
-                "name": "AI Agents",
+                "name": "TypeScript",
                 "type": "technology"
               }
-            ]
+            ],
+            "finishDate": "2026-02-01"
           }
         ]
       },
       {
         "details": {
-          "name": "pictureapp",
-          "description": "QIS Malaria Surveillance - Open-source mobile application designed to report positive cases of malaria detected in Cambodia in near real-time to a DHIS2 server. Used by healthcare providers in the field after mRDT tests.",
-          "URL": "https://github.com/EyeSeeTea/pictureapp"
+          "name": "Malariapp",
+          "description": "QoC Android App - Open-source quality assessments tool connected with DHIS2 Health Information Servers. Helps with health center assessments, featuring automatic survey generation and data sync with DHIS2",
+          "URL": "https://github.com/EyeSeeTea/malariapp",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/03/04/57e3bb47-60a1-4883-aa57-124708ad015b_qualityapp_logo.png",
+            "alt": "qualityapp_logo.png"
+          }
         },
         "type": "openSource",
         "roles": [
           {
-            "name": "Contributor",
+            "name": "Developer",
             "startDate": "2015-05-01",
-            "finishDate": "2016-11-30",
             "competences": [
-              {
-                "name": "Java",
-                "type": "technology"
-              },
               {
                 "name": "Android",
                 "type": "technology"
               },
               {
-                "name": "DHIS2",
+                "name": "Java",
                 "type": "technology"
               }
-            ]
+            ],
+            "finishDate": "2016-11-01"
           }
         ]
       },
       {
         "details": {
-          "name": "malariapp",
-          "description": "QoC Android App - Open-source quality assessments tool connected with DHIS2 Health Information Servers. Helps with health center assessments, featuring automatic survey generation and data sync with DHIS2.",
-          "URL": "https://github.com/EyeSeeTea/malariapp"
+          "name": "Pictureapp",
+          "description": "QIS Malaria Surveillance - Open-source mobile application designed to report positive cases of **malaria detected in Cambodia** in near real-time to a DHIS2 server. Used by healthcare providers in the field after mRDT tests.",
+          "URL": "https://github.com/EyeSeeTea/pictureapp",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/03/04/43f61350-b0bc-49f4-adfb-83053dd9c12b_pictureapp_logo.png",
+            "alt": "pictureapp_logo.png"
+          }
         },
         "type": "openSource",
         "roles": [
           {
-            "name": "Contributor",
+            "name": "Developer",
             "startDate": "2015-05-01",
-            "finishDate": "2016-11-30",
             "competences": [
-              {
-                "name": "Java",
-                "type": "technology"
-              },
               {
                 "name": "Android",
                 "type": "technology"
               },
               {
-                "name": "DHIS2",
+                "name": "Java",
                 "type": "technology"
               }
-            ]
+            ],
+            "finishDate": "2016-11-01"
           }
         ]
       },
@@ -838,11 +929,15 @@
       },
       {
         "details": {
-          "name": "periodicis",
+          "name": "Periodicis",
           "description": "Chrome extension that finds related stories to the one you are reading in real time (prototype)",
-          "URL": "https://github.com/ivanarrizabalaga/periodicis"
+          "URL": "https://github.com/ivanarrizabalaga/periodicis",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/03/05/4618de00-c454-4ce0-8687-64e3292847a7_periodicis_128.png",
+            "alt": "periodicis_128.png"
+          }
         },
-        "type": "openSource",
+        "type": "sideProject",
         "roles": [
           {
             "name": "Developer",
@@ -894,101 +989,6 @@
         "tags": [
           "Management"
         ]
-      },
-      {
-        "details": {
-          "name": "ivo43: Grails in prod with an external log4j properties",
-          "description": "Configuring external log4j for a production grails app.",
-          "URL": "http://ivo43.blogspot.com/2015/02/grails-in-prod-with-external-log4j.html"
-        },
-        "type": "post",
-        "publishingDate": "2015-02-01"
-      },
-      {
-        "details": {
-          "name": "Importing external domain classes into Grails",
-          "URL": "https://stackoverflow.com/questions/23654116/importing-external-domain-classes-into-grails/23737647#23737647"
-        },
-        "type": "post",
-        "publishingDate": "2014-05-01"
-      },
-      {
-        "details": {
-          "name": "ivo43: Integrando Gorm en Griffon (only Spanish)",
-          "description": "Using Gorm inside a Griffon project.",
-          "URL": "http://ivo43.blogspot.com/2014/05/integrando-gorm-en-griffon.html"
-        },
-        "type": "post",
-        "publishingDate": "2014-05-01"
-      },
-      {
-        "details": {
-          "name": "console2 uses the wrong JAVA_HOME",
-          "URL": "https://stackoverflow.com/questions/16009082/console2-uses-the-wrong-java-home/16912735#16912735"
-        },
-        "type": "post",
-        "publishingDate": "2013-06-01"
-      },
-      {
-        "details": {
-          "name": "ivo43: Griffon: flujo creacion mvc (only spanish available)",
-          "description": "Cuando se crea un MVC a través de una de las variantes de:",
-          "URL": "http://ivo43.blogspot.com/2013/03/griffon-flujo-creacion-mvc.html"
-        },
-        "type": "post",
-        "publishingDate": "2013-03-01"
-      },
-      {
-        "details": {
-          "name": "ivo43: Desmontando Log4j (only spanish available)",
-          "description": "Buenas, a quién queremos engañar, la mayoría llevamos años haciendo configuraciones de Log4j gracias a Google, copiando y pegando cachos hasta que funciona...técnicamente es lo que se conoce como…",
-          "URL": "http://ivo43.blogspot.com/2013/02/desmontando-log4j.html"
-        },
-        "type": "post",
-        "publishingDate": "2013-02-01"
-      },
-      {
-        "details": {
-          "name": "Debugging Griffon in Eclipse/STS — ivo43",
-          "description": "How to debug your Griffon project under Eclipse/STS? Finally the answer.",
-          "URL": "http://ivo43.blogspot.com.es/2012/02/debugging-griffon-in-eclipsests.html"
-        },
-        "type": "post",
-        "publishingDate": "2012-02-01"
-      },
-      {
-        "details": {
-          "name": "\"Adku is hiring\", the solution — ivo43",
-          "description": "The answer to a funny recruitment game posted by Adku, and a couple of thoughts about computing science and consulting.",
-          "URL": "http://ivo43.blogspot.com.es/2011/03/un-juego-ii.html"
-        },
-        "type": "post",
-        "publishingDate": "2011-03-01"
-      },
-      {
-        "details": {
-          "name": "Online HTML/CSS/Javascript learning reference alternative to w3schools?",
-          "URL": "https://stackoverflow.com/questions/4662304/online-html-css-javascript-learning-reference-alternative-to-w3schools/4662820#4662820"
-        },
-        "type": "post",
-        "publishingDate": "2011-01-01"
-      },
-      {
-        "details": {
-          "name": "JAVASCRIPT - Why isn't this object changed?",
-          "URL": "https://stackoverflow.com/questions/4557185/javascript-why-isnt-this-object-changed/4557522#4557522"
-        },
-        "type": "post",
-        "publishingDate": "2010-12-01"
-      },
-      {
-        "details": {
-          "name": "Somos unos mantas (only available in spanish) — ivo43",
-          "description": "Cuando empece a estudiar Informática tenía la ilusión de convertirme en alguien que hiciera un montón de cosas interesantes, cuyo trabajo en el día a día fuera respetado...",
-          "URL": "http://ivo43.blogspot.com/2007/11/somos-unos-mantas.html"
-        },
-        "type": "post",
-        "publishingDate": "2007-11-01"
       }
     ]
   },
@@ -1014,22 +1014,16 @@
       },
       {
         "skill": {
-          "name": "Kubernetes",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
           "name": "Python",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "Java",
+          "name": "React",
           "type": "technology"
         }
-      },      
+      },
       {
         "skill": {
           "name": "SQL",
@@ -1038,22 +1032,10 @@
       },
       {
         "skill": {
-          "name": "Javascript",
-          "type": "technology"
-        }
-      },      
-      {
-        "skill": {
           "name": "TypeScript",
           "type": "technology"
         }
-      },
-      {
-        "skill": {
-          "name": "Nextjs",
-          "type": "technology"
-        }
-      }      
+      }
     ],
     "studies": [
       {
@@ -1478,15 +1460,7 @@
     "preferences": {
       "preferredCompetences": [
         {
-          "name": "Django",
-          "type": "technology"
-        },
-        {
           "name": "Go",
-          "type": "technology"
-        },
-        {
-          "name": "Ionic",
           "type": "technology"
         },
         {
@@ -1506,6 +1480,10 @@
           "type": "technology"
         },
         {
+          "name": "React",
+          "type": "technology"
+        },
+        {
           "name": "Spring Boot",
           "type": "technology"
         },
@@ -1515,14 +1493,6 @@
         }
       ],
       "discardedCompetences": [
-        {
-          "name": "Abap",
-          "type": "technology"
-        },
-        {
-          "name": "C#",
-          "type": "technology"
-        },
         {
           "name": "PHP",
           "type": "technology"
@@ -1557,11 +1527,11 @@
         "type": "technology"
       },
       {
-        "name": "Kubernetes",
+        "name": "Python",
         "type": "technology"
       },
       {
-        "name": "Python",
+        "name": "React",
         "type": "technology"
       },
       {
@@ -1574,34 +1544,31 @@
       }
     ],
     "desiredJobDescription": "My dream job is based on 3 main features:\n - Purpose: it must have a meaningful or, at least, honest purpose. Better ads, Bet houses ... are not.\n - People: it must be a place for sharing my experience and learn from others (I love learning). No rockstars or superstars inside, just lovely people to give and take.\n - Perks: reasonable salary for a seasoned father of 2 (>50k), remote friendly (I will work from Asturias)\n\nRegarding my duties, It depends on the challenge. I've been the manager, the CTO, the head of engineering, the project manager, the consultant, the data engineer ... but I mostly consider myself a software engineer with good communication skills.\n\nLastly, in terms of tech, I feel comfortable working with lots of different technologies like java, js, sql, aws, elasticsearch but I dont really think this is important per se. I'm much more inclined to focus on strong backgrounds and the hability to learn whatever is needed.\n\nPD: Please keep this guy away from css, ;)",
-    "goodPractices": "Generalist, pragmatic, passionate.\n\nAs an engineering lead (head, director, VP, ..), I focus on removing unnecessary complexity from solutions and processes, enabling teams to stay focused and excel.\n\nI enjoy building teams that are humble, curious, and ambitious.\n\n\n\n\n\n",
+    "goodPractices": "Generalist, curious, and pragmatic.\nMy principles:\n - People first\n - Make things simple\n - Keep moving forward\n - Decouple and compose 😉\n\n\n\n\n\n",
     "projects": [
       {
-        "name": "BookGorm"
+        "name": "Deepmimic"
       },
       {
-        "name": "angular-course"
+        "name": "Malariapp"
+      },
+      {
+        "name": "Periodicis"
+      },
+      {
+        "name": "Pictureapp"
       },
       {
         "name": "binary-tree-challenge"
       },
       {
-        "name": "grails-domain-griffon"
-      },
-      {
         "name": "pagerank"
-      },
-      {
-        "name": "periodicis"
       },
       {
         "name": "state-diagram-challenge"
       }
     ],
     "bookmarks": [
-      {
-        "name": "Building Scalable Web Sites: Building, Scaling, and Optimizing the Next Generat..."
-      },
       {
         "name": "Clean Code: A Handbook of Agile Software Craftsmanship"
       },
@@ -1633,13 +1600,13 @@
         "name": "Rework"
       },
       {
+        "name": "Team Topologies"
+      },
+      {
         "name": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create..."
       },
       {
         "name": "The Pragmatic Programmer: From Journeyman to Master"
-      },
-      {
-        "name": "Zero to One: Notes on Startups, or How to Build the Future"
       }
     ]
   }

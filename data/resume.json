@@ -8,8 +8,8 @@
         "es": "VP de Ingeniería @ JOOR"
       },
       "description": {
-        "en": "It all started with War Games; I watched Matthew Broderick hacking a phone, and it looked reeeeeeally cool.\n\nSo I first started breaking stuff (I called it research). Then I got my Spectrum 48k at 6, and... voila, suddenly I knew what I wanted to do for a living.\n\nI studied for a bachelor's and master's in **Computer Science** at the University of Oviedo and then started working.\n\nAfter **20 years in the business**, I've done pretty much everything: research, **data analysis**, consulting, freelancing as a software architect, **building a company** from scratch, and, lastly, shaping remote and efficient engineering organizations **(30 to 50 people)**.\n\nNow, I focus on getting the optimal balance between devs happiness & business efficiency by making things as lean as possible.\n\nI still dedicate 10-15% of my time to coding, to stay technically relevant and support my engineering team better, but finally, because I genuinely enjoy it. \n\nMy next goal, joining a purposeful org made of great and talented human beings and working in reasonable \"zero shit\" contexts. \n\nDetails on next pages👇\n",
-        "es": "Todo empezó con Juegos de Guerra; vi a Matthew Broderick pirateando un teléfono y me pareció súper guay.\n\nAsí que empecé rompiendo cosas (lo llamaba investigación). Luego me regalaron mi Spectrum 48k a los 6 años y... voilà, de repente supe qué quería hacer con mi vida.\n\nEstudié la licenciatura y el máster en **Informática** en la Universidad de Oviedo y luego empecé a trabajar.\n\nDespués de **20 años en el sector**, he hecho de todo: investigación, **análisis de datos**, consultoría, freelance como arquitecto de software, **crear una empresa** desde cero y, por último, dar forma a organizaciones de ingeniería remotas y eficientes **(de 30 a 50 personas)**.\n\nAhora me centro en lograr el equilibrio óptimo entre la felicidad de los desarrolladores y la eficiencia del negocio, haciendo las cosas lo más lean posible.\n\nSigo dedicando un 10-15% de mi tiempo a programar, para mantenerme técnicamente relevante y apoyar mejor a mi equipo de ingeniería, pero sobre todo porque me encanta.\n\nMi próximo objetivo: unirme a una organización con propósito, formada por personas grandes y con talento, y trabajar en contextos razonables \"sin mierda\".\n\nDetalles en las siguientes páginas👇\n"
+        "en": "It all started with War Games; I watched Matthew Broderick hacking a phone, and it looked reeeeeeally cool.\n\nSo I first started breaking stuff (I called it research). Then I got my Spectrum 48k at 6, and... voila, suddenly I knew what I wanted to do for a living.\n\nI studied for a bachelor's and master's in **Computer Science** at the University of Oviedo and then started working.\n\nAfter **20 years in the business**, I've done pretty much everything: research, **data analysis**, consulting, freelancing as a software architect, **building a company** from scratch, and, lastly, shaping remote and efficient engineering organizations **(30 to 50 people)**.\n\nNow, I focus on getting the optimal balance between devs happiness & business efficiency by making things as lean as possible.\n\nI still dedicate 20% of my time to coding, to stay technically relevant and support my engineering team better, but finally, because I genuinely enjoy it. \n\n",
+        "es": "Todo empezó con Juegos de Guerra; vi a Matthew Broderick pirateando un teléfono y me pareció súper guay.\n\nAsí que empecé rompiendo cosas (lo llamaba investigación). Luego me regalaron mi Spectrum 48k a los 6 años y... voilà, de repente supe qué quería hacer con mi vida.\n\nEstudié la licenciatura y el máster en **Informática** en la Universidad de Oviedo y luego empecé a trabajar.\n\nDespués de **20 años en el sector**, he hecho de todo: investigación, **análisis de datos**, consultoría, freelance como arquitecto de software, **crear una empresa** desde cero y, por último, dar forma a organizaciones de ingeniería remotas y eficientes **(de 30 a 50 personas)**.\n\nAhora me centro en lograr el equilibrio óptimo entre la felicidad de los desarrolladores y la eficiencia del negocio, haciendo las cosas lo más lean posible.\n\nSigo dedicando un 20% de mi tiempo a programar, para mantenerme técnicamente relevante y apoyar mejor a mi equipo de ingeniería, pero sobre todo porque me encanta.\n\n"
       },
       "avatar": {
         "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/24/ae7bef5f-c719-4fd9-b2cf-e0f0617a0f15_ivan.jpg",
@@ -35,6 +35,18 @@
       }
     ],
     "recommendations": [
+      {
+        "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+        "type": "reading",
+        "URL": "http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882%3FSubscriptionId%3DAKIAIIBINOD46VC3JCLQ%26tag%3Dstackoverfl08-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0132350882",
+        "authors": [
+          {
+            "name": "Robert C.",
+            "surnames": "Martin",
+            "title": "Author"
+          }
+        ]
+      },
       {
         "title": "Peopleware: Productive Projects and Teams (Second Edition)",
         "type": "reading",
@@ -170,6 +182,22 @@
             "title": "Author"
           }
         ]
+      },
+      {
+        "title": "Team Topologies",
+        "type": "reading",
+        "URL": "https://teamtopologies.com/",
+        "summary": {
+          "en": "Awesome material to understand the different nature of software teams and the dynamics between them.",
+          "es": "Material excelente para entender la naturaleza diferente de los equipos de software y la dinámica entre ellos."
+        },
+        "authors": [
+          {
+            "name": "Mathew",
+            "surnames": "Skelton, Manuel Pais",
+            "title": "Author"
+          }
+        ]
       }
     ],
     "relevantLinks": [
@@ -180,6 +208,15 @@
       {
         "type": "github",
         "URL": "https://github.com/ivanarrizabalaga"
+      },
+      {
+        "type": "stackoverflow",
+        "URL": "https://stackoverflow.com/users/2249/ivan-arrizabalaga"
+      },
+      {
+        "type": "other",
+        "URL": "https://medium.com/@ivanarrizabalagagetino",
+        "description": "Medium"
       }
     ]
   },
@@ -229,6 +266,57 @@
               },
               {
                 "name": "gRPC",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Halioooo Ventures",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/03/05/fe32a70f-21a6-4c19-a08a-1252a31828f4_logo.png",
+            "alt": "logo.png"
+          },
+          "URL": "https://deepmimic.ai"
+        },
+        "roles": [
+          {
+            "name": "Fractional Tech Advisor",
+            "startDate": "2025-03-01",
+            "finishDate": "2026-02-01",
+            "challenges": [
+              {
+                "description": {
+                  "en": "I helped Haliooo Ventures build their first initiative with https://deepmimic.ai.\n\nThis platform allows businesses to create simulated markets, synthetic focus groups, and people to spot market signals, validate strategies, messages, pricing, ... prior to the real launch.\n\nAs a fractional tech advisor, I acted mostly as a senior IC, from design to programming and deploying.\n\nThe platform was built using DDD on top of NextJS, Typescript, Clerk, FastAPI, Postgres and served via Kubernetes in AWS.",
+                  "es": "Ayudé a Haliooo Ventures a construir su primera iniciativa con https://deepmimic.ai.\n\nEsta plataforma permite a las empresas crear mercados simulados, grupos focales sintéticos y detectar señales de mercado, validar estrategias, mensajes, precios, etc. antes del lanzamiento real.\n\nComo asesor técnico fractional, actué principalmente como IC senior, desde el diseño hasta la programación y el despliegue.\n\nLa plataforma se construyó usando DDD sobre NextJS, Typescript, Clerk, FastAPI, Postgres y se sirve vía Kubernetes en AWS."
+                }
+              }
+            ],
+            "competences": [
+              {
+                "name": "AWS",
+                "type": "technology"
+              },
+              {
+                "name": "Fastapi",
+                "type": "technology"
+              },
+              {
+                "name": "Kubernetes",
+                "type": "technology"
+              },
+              {
+                "name": "NextJS",
+                "type": "technology"
+              },
+              {
+                "name": "PostgreSQL",
+                "type": "technology"
+              },
+              {
+                "name": "Python",
                 "type": "technology"
               }
             ]
@@ -506,7 +594,12 @@
       },
       {
         "organization": {
-          "name": "Periodicis"
+          "name": "Periodicis",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/03/04/1774bf64-c561-4b06-af63-2df8b96f1453_periodicis_128.png",
+            "alt": "periodicis_128.png"
+          },
+          "URL": "https://github.com/ivanarrizabalaga/periodicis"
         },
         "roles": [
           {
@@ -733,48 +826,16 @@
     "projects": [
       {
         "details": {
-          "name": "deepmimic",
+          "name": "Malariapp",
           "description": {
-            "en": "DeepMimic - Synthetic Market Research. Spot market signals and validate strategy, messaging, design and pricing, prior to launch, powered by synthetic personas & simulated markets",
-            "es": "DeepMimic - Investigación de mercado sintética. Detecta señales de mercado y valida estrategia, mensajería, diseño y precios, antes del lanzamiento, impulsado por personas sintéticas y mercados simulados"
+            "en": "QoC Android App - Open-source quality assessments tool connected with DHIS2 Health Information Servers. Helps with health center assessments, featuring automatic survey generation and data sync with DHIS2.",
+            "es": "QoC Android App - Herramienta de evaluación de calidad de código abierto conectada con servidores de información sanitaria DHIS2. Ayuda con evaluaciones de centros de salud, con generación automática de encuestas y sincronización de datos con DHIS2."
           },
-          "URL": "https://deepmimic.ai/"
-        },
-        "type": "openSource",
-        "roles": [
-          {
-            "name": "Technical advisor",
-            "startDate": "2025-03-01",
-            "finishDate": "2026-02-28",
-            "competences": [
-              {
-                "name": "Nextjs",
-                "type": "technology"
-              },
-              {
-                "name": "Typescript",
-                "type": "technology"
-              },
-              {
-                "name": "Python",
-                "type": "technology"
-              },
-              {
-                "name": "AI Agents",
-                "type": "technology"
-              }
-            ]
+          "URL": "https://github.com/EyeSeeTea/malariapp",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/03/04/57e3bb47-60a1-4883-aa57-124708ad015b_qualityapp_logo.png",
+            "alt": "qualityapp_logo.png"
           }
-        ]
-      },
-      {
-        "details": {
-          "name": "pictureapp",
-          "description": {
-            "en": "QIS Malaria Surveillance - Open-source mobile application designed to report positive cases of malaria detected in Cambodia in near real-time to a DHIS2 server. Used by healthcare providers in the field after mRDT tests.",
-            "es": "QIS Malaria Surveillance - Aplicación móvil de código abierto diseñada para reportar casos positivos de malaria detectados en Camboya en casi tiempo real a un servidor DHIS2. Utilizada por proveedores de salud en el terreno tras pruebas mRDT."
-          },
-          "URL": "https://github.com/EyeSeeTea/pictureapp"
         },
         "type": "openSource",
         "roles": [
@@ -801,12 +862,16 @@
       },
       {
         "details": {
-          "name": "malariapp",
+          "name": "Pictureapp",
           "description": {
-            "en": "QoC Android App - Open-source quality assessments tool connected with DHIS2 Health Information Servers. Helps with health center assessments, featuring automatic survey generation and data sync with DHIS2.",
-            "es": "QoC Android App - Herramienta de evaluación de calidad de código abierto conectada con servidores de información sanitaria DHIS2. Ayuda con evaluaciones de centros de salud, con generación automática de encuestas y sincronización de datos con DHIS2."
+            "en": "QIS Malaria Surveillance - Open-source mobile application designed to report positive cases of **malaria detected in Cambodia** in near real-time to a DHIS2 server. Used by healthcare providers in the field after mRDT tests.",
+            "es": "QIS Malaria Surveillance - Aplicación móvil de código abierto diseñada para reportar casos positivos de malaria detectados en Camboya en casi tiempo real a un servidor DHIS2. Utilizada por proveedores de salud en el terreno tras pruebas mRDT."
           },
-          "URL": "https://github.com/EyeSeeTea/malariapp"
+          "URL": "https://github.com/EyeSeeTea/pictureapp",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/03/04/43f61350-b0bc-49f4-adfb-83053dd9c12b_pictureapp_logo.png",
+            "alt": "pictureapp_logo.png"
+          }
         },
         "type": "openSource",
         "roles": [
@@ -905,14 +970,18 @@
       },
       {
         "details": {
-          "name": "periodicis",
+          "name": "Periodicis",
           "description": {
             "en": "Chrome extension that finds related stories to the one you are reading in real time (prototype)",
             "es": "Extensión de Chrome que encuentra historias relacionadas con la que estás leyendo en tiempo real (prototipo)"
           },
-          "URL": "https://github.com/ivanarrizabalaga/periodicis"
+          "URL": "https://github.com/ivanarrizabalaga/periodicis",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/03/05/4618de00-c454-4ce0-8687-64e3292847a7_periodicis_128.png",
+            "alt": "periodicis_128.png"
+          }
         },
-        "type": "openSource",
+        "type": "sideProject",
         "roles": [
           {
             "name": "Developer",
@@ -1156,19 +1225,13 @@
       },
       {
         "skill": {
-          "name": "Kubernetes",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
           "name": "Python",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "Java",
+          "name": "React",
           "type": "technology"
         }
       },
@@ -1180,19 +1243,7 @@
       },
       {
         "skill": {
-          "name": "Javascript",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
           "name": "TypeScript",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Nextjs",
           "type": "technology"
         }
       }
@@ -1620,15 +1671,7 @@
     "preferences": {
       "preferredCompetences": [
         {
-          "name": "Django",
-          "type": "technology"
-        },
-        {
           "name": "Go",
-          "type": "technology"
-        },
-        {
-          "name": "Ionic",
           "type": "technology"
         },
         {
@@ -1648,6 +1691,10 @@
           "type": "technology"
         },
         {
+          "name": "React",
+          "type": "technology"
+        },
+        {
           "name": "Spring Boot",
           "type": "technology"
         },
@@ -1657,14 +1704,6 @@
         }
       ],
       "discardedCompetences": [
-        {
-          "name": "Abap",
-          "type": "technology"
-        },
-        {
-          "name": "C#",
-          "type": "technology"
-        },
         {
           "name": "PHP",
           "type": "technology"
@@ -1699,11 +1738,11 @@
         "type": "technology"
       },
       {
-        "name": "Kubernetes",
+        "name": "Python",
         "type": "technology"
       },
       {
-        "name": "Python",
+        "name": "React",
         "type": "technology"
       },
       {
@@ -1716,34 +1755,31 @@
       }
     ],
     "desiredJobDescription": "My dream job is based on 3 main features:\n - Purpose: it must have a meaningful or, at least, honest purpose. Better ads, Bet houses ... are not.\n - People: it must be a place for sharing my experience and learn from others (I love learning). No rockstars or superstars inside, just lovely people to give and take.\n - Perks: reasonable salary for a seasoned father of 2 (>50k), remote friendly (I will work from Asturias)\n\nRegarding my duties, It depends on the challenge. I've been the manager, the CTO, the head of engineering, the project manager, the consultant, the data engineer ... but I mostly consider myself a software engineer with good communication skills.\n\nLastly, in terms of tech, I feel comfortable working with lots of different technologies like java, js, sql, aws, elasticsearch but I dont really think this is important per se. I'm much more inclined to focus on strong backgrounds and the hability to learn whatever is needed.\n\nPD: Please keep this guy away from css, ;)",
-    "goodPractices": "Generalist, pragmatic, passionate.\n\nAs an engineering lead (head, director, VP, ..), I focus on removing unnecessary complexity from solutions and processes, enabling teams to stay focused and excel.\n\nI enjoy building teams that are humble, curious, and ambitious.\n\n\n\n\n\n",
+    "goodPractices": "Generalist, curious, and pragmatic.\nMy principles:\n - People first\n - Make things simple\n - Keep moving forward\n - Decouple and compose 😉\n\n\n\n\n\n",
     "projects": [
       {
-        "name": "BookGorm"
+        "name": "Deepmimic"
       },
       {
-        "name": "angular-course"
+        "name": "Malariapp"
+      },
+      {
+        "name": "Periodicis"
+      },
+      {
+        "name": "Pictureapp"
       },
       {
         "name": "binary-tree-challenge"
       },
       {
-        "name": "grails-domain-griffon"
-      },
-      {
         "name": "pagerank"
-      },
-      {
-        "name": "periodicis"
       },
       {
         "name": "state-diagram-challenge"
       }
     ],
     "bookmarks": [
-      {
-        "name": "Building Scalable Web Sites: Building, Scaling, and Optimizing the Next Generat..."
-      },
       {
         "name": "Clean Code: A Handbook of Agile Software Craftsmanship"
       },
@@ -1781,7 +1817,7 @@
         "name": "The Pragmatic Programmer: From Journeyman to Master"
       },
       {
-        "name": "Zero to One: Notes on Startups, or How to Build the Future"
+        "name": "Team Topologies"
       }
     ]
   }
