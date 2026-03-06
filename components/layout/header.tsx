@@ -32,7 +32,7 @@ export function Header() {
               key={key}
               href={href}
               className={cn(
-                "text-sm font-medium transition-colors hover:text-foreground/80",
+                "font-mono text-sm font-medium transition-colors hover:text-foreground/80",
                 pathname === href ? "text-foreground" : "text-foreground/60"
               )}
             >
@@ -61,7 +61,7 @@ export function Header() {
                 href={href}
                 onClick={() => setMobileOpen(false)}
                 className={cn(
-                  "rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-accent",
+                  "rounded-md px-4 py-2 font-mono text-sm font-medium transition-colors hover:bg-accent",
                   pathname === href ? "text-foreground" : "text-foreground/70"
                 )}
               >

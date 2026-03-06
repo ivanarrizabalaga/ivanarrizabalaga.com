@@ -170,14 +170,14 @@ function TimelineCard({
               {item.type}
             </span>
           </div>
-          <p className="mt-1 text-sm text-foreground/70">{item.subtitle}</p>
+          <p className="mt-1 text-base text-foreground/70">{item.subtitle}</p>
           <p className="mt-2 text-xs text-foreground/50">
             {formatDate(item.startDate, locale)} —{" "}
             {item.endDate ? formatDate(item.endDate, locale) : "Present"}
           </p>
         </div>
       </div>
-      <div className="mt-4 prose prose-sm prose-neutral dark:prose-invert max-w-none text-foreground/80 prose-headings:text-foreground prose-strong:text-foreground prose-ul:my-2 prose-li:my-0">
+      <div className="mt-4 prose prose-neutral dark:prose-invert max-w-none text-foreground/80 prose-headings:text-foreground prose-strong:text-foreground prose-ul:my-2 prose-li:my-0">
         <ReactMarkdown>{expanded ? item.description : shortDesc}</ReactMarkdown>
       </div>
       {item.description.length > 200 && (

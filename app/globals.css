@@ -1,6 +1,31 @@
 @import "tailwindcss";
 @plugin '@tailwindcss/typography';
 
+/*
+ * Typography system
+ * ================
+ *
+ * Font roles:
+ * - Mono: Headings (h1, h2), header logo, nav links, labels/chrome, badges, metadata
+ * - Sans: Body text, card titles, links, buttons, prose
+ *
+ * Size scale:
+ * - text-2xl md:text-3xl: Page h1
+ * - text-xl: Page subtitle
+ * - text-lg: Section h2
+ * - text-base (16px): Body, main content, prose
+ * - text-sm (14px): UI chrome (nav, buttons), secondary labels
+ * - text-xs: Metadata, badges, dates
+ *
+ * Opacity scale:
+ * - text-foreground: Primary
+ * - text-foreground/80: Subtitle, emphasis
+ * - text-foreground/70: Secondary (descriptions, subtitles)
+ * - text-foreground/50: Tertiary (metadata, dates)
+ *
+ * Prose: prose (16px) for all main content
+ */
+
 :root {
   --header-height: 3.5rem; /* h-14, matches nav bar */
   --background: hsl(0 0% 100%);
@@ -41,4 +66,5 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 1rem; /* 16px - base for all main content */
 }

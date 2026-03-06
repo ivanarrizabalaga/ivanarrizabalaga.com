@@ -33,7 +33,7 @@ export function LocaleSwitcher() {
       <button
         onClick={() => switchTo("en")}
         className={cn(
-          "rounded px-2.5 py-1 text-sm font-medium transition-colors",
+          "rounded px-2.5 py-1 font-mono text-sm font-medium transition-colors",
           locale === "en"
             ? "bg-foreground text-background"
             : "bg-transparent text-foreground/70 hover:bg-accent hover:text-accent-foreground"
@@ -46,7 +46,7 @@ export function LocaleSwitcher() {
       <button
         onClick={() => switchTo("es")}
         className={cn(
-          "rounded px-2.5 py-1 text-sm font-medium transition-colors",
+          "rounded px-2.5 py-1 font-mono text-sm font-medium transition-colors",
           locale === "es"
             ? "bg-foreground text-background"
             : "bg-transparent text-foreground/70 hover:bg-accent hover:text-accent-foreground"

@@ -13,7 +13,7 @@ export function ThemeSwitcher() {
     <DropdownMenu.Root>
       <DropdownMenu.Trigger asChild>
         <button
-          className="relative inline-flex size-9 items-center justify-center rounded-md border border-border bg-transparent text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+          className="relative inline-flex size-9 items-center justify-center rounded-md border border-border bg-transparent font-mono text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
           aria-label="Toggle theme"
         >
           <SunIcon className="size-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
@@ -26,19 +26,19 @@ export function ThemeSwitcher() {
           sideOffset={4}
         >
           <DropdownMenu.Item
-            className="relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none transition-colors focus:bg-accent focus:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50"
+            className="relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 font-mono text-sm outline-none transition-colors focus:bg-accent focus:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50"
             onSelect={() => setTheme("system")}
           >
             {t("system")}
           </DropdownMenu.Item>
           <DropdownMenu.Item
-            className="relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none transition-colors focus:bg-accent focus:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50"
+            className="relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 font-mono text-sm outline-none transition-colors focus:bg-accent focus:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50"
             onSelect={() => setTheme("light")}
           >
             {t("light")}
           </DropdownMenu.Item>
           <DropdownMenu.Item
-            className="relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none transition-colors focus:bg-accent focus:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50"
+            className="relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 font-mono text-sm outline-none transition-colors focus:bg-accent focus:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50"
             onSelect={() => setTheme("dark")}
           >
             {t("dark")}
