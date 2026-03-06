@@ -54,6 +54,7 @@ export interface ProjectDetails {
   name: string;
   description?: Bilingual<string>;
   URL?: string;
+  image?: { link: string; alt: string };
 }
 
 export interface Project {
