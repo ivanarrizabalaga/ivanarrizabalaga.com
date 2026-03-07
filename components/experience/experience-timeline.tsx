@@ -67,11 +67,17 @@ export function ExperienceTimeline({
         </div>
       )}
       <div className="relative">
-        {/* Center line - full height */}
+        {/* CSS ladder: two vertical rails + repeating rungs */}
         <div
-          className="absolute left-1/2 top-0 bottom-0 w-px -translate-x-1/2 bg-border"
+          className="absolute left-1/2 top-0 bottom-0 w-3 -translate-x-1/2 flex justify-between pointer-events-none"
+          style={{
+            backgroundImage: `repeating-linear-gradient(to bottom, transparent 0 47px, var(--timeline-ladder) 47px 48px)`,
+          }}
           aria-hidden
-        />
+        >
+          <div className="w-px bg-[var(--timeline-ladder)]" />
+          <div className="w-px bg-[var(--timeline-ladder)]" />
+        </div>
         <div className="space-y-0">
           <AnimatePresence mode="popLayout" initial={false}>
             {visibleItems.map((item) => {
