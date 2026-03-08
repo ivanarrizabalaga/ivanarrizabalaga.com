@@ -35,7 +35,7 @@ export function Avatar({ className }: AvatarProps) {
   return (
     <div
       className={cn(
-        "relative w-[480px] md:w-[640px] select-none overflow-visible",
+        "relative w-full select-none overflow-visible",
         className
       )}
       style={{ pointerEvents: "none" }}

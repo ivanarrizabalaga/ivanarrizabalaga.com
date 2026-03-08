@@ -29,8 +29,14 @@ export default async function LocaleLayout({ children, params }: Props) {
       <ThemeProvider>
         <div className="relative min-h-screen bg-background text-foreground">
           <Header />
-          <main className="pb-24">{children}</main>
-          <Avatar className="fixed left-4 top-1/2 z-0 -translate-y-1/2 opacity-60" />
+          <div className="grid grid-cols-1 lg:grid-cols-[auto_1fr]">
+            <aside className="hidden lg:block w-[420px] xl:w-[480px] shrink-0 pl-4 pt-8">
+              <div className="sticky top-24">
+                <Avatar className="w-full max-w-[480px] opacity-60" />
+              </div>
+            </aside>
+            <main className="pb-24">{children}</main>
+          </div>
         </div>
       </ThemeProvider>
     </NextIntlClientProvider>
