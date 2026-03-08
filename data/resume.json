@@ -977,34 +977,6 @@
             "finishDate": "2014-06-30"
           }
         ]
-      },
-      {
-        "details": {
-          "name": "Periodicis",
-          "description": {
-            "en": "Chrome extension that finds related stories to the one you are reading in real time (prototype)",
-            "es": "Extensión de Chrome que encuentra historias relacionadas con la que estás leyendo en tiempo real (prototipo)"
-          },
-          "URL": "https://github.com/ivanarrizabalaga/periodicis",
-          "image": {
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/26/03/05/4618de00-c454-4ce0-8687-64e3292847a7_periodicis_128.png",
-            "alt": "periodicis_128.png"
-          }
-        },
-        "type": "sideProject",
-        "roles": [
-          {
-            "name": "Developer",
-            "startDate": "2014-05-01",
-            "competences": [
-              {
-                "name": "JavaScript",
-                "type": "technology"
-              }
-            ],
-            "finishDate": "2014-08-31"
-          }
-        ]
       }
     ],
     "publicArtifacts": [
