@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
 import { ExperienceTimeline } from "./experience-timeline";
@@ -14,6 +14,13 @@ export function ExperiencePageContent({ title }: Props) {
   const t = useTranslations("experience");
   const [roleFilter, setRoleFilter] = useState<RoleFilter>("all");
   const [entryFilter, setEntryFilter] = useState<EntryFilter>("all");
+
+  // Reset Entry filter when leaving IC (it only applies when IC is selected)
+  useEffect(() => {
+    if (roleFilter !== "ic") {
+      setEntryFilter("all");
+    }
+  }, [roleFilter]);
 
   return (
     <>
