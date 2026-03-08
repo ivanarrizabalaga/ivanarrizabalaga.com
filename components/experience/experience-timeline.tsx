@@ -183,7 +183,7 @@ function TimelineCard({
           </p>
         </div>
       </div>
-      <div className="mt-4 prose prose-neutral dark:prose-invert max-w-none text-foreground/80 prose-headings:text-foreground prose-strong:text-foreground prose-ul:my-2 prose-li:my-0">
+      <div className="mt-4 prose prose-neutral dark:prose-invert max-w-none text-foreground/80 prose-headings:text-foreground prose-strong:!text-foreground prose-a:text-foreground prose-a:underline hover:prose-a:text-foreground/80 prose-ul:my-2 prose-li:my-0">
         <ReactMarkdown>{expanded ? item.description : shortDesc}</ReactMarkdown>
       </div>
       {item.description.length > 200 && (
