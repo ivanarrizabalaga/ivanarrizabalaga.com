@@ -2,7 +2,7 @@
   "nav": {
     "home": "Home",
     "experience": "Experience",
-    "writing": "Writing",
+    "writing": "Posts & Talks",
     "skills": "Skills",
     "contact": "Contact"
   },
@@ -27,12 +27,12 @@
       "entryJob": "Jobs",
       "entryProject": "Projects",
       "roleLabel": "Role",
-      "entryLabel": "Entry"
+      "entryLabel": "Type"
     },
     "explore": "Explore my experiences as"
   },
   "writing": {
-    "title": "Writing & Talks"
+    "title": "Posts & Talks"
   },
   "skills": {
     "title": "A unique set of skills",
