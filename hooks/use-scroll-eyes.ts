@@ -2,32 +2,29 @@
 
 import { useCallback, useEffect, useState } from "react";
 
-export type EyeOffset = { x: number; y: number };
-
-const EYE_OFFSET_MAX = 6;
-const SCROLL_FACTOR = 0.6;
+const MOVEMENT_RANGE = 16; // -8px to +8px
 
 /**
- * Returns an offset { x, y } for eye position based on scroll progress.
+ * Returns a Y offset (in pixels) for eye position based on scroll progress.
  * Eyes move downward as the user scrolls down the page.
+ * Uses GPU-friendly values for transform: translateY().
  */
-export function useScrollEyes(): EyeOffset {
-  const [offset, setOffset] = useState<EyeOffset>({ x: 0, y: 0 });
+export function useScrollEyes(): number {
+  const [offset, setOffset] = useState(0);
 
   const updateOffset = useCallback(() => {
     const scrollY = window.scrollY;
     const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
 
     if (scrollHeight <= 0) {
-      setOffset({ x: 0, y: 0 });
+      setOffset(0);
       return;
     }
 
-    const scrollProgress = Math.min(1, scrollY / scrollHeight);
-    const normalized = scrollProgress - 0.5;
-    const yOffset = normalized * EYE_OFFSET_MAX * SCROLL_FACTOR;
-
-    setOffset({ x: 0, y: yOffset });
+    const scrollPercent = scrollY / scrollHeight;
+    const newOffset = scrollPercent * MOVEMENT_RANGE - MOVEMENT_RANGE / 2;
+    console.log("newOffset", newOffset);
+    setOffset(newOffset);
   }, []);
 
   useEffect(() => {
