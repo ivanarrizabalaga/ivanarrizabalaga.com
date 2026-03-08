@@ -54,6 +54,57 @@ export function getPublicArtifacts(locale: Locale) {
   }));
 }
 
+export function getPosts(locale: Locale) {
+  return data.experience.publicArtifacts
+    .filter(
+      (a) =>
+        a.type === "post" && !a.details.URL?.includes("stackoverflow.com")
+    )
+    .map((a) => ({
+      ...a,
+      details: {
+        ...a.details,
+        name: resolveBilingual(a.details.name, locale),
+        description: a.details.description
+          ? resolveBilingual(a.details.description, locale)
+          : undefined,
+      },
+    }))
+    .sort((a, b) => {
+      const dateA = a.publishingDate
+        ? new Date(a.publishingDate).getTime()
+        : 0;
+      const dateB = b.publishingDate
+        ? new Date(b.publishingDate).getTime()
+        : 0;
+      return dateB - dateA;
+    });
+}
+
+export function getTalks(locale: Locale) {
+  return data.experience.publicArtifacts
+    .filter((a) => a.type === "talk")
+    .map((a) => ({
+      ...a,
+      details: {
+        ...a.details,
+        name: resolveBilingual(a.details.name, locale),
+        description: a.details.description
+          ? resolveBilingual(a.details.description, locale)
+          : undefined,
+      },
+    }))
+    .sort((a, b) => {
+      const dateA = a.publishingDate
+        ? new Date(a.publishingDate).getTime()
+        : 0;
+      const dateB = b.publishingDate
+        ? new Date(b.publishingDate).getTime()
+        : 0;
+      return dateB - dateA;
+    });
+}
+
 export function getStudies(locale: Locale) {
   return data.knowledge.studies;
 }

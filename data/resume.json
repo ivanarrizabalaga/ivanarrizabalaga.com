@@ -571,8 +571,8 @@
             "challenges": [
               {
                 "description": {
-                  "en": "Periodicis aimed to create real-time relationships between news from various sources, enabling users to follow stories from multiple perspectives and simplifying professionals' tasks.\n\nAs a founder, I:\n - Developed the startup's vision and business plan.\n - Engaged with potential investors and made critical decisions.\n\nAs an engineer, I created a native JavaScript extension for the Chrome browser that:\n - Detected when a user was on a 'news' page.\n - Extracted key information and displayed a real-time carousel of related news from other sources.\n\nThe project was selected twice as a Wayra finalist, Spain's leading accelerator, among hundreds of projects, and received excellent feedback.\n\n",
-                  "es": "Periodicis pretendía crear relaciones en tiempo real entre noticias de diversas fuentes, permitiendo a los usuarios seguir historias desde múltiples perspectivas y simplificando las tareas de los profesionales.\n\nComo fundador, yo:\n - Desarrollé la visión y el plan de negocio de la startup.\n - Me relacioné con inversores potenciales y tomé decisiones críticas.\n\nComo ingeniero, creé una extensión nativa en JavaScript para el navegador Chrome que:\n - Detectaba cuando un usuario estaba en una página de 'noticias'.\n - Extraía información clave y mostraba un carrusel en tiempo real de noticias relacionadas de otras fuentes.\n\nEl proyecto fue seleccionado dos veces como finalista de Wayra, el principal acelerador de España, entre cientos de proyectos, y recibió excelentes comentarios.\n\n"
+                  "en": "Periodicis aimed to create real-time relationships between news from various sources, enabling users to follow stories from multiple perspectives and simplifying professionals' tasks.\n\nAs a founder, I:\n - Developed the startup's vision and business plan.\n - Engaged with potential investors and made critical decisions.\n\nAs an engineer, I created a native JavaScript extension for the Chrome browser that:\n - Detected when a user was on a 'news' page.\n - Extracted key information and displayed a real-time carousel of related news from other sources.\n\nThe [project](https://www.youtube.com/watch?v=K2c9KJ5d2m4) was selected twice as a Wayra finalist, Spain's leading accelerator, among hundreds of projects, and received excellent feedback.\n\n",
+                  "es": "Periodicis pretendía crear relaciones en tiempo real entre noticias de diversas fuentes, permitiendo a los usuarios seguir historias desde múltiples perspectivas y simplificando las tareas de los profesionales.\n\nComo fundador, yo:\n - Desarrollé la visión y el plan de negocio de la startup.\n - Me relacioné con inversores potenciales y tomé decisiones críticas.\n\nComo ingeniero, creé una extensión nativa en JavaScript para el navegador Chrome que:\n - Detectaba cuando un usuario estaba en una página de 'noticias'.\n - Extraía información clave y mostraba un carrusel en tiempo real de noticias relacionadas de otras fuentes.\n\nEl [proyecto](https://www.youtube.com/watch?v=K2c9KJ5d2m4) fue seleccionado dos veces como finalista de Wayra, el principal acelerador de España, entre cientos de proyectos, y recibió excelentes comentarios.\n\n"
                 }
               }
             ],
@@ -1182,6 +1182,51 @@
         },
         "type": "post",
         "publishingDate": "2007-11-01"
+      },
+      {
+        "details": {
+          "name": {
+            "en": "Presentación de Blunder en Startup Grind Asturias",
+            "es": "Presentación de Blunder en Startup Grind Asturias"
+          },
+          "description": {
+            "en": "Blunder is an error-learning system in the form of a game/app that serves companies as a tool for transferring knowledge from workers. We also obtain an overview of our company's knowledge. Thanks to the forgetting curve algorithm, we achieve long-term knowledge retention in a fun way.",
+            "es": "Blunder es un sistema de aprendizaje por error en forma de juego/app, que sirve a las empresas como herramienta de transferencia del conocimiento de los trabajadores. Además obtenemos una radiografía del conocimiento de nuestra empresa. Por otra parte, gracias al algoritmo de la curva del olvido, logramos fijar el conocimiento a largo plazo de forma divertida."
+          },
+          "URL": "https://www.youtube.com/watch?v=Xpau_pP1XvE"
+        },
+        "type": "talk",
+        "publishingDate": "2015-08-25"
+      },
+      {
+        "details": {
+          "name": {
+            "en": "Zapiens: De legacy a producción y más alla",
+            "es": "Zapiens: De legacy a producción y más alla"
+          },
+          "description": {
+            "en": "What happens when one day you have a zip with code you don't know, no one to ask, and that code doesn't work? This is the story of the architecture and code changes that have taken Zapiens from a shared zip to a continuous integration environment on Amazon Web Services and to an auto-scaled system.",
+            "es": "¿Qué ocurre cuando un día tienes un zip con un código que no conoces, nadie a quien preguntar y ese código no funciona? Esta es la historia de los cambios de arquitectura y código que han llevado a Zapiens de un zip compartido a un entorno de integración continua en Amazon Web Services y a un sistema autoescalado."
+          },
+          "URL": "https://www.youtube.com/watch?v=bBu89GG0AII"
+        },
+        "type": "talk",
+        "publishingDate": "2018-04-16"
+      },
+      {
+        "details": {
+          "name": {
+            "en": "Software architecture, people and other juices",
+            "es": "Software architecture, people and other juices"
+          },
+          "description": {
+            "en": "A pragmatic and experience-based presentation on software architecture, how to deal with people, and some lessons learned over the past 18 years.",
+            "es": "Una presentación pragmática y basada en la experiencia sobre arquitectura de software, cómo tratar con las personas y algunas lecciones aprendidas durante los últimos 18 años."
+          },
+          "URL": "https://www.youtube.com/watch?v=9GQOcs-HG5A"
+        },
+        "type": "talk",
+        "publishingDate": "2023-04-10"
       }
     ]
   },

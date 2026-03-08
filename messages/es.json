@@ -32,7 +32,10 @@
     "explore": "Explora mi experiencia como"
   },
   "writing": {
-    "title": "Posts y Charlas"
+    "title": "Posts y Charlas",
+    "posts": "Posts",
+    "talks": "Charlas",
+    "navLabel": "Ir a sección"
   },
   "skills": {
     "title": "Un conjunto único de habilidades",
