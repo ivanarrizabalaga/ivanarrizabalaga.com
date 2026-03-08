@@ -17,7 +17,7 @@ export function ExperiencePageContent({ title }: Props) {
 
   return (
     <>
-      <div className="sticky top-(--header-height) z-40 -mx-4 border-b border-border/40 bg-background/95 px-4 py-4 backdrop-blur supports-backdrop-filter:bg-background/60">
+      <div className="sticky top-[var(--header-height)] z-40 -mx-4 border-b border-border/40 bg-background/95 px-4 py-4 backdrop-blur supports-[backdrop-filter]:bg-background/60 lg:top-0">
         <h1 className="font-mono text-2xl font-bold tracking-tight text-foreground md:text-3xl">{title}</h1>
         <div className="mt-4">
           <p className="font-mono text-sm text-foreground/70">

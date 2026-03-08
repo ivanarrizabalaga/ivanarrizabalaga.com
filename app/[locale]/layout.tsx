@@ -27,7 +27,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
       <ThemeProvider>
-        <div className="relative min-h-screen overflow-x-hidden bg-background text-foreground">
+        <div className="relative min-h-screen overflow-x-clip bg-background text-foreground">
           <Header />
           <Sidebar />
           <main className="pb-24 lg:ml-[360px]">{children}</main>
