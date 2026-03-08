@@ -2,7 +2,8 @@
 
 import { useCallback, useEffect, useState } from "react";
 
-const MOVEMENT_RANGE = 16; // -8px to +8px
+const EYE_OFFSET_MIN = -2.3; // top of scroll (eyes higher)
+const EYE_OFFSET_MAX = 7; // bottom of scroll (eyes lower)
 
 /**
  * Returns a Y offset (in pixels) for eye position based on scroll progress.
@@ -22,8 +23,7 @@ export function useScrollEyes(): number {
     }
 
     const scrollPercent = scrollY / scrollHeight;
-    const newOffset = scrollPercent * MOVEMENT_RANGE - MOVEMENT_RANGE / 2;
-    console.log("newOffset", newOffset);
+    const newOffset = EYE_OFFSET_MIN + scrollPercent * (EYE_OFFSET_MAX - EYE_OFFSET_MIN);
     setOffset(newOffset);
   }, []);
 
