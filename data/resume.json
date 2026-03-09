@@ -997,6 +997,24 @@
       {
         "details": {
           "name": {
+            "en": "Getting back to the basics: Ownership",
+            "es": "Volviendo a lo básico: Ownership"
+          },
+          "description": {
+            "en": "A short reflection on the importance of ownership in the software industry.",
+            "es": "My perspectiva personal sobre la importancia de la propiedad en la industria de la informática."
+          },
+          "URL": "https://medium.com/joor-engineering/getting-back-to-basics-ownership-f015e3c0bcff"
+        },
+        "type": "post",
+        "publishingDate": "2025-02-17",
+        "tags": [
+          "Management"
+        ]
+      },      
+      {
+        "details": {
+          "name": {
             "en": "Why was I rejected from my JOOR interview?",
             "es": "¿Por qué me rechazaron en mi entrevista de JOOR?"
           },
@@ -1048,6 +1066,24 @@
           "Management"
         ]
       },
+      {
+        "details": {
+          "name": {
+            "en": "The lost art of writing",
+            "es": "El arte perdido de escribir"
+          },
+          "description": {
+            "en": "Writing is the most underestimated skill in the software industry.",
+            "es": "Escribir es la habilidad menos valorada en la industria de la informática."
+          },
+          "URL": "https://medium.com/joor-engineering/the-lost-art-of-writing-24265c7a489f"
+        },
+        "type": "post",
+        "publishingDate": "2023-02-27",
+        "tags": [
+          "Management"
+        ]
+      },      
       {
         "details": {
           "name": {
