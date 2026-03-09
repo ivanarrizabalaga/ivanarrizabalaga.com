@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
@@ -6,6 +7,12 @@ import { getYouTubeVideoId } from "@/lib/utils";
 import { ExpandableSummary } from "@/components/expandable-summary";
 
 type Props = { params: Promise<{ locale: string }> };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "writing" });
+  return { title: t("title") };
+}
 
 export default async function WritingPage({ params }: Props) {
   const { locale } = await params;
