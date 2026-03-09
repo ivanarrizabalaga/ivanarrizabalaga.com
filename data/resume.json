@@ -1084,14 +1084,20 @@
   "knowledge": {
     "languages": [
       {
-        "name": "EN",
-        "fullName": "Inglés",
-        "level": "Native or bilingual proficiency"
-      },
-      {
         "name": "ES",
         "fullName": "Español",
-        "level": "Native or bilingual proficiency"
+        "description": {
+          "en": "Native speaker",
+          "es": "Lengua materna"
+        }
+      },      
+      {
+        "name": "EN",
+        "fullName": "English",
+        "description": {
+          "en": "Almost bilingual, except when I meet someone from Liverpool 😉",
+          "es": "Casi bilingüe, salvo cuando me topo con alguien de Liverpool 😉"
+        }
       }
     ],
     "hardSkills": [

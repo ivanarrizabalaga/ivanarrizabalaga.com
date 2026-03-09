@@ -134,5 +134,8 @@ export function getRelevantLinks(locale: Locale) {
 }
 
 export function getLanguages(locale: Locale) {
-  return data.knowledge.languages;
+  return data.knowledge.languages.map((l) => ({
+    ...l,
+    description: resolveBilingual(l.description, locale),
+  }));
 }

@@ -119,7 +119,7 @@ export interface RelevantLink {
 export interface Language {
   name: string;
   fullName: string;
-  level: string;
+  description: Bilingual<string>;
 }
 
 export interface HardSkill {

@@ -75,7 +75,7 @@ export default async function SkillsPage({ params }: Props) {
         <ul className="mt-4 space-y-2 text-base text-foreground/80">
           {languages.map((lang) => (
             <li key={lang.name}>
-              {lang.fullName} — {lang.level}
+              {lang.fullName} — {lang.description}
             </li>
           ))}
         </ul>
