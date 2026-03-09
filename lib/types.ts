@@ -104,6 +104,7 @@ export interface Profile {
   description: Bilingual<string>;
   avatar?: { link: string; alt: string };
   location?: Location;
+  email?: string;
 }
 
 export interface InterestingFact {
