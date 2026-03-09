@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import { getPosts, getTalks, getRecommendations } from "@/lib/data";
@@ -140,33 +141,56 @@ export default async function WritingPage({ params }: Props) {
         className="mt-12 scroll-mt-[calc(var(--header-height)+8rem)]"
       >
         <h2 className="font-mono text-lg font-semibold">{t("readings")}</h2>
-        <ul className="mt-4 space-y-4">
+        <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
           {sortedRecommendations.map((r) => (
-            <li key={r.title} className="rounded-lg border border-border p-4">
-              <a
-                href={r.URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium hover:underline"
-              >
-                {r.title}
-              </a>
-              {r.authors?.length && (
-                <p className="mt-1 text-base text-foreground/70">
-                  {r.authors.map((a) => `${a.name} ${a.surnames}`).join(", ")}
-                </p>
+            <a
+              key={r.title}
+              href={r.URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex gap-4 rounded-lg border border-border p-4 transition-colors hover:bg-accent"
+            >
+              {r.cover ? (
+                <div className="relative h-[140px] w-[92px] shrink-0 overflow-hidden rounded-md border border-border bg-muted">
+                  <Image
+                    src={r.cover}
+                    alt=""
+                    fill
+                    className="object-cover"
+                    sizes="92px"
+                  />
+                </div>
+              ) : (
+                <div
+                  className="flex h-[140px] w-[92px] shrink-0 items-center justify-center rounded-md border border-border bg-muted text-foreground/30"
+                  aria-hidden
+                >
+                  <span className="font-mono text-xs">No cover</span>
+                </div>
               )}
-              {r.publicationDate && (
-                <p className="mt-1 text-xs text-foreground/50">
-                  {new Date(r.publicationDate).getFullYear()}
-                </p>
-              )}
-              {r.summary && (
-                <p className="mt-2 text-base text-foreground/70">{r.summary}</p>
-              )}
-            </li>
+              <div className="min-w-0 flex-1">
+                <h3 className="font-medium text-foreground group-hover:underline">
+                  {r.title}
+                </h3>
+                {r.authors?.length ? (
+                  <p className="mt-1 text-sm text-foreground/70">
+                    {r.authors.map((a) => `${a.name} ${a.surnames}`).join(", ")}
+                  </p>
+                ) : null}
+                {r.publicationDate ? (
+                  <p className="mt-0.5 text-xs text-foreground/50">
+                    {new Date(r.publicationDate).getFullYear()}
+                  </p>
+                ) : null}
+                {r.summary ? (
+                  <p className="mt-2 line-clamp-3 text-sm text-foreground/70">
+                    {r.summary}
+                  </p>
+                ) : null}
+              </div>
+            </a>
           ))}
-        </ul>
+        </div>
       </section>
     </div>
   );

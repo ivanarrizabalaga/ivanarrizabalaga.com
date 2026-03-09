@@ -86,6 +86,7 @@ export interface Recommendation {
   title: string | Bilingual<string>;
   type: string;
   URL?: string;
+  cover?: string;
   summary?: Bilingual<string>;
   authors?: Author[];
   publicationDate?: string;

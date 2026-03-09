@@ -47,7 +47,8 @@
             "surnames": "Martin",
             "title": "Author"
           }
-        ]
+        ],
+        "cover": "/covers/clean-code-a-handbook-of-agile-software-craftsmans.jpg"
       },
       {
         "title": "Peopleware: Productive Projects and Teams (Second Edition)",
@@ -60,7 +61,8 @@
             "surnames": "DeMarco",
             "title": "Author"
           }
-        ]
+        ],
+        "cover": "/covers/peopleware-productive-projects-and-teams-second-ed.jpg"
       },
       {
         "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
@@ -73,7 +75,8 @@
             "surnames": "Gamma",
             "title": "Author"
           }
-        ]
+        ],
+        "cover": "/covers/design-patterns-elements-of-reusable-object-orient.jpg"
       },
       {
         "title": "Designing Data Intensive Applications",
@@ -90,7 +93,8 @@
             "surnames": "Kleppmann",
             "title": "Author"
           }
-        ]
+        ],
+        "cover": "/covers/designing-data-intensive-applications.jpg"
       },
       {
         "title": "Effective Programming: More Than Writing Code",
@@ -116,7 +120,8 @@
             "surnames": "Fried",
             "title": "Author"
           }
-        ]
+        ],
+        "cover": "/covers/getting-real-the-smarter-faster-easier-way-to-buil.jpg"
       },
       {
         "title": "Growing Object-Oriented Software, Guided by Tests",
@@ -129,7 +134,8 @@
             "surnames": "Freeman",
             "title": "Author"
           }
-        ]
+        ],
+        "cover": "/covers/growing-object-oriented-software-guided-by-tests.jpg"
       },
       {
         "title": "JavaScript: The Good Parts",
@@ -142,7 +148,8 @@
             "surnames": "Crockford",
             "title": "Author"
           }
-        ]
+        ],
+        "cover": "/covers/javascript-the-good-parts.jpg"
       },
       {
         "title": "Refactoring: Improving the Design of Existing Code",
@@ -155,7 +162,8 @@
             "surnames": "Fowler",
             "title": "Author"
           }
-        ]
+        ],
+        "cover": "/covers/refactoring-improving-the-design-of-existing-code.jpg"
       },
       {
         "title": "Rework",
@@ -168,7 +176,8 @@
             "surnames": "Fried",
             "title": "Author"
           }
-        ]
+        ],
+        "cover": "/covers/rework.jpg"
       },
       {
         "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create...",
@@ -181,7 +190,8 @@
             "surnames": "Ries",
             "title": "Author"
           }
-        ]
+        ],
+        "cover": "/covers/the-lean-startup-how-today-s-entrepreneurs-use-con.jpg"
       },
       {
         "title": "The Pragmatic Programmer: From Journeyman to Master",
@@ -194,7 +204,8 @@
             "surnames": "Hunt",
             "title": "Author"
           }
-        ]
+        ],
+        "cover": "/covers/the-pragmatic-programmer-from-journeyman-to-master.jpg"
       },
       {
         "title": "Team Topologies",
@@ -211,7 +222,8 @@
             "surnames": "Skelton, Manuel Pais",
             "title": "Author"
           }
-        ]
+        ],
+        "cover": "/covers/team-topologies.jpg"
       }
     ],
     "relevantLinks": [
@@ -1091,7 +1103,7 @@
           "en": "Native speaker",
           "es": "Lengua materna"
         }
-      },      
+      },
       {
         "name": "EN",
         "fullName": "English",
