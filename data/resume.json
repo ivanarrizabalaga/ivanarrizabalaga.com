@@ -251,8 +251,8 @@
             "challenges": [
               {
                 "description": {
-                  "en": "As VP of Engineering, my role is centered on scaling impact, not distance from the work.\n\nI aim to stay close to technical conversations so I can lead by example, informed judgment, and real context rather than abstraction. This allows me to guide architectural decisions, platform direction, and engineering standards with credibility and pragmatism.\n\nBeyond engineering, I’m intentionally broadening my influence across the organization—partnering with product, operations, and leadership to extend strong engineering practices into how we plan, execute, and measure work company-wide.\n\nKey focus areas for the role include:\n\n - Consolidating and modernizing core platform initiatives to reduce systemic risk, improve resilience, and create a foundation for long-term scalability.\n\n - Defining and driving an AI strategy that transforms our SDLC end-to-end—from discovery and design to delivery, operations, and learning—far beyond code assistance.\n\n - Shaping an execution model that favors clarity, ownership, and outcomes over process density, as teams and scope continue to grow.\n\nMy goal as VP is to ensure engineering remains a strategic advantage for the company: technically excellent, operationally efficient, and deeply aligned with business outcomes.",
-                  "es": "Como VP de Ingeniería, mi rol se centra en escalar el impacto, no en alejarme del trabajo.\n\nMe esfuerzo por mantenerme cerca de las conversaciones técnicas para poder liderar con el ejemplo, criterio informado y contexto real en lugar de abstracciones. Esto me permite guiar las decisiones arquitectónicas, la dirección de la plataforma y los estándares de ingeniería con credibilidad y pragmatismo.\n\nMás allá de la ingeniería, estoy ampliando intencionalmente mi influencia en la organización, colaborando con producto, operaciones y liderazgo para extender las buenas prácticas de ingeniería a cómo planificamos, ejecutamos y medimos el trabajo en toda la empresa.\n\nLas áreas clave del rol incluyen:\n\n - Consolidar y modernizar las iniciativas del núcleo de la plataforma para reducir el riesgo sistémico, mejorar la resiliencia y crear una base para la escalabilidad a largo plazo.\n\n - Definir e impulsar una estrategia de IA que transforme nuestro SDLC de extremo a extremo—desde el descubrimiento y diseño hasta la entrega, operaciones y aprendizaje—más allá de la asistencia de código.\n\n - Dar forma a un modelo de ejecución que favorezca la claridad, la propiedad y los resultados sobre la densidad de procesos, a medida que los equipos y el alcance siguen creciendo.\n\nMi objetivo como VP es asegurar que la ingeniería siga siendo una ventaja estratégica para la empresa: técnicamente excelente, operativamente eficiente y profundamente alineada con los resultados del negocio."
+                  "en": "As VP of Engineering, I've made my range of action larger, beyond engineering. I still love getting my hands dirty with technical conversations and some code, it's the only way I know how to lead. \n\nRight now, I'm wearing a few different hats: guiding architectural decisions, setting engineering standards, but also stepping out of the engineering bubble to partner with product and operations.\n\nMy day-to-day usually involves:\n\n - **Pushing our AI strategy** far beyond just having Cursor or Claude write code—we're rethinking the whole SDLC.\n\n- **Modernizing our core platform** to keep things resilient and scalable (and help us all sleep better at night).\n\n - **Keeping our execution lean**. As we grow, I want clarity and ownership, not a tangled web of heavy processes.\n\nUltimately, my goal is simple: keep our engineering team technically sharp, happy, and deeply connected to what the business actually needs.",
+                  "es": "Como VP de Ingeniería, me toca tener un rango de acción mas amplio, más alla de ingeniería. Me sigue encantando meterme en las conversaciones técnicas y algo de código, es la única forma de liderar que conozco. \n\nAhora mismo llevo varios sombreros: guío decisiones de arquitectura y fijo estándares, pero también salgo de la burbuja de desarrollo para colaborar con producto y operaciones.\n\nMi día a día suele implicar:\n\n - **Impulsar nuestra estrategia de IA** mucho más allá de usar Cursor o Claude para picar código: estamos replanteando todo el ciclo de vida del software.\n\n- **Modernizar nuestra plataforma core** para mantenerla resiliente y escalable (y poder dormir todos más tranquilos).\n\n - **Mantener una ejecución ágil**. A medida que crecemos, busco claridad y sentido de propiedad, no una red enmarañada de procesos pesados.\n\nEn el fondo, mi objetivo es simple: mantener a nuestro equipo de ingeniería técnicamente puntero, feliz y profundamente conectado con lo que el negocio realmente necesita."
                 }
               }
             ],
@@ -302,8 +302,8 @@
             "challenges": [
               {
                 "description": {
-                  "en": "As Senior Director of Engineering, I led a globally distributed team of 30+ engineers across multiple time zones, operating with an async-first mindset and a lean, pragmatic approach to the SDLC.\n\nMy focus has been on scaling impact rather than process: optimizing how teams work, how systems perform, and how the organization makes decisions. Key outcomes include:\n\n - Driving a **cost-efficiency** initiative that reduced AWS spend by over $200K while achieving 99.99% availability and improving platform **performance** by 15%.\n\n - Reinforcing an **async-first, low-ceremony operating model** that enabled high autonomy and consistent delivery across geographies.\n\n - Serving on an internal executive task force to **audit company operations** and propose structural and process changes to improve overall efficiency.\n\n - Leading the company’s initial **adoption of AI**, from accelerating development cycles to shipping the first major AI-powered customer features into production.\n\nThroughout this role, I’ve stayed close to both the technical and organizational layers, balancing system-level thinking with hands-on leadership to ensure we deliver measurable business outcomes without sacrificing engineering quality.",
-                  "es": "Como Director Senior de Ingeniería, lideré un equipo globalmente distribuido de más de 30 ingenieros en múltiples zonas horarias, operando con una mentalidad async-first y un enfoque lean y pragmático del SDLC.\n\nMi foco ha sido escalar el impacto más que el proceso: optimizar cómo trabajan los equipos, cómo rinden los sistemas y cómo la organización toma decisiones. Los resultados clave incluyen:\n\n - Impulsar una iniciativa de **eficiencia de costes** que redujo el gasto en AWS en más de 200.000$ manteniendo una disponibilidad del 99,99% y mejorando el **rendimiento** de la plataforma un 15%.\n\n - Reforzar un **modelo operativo async-first y de baja ceremonia** que permitió alta autonomía y entrega consistente entre geografías.\n\n - Participar en un grupo de trabajo ejecutivo interno para **auditar las operaciones de la empresa** y proponer cambios estructurales y de procesos para mejorar la eficiencia global.\n\n - Liderar la **adopción inicial de IA** de la empresa, desde acelerar ciclos de desarrollo hasta llevar las primeras funcionalidades importantes impulsadas por IA a producción.\n\nA lo largo de este rol, me he mantenido cerca tanto de las capas técnicas como organizativas, equilibrando el pensamiento a nivel de sistema con el liderazgo práctico para asegurar que entregamos resultados de negocio medibles sin sacrificar la calidad de ingeniería."
+                  "en": "As Senior Director of Engineering, I had the pleasure of leading a globally distributed team of over 30 engineers across multiple time zones. We operated with a heavy async-first mindset and kept our SDLC as lean and pragmatic as possible.\n\nInstead of piling up processes, I focused on making a real impact: fine-tuning how we worked, making our systems fly, and streamlining how we made decisions. Some of the wins I’m most proud of:\n\n - Spearheading a **cost-efficiency** drive that slashed our AWS bill by over $200K—all while keeping 99.99% availability and boosting platform **performance** by 15%.\n\n - Doubling down on our **async-first, low-ceremony** vibe, giving teams the autonomy they needed to deliver consistently, no matter where they were located.\n\n - Rolling up my sleeves with an executive task force to **audit how the company operated**, pushing for structural tweaks to make us way more efficient overall.\n\n - Kicking off our **first serious leap into AI**, taking it from speeding up how we wrote code to actually shipping major AI-powered features for our customers.\n\nI really tried to keep one foot in the tech and the other in the organizational side. It’s all about balancing big-picture system thinking with hands-on leadership, making sure we nailed our business goals without letting our engineering standards slip.",
+                  "es": "Como Director Senior de Ingeniería, tuve el placer de liderar un equipo de más de 30 ingenieros distribuidos globalmente en múltiples zonas horarias. Operábamos con una fuerte mentalidad async-first y manteníamos nuestro SDLC lo más lean y pragmático posible.\n\nEn lugar de acumular procesos, me centré en lograr un impacto real: afinar cómo trabajábamos, hacer que nuestros sistemas volaran y agilizar la toma de decisiones. Algunas de las victorias de las que me siento más orgulloso:\n\n - Liderar una iniciativa de **eficiencia de costes** que recortó nuestra factura de AWS en más de 200.000$, todo ello manteniendo un 99,99% de disponibilidad y mejorando el **rendimiento** de la plataforma un 15%.\n\n - Apostar a fondo por nuestro enfoque **async-first y de baja ceremonia**, dando a los equipos la autonomía necesaria para entregar de forma consistente, sin importar dónde estuvieran.\n\n - Remangarme junto a un grupo de trabajo ejecutivo para **auditar el funcionamiento de la empresa**, impulsando ajustes estructurales para hacernos mucho más eficientes a nivel global.\n\n - Arrancar nuestro **primer gran salto hacia la IA**, pasando de usarla para acelerar cómo escribíamos código a lanzar funcionalidades importantes impulsadas por IA para nuestros clientes.\n\nRealmente intenté mantener un pie en la tecnología y el otro en la parte organizativa. Se trata de equilibrar la visión de sistemas a gran escala con un liderazgo cercano, asegurando que cumplimos los objetivos de negocio sin dejar que nuestros estándares de ingeniería decaigan."
                 }
               }
             ],
@@ -349,8 +349,8 @@
             "challenges": [
               {
                 "description": {
-                  "en": "Managing a tribe made of exceptional engineers while building the world´s premier wholesale management system.\n\nFor the past two and a half years, I've served as a director of engineering, overseeing a transformation within our engineering department. Initially, the team comprised approximately 50 engineers, with 30 being consultants. Recognizing the low quality of the code and high costs, I initiated a comprehensive overhaul to improve our efficiency and deliverability.\n\nKey achievements include:\n\n - Leading a cultural shift towards asynchronous communication, critical minimal documentation, and the elimination of low-value agile ceremonies.\n - Streamlining the team to 35 members while enhancing productivity, resulting in significantly improved code quality.\n - Boosting CI/CD performance by 50% and reducing infrastructure costs by 50%.\n - Achieving high retention, with only three team members leaving since the transformation began.\n\nCurrently, I manage three engineering managers, two tech leads, and two staff engineers. I remain technically engaged, contributing to critical technical decisions and dedicating 15% of my time to hands-on coding (js, python, or even small legacy php bits if needed), ensuring I stay connected with the team's day-to-day challenges.",
-                  "es": "Gestionando una tribu de ingenieros excepcionales mientras construíamos el sistema de gestión mayorista líder mundial.\n\nDurante los últimos dos años y medio, he ejercido como director de ingeniería, supervisando una transformación dentro de nuestro departamento de ingeniería. Inicialmente, el equipo estaba formado por aproximadamente 50 ingenieros, 30 de ellos consultores. Reconociendo la baja calidad del código y los altos costes, inicié una reestructuración integral para mejorar nuestra eficiencia y capacidad de entrega.\n\nLos logros clave incluyen:\n\n - Liderar un cambio cultural hacia la comunicación asíncrona, documentación mínima crítica y eliminación de ceremonias ágiles de bajo valor.\n - Reducir el equipo a 35 miembros mejorando la productividad, con una calidad de código significativamente mejorada.\n - Aumentar el rendimiento de CI/CD un 50% y reducir los costes de infraestructura un 50%.\n - Lograr alta retención, con solo tres miembros del equipo que se han ido desde que comenzó la transformación.\n\nActualmente gestiono tres engineering managers, dos tech leads y dos staff engineers. Me mantengo técnicamente involucrado, contribuyendo a decisiones técnicas críticas y dedicando un 15% de mi tiempo a programar (js, python, o incluso pequeños fragmentos de php legacy si hace falta), asegurando que sigo conectado con los retos del día a día del equipo."
+                  "en": "When I stepped in as Director of Engineering, things needed a shake-up. We had about 50 engineers—30 of them external consultants—and to be honest, code quality was suffering while costs were through the roof. I decided it was time for a major overhaul to get us moving faster and building better things.\n\nHere’s what we pulled off:\n\n - Flipped the culture on its head: we embraced asynchronous communication, stuck to 'critical minimal documentation', and ditched agile ceremonies that were just wasting time.\n - Trimmed the team down to 35 core members, which ironically made us way more productive and significantly bumped up our code quality.\n - Supercharged our CI/CD performance by 50% and slashed infrastructure costs in half.\n - Built a place where people actually wanted to stay—we only had three folks leave after the whole transformation started.\n\nI was leading three engineering managers, two tech leads, and two staff engineers, but I never let myself get too far from the keyboard. I kept about 15% of my time sacred for hands-on coding (JavaScript, Python, and yes, even poking at some legacy PHP when duty called), so I never lost touch with the team's real, day-to-day headaches.",
+                  "es": "Cuando asumí el cargo de Director de Ingeniería, las cosas necesitaban un buen meneo. Teníamos unos 50 ingenieros (30 de ellos consultores externos) y, para ser sinceros, la calidad del código estaba sufriendo mientras los costes estaban por las nubes. Decidí que era hora de hacer una reestructuración integral para movernos más rápido y construir mejor.\n\nEsto es lo que conseguimos:\n\n - Le dimos la vuelta a la cultura: adoptamos la comunicación asíncrona, nos quedamos solo con la 'documentación mínima crítica' y nos libramos de ceremonias ágiles que solo nos hacían perder el tiempo.\n - Redujimos el equipo a 35 miembros fijos, lo que irónicamente nos hizo mucho más productivos y mejoró significativamente la calidad del código.\n - Aceleramos el rendimiento de nuestro CI/CD en un 50% y redujimos los costes de infraestructura a la mitad.\n - Creamos un lugar donde la gente realmente quería quedarse: solo tres personas se fueron después de que empezara toda la transformación.\n\nLideré a tres engineering managers, dos tech leads y dos staff engineers, pero nunca lo hice demasiado alejado del teclado. Mantenía un 15% de mi tiempo sagrado para programar (JavaScript, Python, y sí, incluso tocando algo de PHP legacy cuando tocaba), para no perder nunca el contacto con los verdaderos dolores de cabeza del día a día del equipo."
                 }
               }
             ],
@@ -400,8 +400,8 @@
             "challenges": [
               {
                 "description": {
-                  "en": "For almost two years, I've been the Head of Engineering, leading a diverse team of up to 15 engineers from Ukraine, Belarus, Israel, and primarily Spain. My main responsibility has been overseeing the technical integration of Sweetspot Intelligence, a Spain-based startup specializing in data visualization with RoR and BigQuery, into the data systems of ClickDimensions.\n\nKey achievements include:\n\n - Successfully leading the integration of Sweetspot Intelligence's product into ClickDimensions' data systems.\n - Refactoring data pipelines using a combination of Azure Data Factory and PySpark, resulting in a 90% reduction in solution costs.\n - Managing a geographically dispersed team while maintaining high levels of collaboration and productivity by redefining the SDLC processes.",
-                  "es": "Durante casi dos años, he sido el Head of Engineering, liderando un equipo diverso de hasta 15 ingenieros de Ucrania, Bielorrusia, Israel y principalmente España. Mi principal responsabilidad ha sido supervisar la integración técnica de Sweetspot Intelligence, una startup española especializada en visualización de datos con RoR y BigQuery, en los sistemas de datos de ClickDimensions.\n\nLos logros clave incluyen:\n\n - Liderar con éxito la integración del producto de Sweetspot Intelligence en los sistemas de datos de ClickDimensions.\n - Refactorizar los pipelines de datos usando una combinación de Azure Data Factory y PySpark, logrando una reducción del 90% en los costes de la solución.\n - Gestionar un equipo geográficamente disperso manteniendo altos niveles de colaboración y productividad redefiniendo los procesos del SDLC."
+                  "en": "For almost two years, I stepped into the Head of Engineering shoes, bringing together an awesome, culturally diverse group of up to 15 engineers from Ukraine, Belarus, Israel, and mostly Spain. The big mission? \n\nFiguring out how to wire up Sweetspot Intelligence (a Spanish data visualization startup built on Ruby on Rails and BigQuery) right into ClickDimensions' massive data systems.\n\nSome of the highlights of this journey:\n\n - Making that tricky product integration actually work, getting Sweetspot smoothly talking to ClickDimensions.\n - Tearing down and refactoring data pipelines with Azure Data Factory and PySpark. The best part? We managed to slash the solution costs by a whopping 90%!\n - Keeping a team that was scattered across the map deeply connected and highly productive, largely by completely rethinking our SDLC processes so people could just focus on doing great work.",
+                  "es": "Durante casi dos años, me puse en los zapatos de Head of Engineering, reuniendo a un grupo genial y culturalmente diverso de hasta 15 ingenieros de Ucrania, Bielorrusia, Israel y, sobre todo, España. \n\n¿La gran misión? Descubrir cómo conectar Sweetspot Intelligence (una startup española de visualización de datos construida con Ruby on Rails y BigQuery) directamente en los gigantescos sistemas de datos de ClickDimensions.\n\nAlgunos de los mejores momentos de este viaje:\n\n - Conseguir que esa complicada integración de productos realmente funcionara, haciendo que Sweetspot se entendiera sin problemas con ClickDimensions.\n - Desmontar y refactorizar los pipelines de datos con Azure Data Factory y PySpark. ¿La mejor parte? ¡Logramos reducir los costes de la solución en un espectacular 90%!\n - Mantener a un equipo disperso por el mapa profundamente conectado y altamente productivo, en gran parte repensando por completo nuestros procesos del SDLC para que la gente pudiera centrarse en hacer un gran trabajo."
                 }
               }
             ],
@@ -439,8 +439,8 @@
             "challenges": [
               {
                 "description": {
-                  "en": "I was the technical co-founder of Zapiens, initially working part-time with just 2.5 people on the team. As the idea gained traction, I transitioned to full-time and progressively built an engineering team of up to 15 members.\n\nKey achievements include:\n\n - Single-handedly developing the first version of the solution, which included a hybrid mobile app (available on Android, iOS, and even Blackberry) built with Ionic, a Spring Boot API, an Angular-based web admin site, and a MySQL database.\n - Evolving the original solution by dockerizing it for deployment in, both, shared AWS and private clouds for specific customers.\n - Introducing a **custom chatbot**, leveraging Python and Elasticsearch, before GPT models and during the early days of BERT.\n - Taking on the role of COO for several months, gaining exposure to support, sales, product, and marketing challenges, as the **company grew to 45 employees**.\n - Helping the company achieve around 10k recurring monthly users and nearly €1M in ARR.\n - Securing €1.5M in funding from the EU and establishing Zapiens' first partnership with Microsoft before my departure.",
-                  "es": "Fui el cofundador técnico de Zapiens, trabajando inicialmente a tiempo parcial con solo 2,5 personas en el equipo. A medida que la idea ganaba tracción, pasé a tiempo completo y construí progresivamente un equipo de ingeniería de hasta 15 miembros.\n\nLos logros clave incluyen:\n\n - Desarrollar en solitario la primera versión de la solución, que incluía una app móvil híbrida (disponible en Android, iOS e incluso Blackberry) construida con Ionic, una API Spring Boot, un sitio web de administración basado en Angular y una base de datos MySQL.\n - Evolucionar la solución original dockerizándola para despliegue tanto en AWS compartido como en nubes privadas para clientes específicos.\n - Introducir un **chatbot personalizado**, aprovechando Python y Elasticsearch, antes de los modelos GPT y durante los primeros días de BERT.\n - Asumir el rol de COO durante varios meses, exponiéndome a retos de soporte, ventas, producto y marketing, mientras la **empresa crecía hasta 45 empleados**.\n - Ayudar a la empresa a alcanzar alrededor de 10k usuarios mensuales recurrentes y casi 1M€ en ARR.\n - Obtener 1,5M€ de financiación de la UE y establecer la primera asociación de Zapiens con Microsoft antes de mi marcha."
+                  "en": "Ah, Zapiens! I jumped in as the technical co-founder, moonlighting at first with a grand total of 2.5 people on the team. When things started catching fire, I went all-in and ended up building and leading an engineering crew of 15 amazing folks.\n\nIt was a wild ride. Here’s what we pulled off:\n\n - I locked myself in a room and coded the entire V1 from scratch. We’re talking a hybrid mobile app (Android, iOS, and yes, even Blackberry!) built with Ionic, a Spring Boot API, an Angular admin panel, and a trusty MySQL db.\n - As we grew, I took that monolithic V1, dockerized it, and got it deploying smoothly across shared AWS environments and some highly secure private clouds for enterprise clients.\n - We built a **custom chatbot** using Python and Elasticsearch way before ChatGPT was cool—right around the time BERT was just taking its first steps.\n - I even wore the COO hat for a few months! Support, sales, product, and marketing while the **company skyrocketed to +40 employees**.\n - We hit a sweet spot: around 10k recurring monthly users and almost €1M in ARR.\n - Before I moved on to my next adventure, I helped secure €1.5M in EU funding and set up our very first partnership with Microsoft. Not bad!",
+                  "es": "¡Ah, Zapiens! Me lancé como cofundador técnico, trabajando a ratos libres al principio con un equipo de apenas 2,5 personas. Cuando la idea empezó a despegar de verdad, me dediqué a tiempo completo y acabé montando y liderando un equipo de ingeniería de 15 personas fantásticas.\n\nFue una aventura increíble. Esto es lo que conseguimos:\n\n - Me encerré a programar la primera versión entera desde cero. Hablamos de una app móvil híbrida (¡para Android, iOS y hasta Blackberry!) hecha con Ionic, una API en Spring Boot, un panel de administración en Angular y una bbdd MySQL.\n - A medida que crecíamos, cogí esa V1, la dockericé y la preparamos para desplegarse sin problemas tanto en AWS compartido como en nubes privadas superseguras para clientes corporativos.\n - Montamos un **chatbot personalizado** usando Python y Elasticsearch mucho antes de que ChatGPT se pusiera de moda, justo cuando BERT estaba dando sus primeros pasos.\n - ¡Incluso me puse el sombrero de COO durante unos meses! Soporte, ventas, producto y marketing mientras la **empresa se disparaba a +40 empleados**.\n - Alcanzamos un punto dulce: unos 10k usuarios recurrentes al mes y casi 1M€ de ARR.\n - Antes de pasar a mi siguiente aventura, ayudé a conseguir 1,5M€ de financiación de la UE y cerramos nuestro primer gran acuerdo con Microsoft. ¡Nada mal!"
                 }
               }
             ],
@@ -494,8 +494,8 @@
             "challenges": [
               {
                 "description": {
-                  "en": "I was hired as a freelance software engineer by EyeSeeTea (https://eyeseetea.com/). As their first hire, I joined the three founders in building solutions to address infectious disease containment in third-world countries.\n\nKey achievements include:\n\n - Developing a couple of Android native mobile apps in collaboration with the founders.\n - Utilizing DHIS2 (https://dhis2.org/) as the backend solution for these apps.\n - Localizing the apps into several languages to enhance accessibility and usability in diverse regions.",
-                  "es": "Fui contratado como ingeniero de software freelance por EyeSeeTea (https://eyeseetea.com/). Como su primera contratación, me uní a los tres fundadores para construir soluciones que abordaran la contención de enfermedades infecciosas en países del tercer mundo.\n\nLos logros clave incluyen:\n\n - Desarrollar un par de aplicaciones móviles nativas para Android en colaboración con los fundadores.\n - Utilizar DHIS2 (https://dhis2.org/) como solución backend para estas aplicaciones.\n - Localizar las aplicaciones en varios idiomas para mejorar la accesibilidad y usabilidad en diversas regiones."
+                  "en": "I jumped into EyeSeeTea (https://eyeseetea.com/) as a freelance software engineer—and actually, as their very first hire! I teamed up with the three founders to build tech solutions aimed at containing infectious diseases in developing countries. It felt incredibly meaningful.\n\nHere’s what we did:\n\n - Built a couple of native Android apps from the ground up alongside the founding team.\n - Plugged those apps straight into DHIS2 (https://dhis2.org/) to handle the heavy lifting on the backend.\n - Localized everything into multiple languages to make sure folks on the ground could actually use the tools, no matter where they were.",
+                  "es": "Me uní a EyeSeeTea (https://eyeseetea.com/) como ingeniero de software freelance... ¡y de hecho fui su primera contratación! Hice equipo con los tres fundadores para crear soluciones tecnológicas destinadas a contener enfermedades infecciosas en países en vías de desarrollo. Fue un trabajo con muchísimo sentido.\n\nEsto fue lo que hicimos:\n\n - Desarrollamos un par de aplicaciones nativas para Android desde cero junto al equipo fundador.\n - Conectamos esas apps directamente con DHIS2 (https://dhis2.org/) como nuestro motor backend.\n - Tradujimos y adaptamos todo a varios idiomas para asegurarnos de que la gente sobre el terreno pudiera usarlas de verdad, estuvieran donde estuvieran."
                 }
               }
             ],
@@ -532,8 +532,8 @@
             "challenges": [
               {
                 "description": {
-                  "en": "Nortia was a small startup that developed software products to help large companies make data-driven decisions based on metrics rather than opinions.\n\nAs the team leader of a small group of engineers (4 people), I:\n - Defined the product roadmap in collaboration with one of the founders.\n - Designed and implemented clear approaches to tackle programming challenges.\n - Promoted best practices in testing, designing, and programming within the team.\n\nOur main product, Segmentia, was a marketing automation tool that enabled non-technical users to find and communicate with segments of entities (customers, providers, etc.) within any datamart using a visual interface. Key achievements included:\n - Creating a full abstraction of the database and its drivers by developing an intermediate DSL that dynamically transformed into different SQL flavors.\n - Utilizing Grails for the backend, Griffon for the frontend, and a Groovy engine that connected both via RMI, with Gradle for build automation.\n - Deploying the software at several major clients, running on diverse datamarts with millions of rows.\n\nAdditionally, we developed other products, such as:\n - A POS-CRM: A Grails + Redis web app that provided real-time client information to the POS systems of a major supermarket chain via a REST API.\n - Konfides: A Grails-based solution for SMEs to engage clients with personalized communications and offers, built on top of a Drools rules engine.",
-                  "es": "Nortia era una pequeña startup que desarrollaba productos de software para ayudar a grandes empresas a tomar decisiones basadas en datos y métricas en lugar de opiniones.\n\nComo líder del equipo de un pequeño grupo de ingenieros (4 personas), yo:\n - Definí el roadmap del producto en colaboración con uno de los fundadores.\n - Diseñé e implementé enfoques claros para abordar los retos de programación.\n - Promoví las mejores prácticas en testing, diseño y programación dentro del equipo.\n\nNuestro producto principal, Segmentia, era una herramienta de automatización de marketing que permitía a usuarios no técnicos encontrar y comunicarse con segmentos de entidades (clientes, proveedores, etc.) dentro de cualquier datamart usando una interfaz visual. Los logros clave incluyeron:\n - Crear una abstracción completa de la base de datos y sus drivers desarrollando un DSL intermedio que se transformaba dinámicamente en diferentes variantes de SQL.\n - Utilizar Grails para el backend, Griffon para el frontend y un motor Groovy que conectaba ambos vía RMI, con Gradle para la automatización del build.\n - Desplegar el software en varios clientes importantes, ejecutándose en diversos datamarts con millones de filas.\n\nAdemás, desarrollamos otros productos, como:\n - Un POS-CRM: Una aplicación web Grails + Redis que proporcionaba información de clientes en tiempo real a los sistemas POS de una gran cadena de supermercados vía API REST.\n - Konfides: Una solución basada en Grails para pymes para captar clientes con comunicaciones y ofertas personalizadas, construida sobre un motor de reglas Drools."
+                  "en": "Nortia was this cool little startup building tools to help big companies make decisions based on actual data, rather than just gut feelings. I led a tight-knit squad of four engineers, and we wore a lot of hats.\n\nI got to help define the product roadmap directly with one of the founders, architect solutions for some pretty gnarly technical puzzles, and really push the team to embrace clean code and solid testing practices.\n\nOur crown jewel was *Segmentia*, a visual marketing automation tool that let non-technical folks slice and dice millions of rows of data across any datamart. We pulled off some neat tricks:\n - Built a custom DSL that completely abstracted the database layer, translating on the fly into different SQL dialects.\n - Rocked a Grails backend and a Griffon frontend, glued together by a Groovy engine over RMI (and used Gradle to keep our builds sane).\n - Shipped it to massive clients where it happily chewed through colossal datasets.\n\nWe didn’t stop there, though. We also spun up a Grails/Redis real-time CRM for a major supermarket's point-of-sale systems, and *Konfides*—a personalized marketing engine for SMEs built right on top of a Drools rules engine.",
+                  "es": "Nortia era una pequeña startup genial que creaba herramientas para que las grandes empresas tomaran decisiones basadas en datos reales, en lugar de intuiciones. Lideré un escuadrón muy unido de cuatro ingenieros y la verdad es que hacíamos de todo.\n\nAyudé a definir el roadmap del producto mano a mano con uno de los fundadores, diseñé soluciones para retos técnicos bastante peliagudos y empujé mucho al equipo para que adoptáramos un código limpio y buenas prácticas de testing.\n\nNuestra joya de la corona fue *Segmentia*, una herramienta visual de automatización de marketing que permitía a perfiles no técnicos filtrar y analizar millones de filas de datos en cualquier datamart. Hicimos algunas virguerías técnicas muy chulas:\n - Construimos un DSL propio que abstraía por completo la capa de base de datos, traduciéndose sobre la marcha a diferentes dialectos de SQL.\n - Nos montamos un backend en Grails y un frontend en Griffon, pegados por un motor Groovy vía RMI (usando Gradle para automatizar los builds).\n - Lo desplegamos en clientes gigantes donde devoraba conjuntos de datos colosales sin inmutarse.\n\nPero no nos quedamos ahí. También lanzamos un CRM en tiempo real (Grails + Redis) para los TPV de una importante cadena de supermercados, y *Konfides*: un motor de marketing personalizado para pymes construido sobre un motor de reglas Drools."
                 }
               }
             ],
@@ -571,8 +571,8 @@
             "challenges": [
               {
                 "description": {
-                  "en": "Periodicis aimed to create real-time relationships between news from various sources, enabling users to follow stories from multiple perspectives and simplifying professionals' tasks.\n\nAs a founder, I:\n - Developed the startup's vision and business plan.\n - Engaged with potential investors and made critical decisions.\n\nAs an engineer, I created a native JavaScript extension for the Chrome browser that:\n - Detected when a user was on a 'news' page.\n - Extracted key information and displayed a real-time carousel of related news from other sources.\n\nThe [project](https://www.youtube.com/watch?v=K2c9KJ5d2m4) was selected twice as a Wayra finalist, Spain's leading accelerator, among hundreds of projects, and received excellent feedback.\n\n",
-                  "es": "Periodicis pretendía crear relaciones en tiempo real entre noticias de diversas fuentes, permitiendo a los usuarios seguir historias desde múltiples perspectivas y simplificando las tareas de los profesionales.\n\nComo fundador, yo:\n - Desarrollé la visión y el plan de negocio de la startup.\n - Me relacioné con inversores potenciales y tomé decisiones críticas.\n\nComo ingeniero, creé una extensión nativa en JavaScript para el navegador Chrome que:\n - Detectaba cuando un usuario estaba en una página de 'noticias'.\n - Extraía información clave y mostraba un carrusel en tiempo real de noticias relacionadas de otras fuentes.\n\nEl [proyecto](https://www.youtube.com/watch?v=K2c9KJ5d2m4) fue seleccionado dos veces como finalista de Wayra, el principal acelerador de España, entre cientos de proyectos, y recibió excelentes comentarios.\n\n"
+                  "en": "Periodicis was my own startup experiment. The idea was to link breaking news from different sources in real-time, giving readers the full picture of a story across multiple perspectives while making life easier for journalists.\n\nPutting on the founder hat meant drafting the vision, writing the business plan, pitching to investors, and making the tough calls.\n\nBut I also got my hands dirty as an engineer. I built a native JavaScript Chrome extension that:\n - Magically detected when you were reading a news article.\n - Scraped the key context on the fly and popped up a sleek, real-time carousel showing how other outlets were covering the exact same story.\n\nWe actually got picked as a finalist for Wayra (Spain’s top accelerator) not once, but twice out of hundreds of startups. Even though we didn't go all the way, the feedback was fantastic and it was a massive learning experience.\n\n",
+                  "es": "Periodicis fue mi propio experimento de startup. La idea era conectar noticias de última hora de diferentes fuentes en tiempo real, dando a los lectores una visión completa de la historia desde múltiples perspectivas y facilitando la vida a los periodistas.\n\nPonerse el sombrero de fundador implicaba dar forma a la visión, redactar el plan de negocio, reunirme con inversores y tomar decisiones difíciles.\n\nPero también me manché las manos como ingeniero. Construí una extensión nativa de Chrome en JavaScript que:\n - Detectaba mágicamente cuándo estabas leyendo un artículo de noticias.\n - Extraía el contexto clave sobre la marcha y desplegaba un carrusel en tiempo real mostrando cómo otros medios cubrían esa misma noticia.\n\nLlegamos a ser finalistas de Wayra (la principal aceleradora de España) no una, ¡sino dos veces! entre cientos de startups. Aunque no llegamos hasta el final, el feedback fue fantástico y supuso un aprendizaje brutal.\n\n"
                 }
               }
             ],
@@ -605,8 +605,8 @@
             "challenges": [
               {
                 "description": {
-                  "en": "IECISA (Informática el Corte Inglés, S.A.) is the largest Spanish consulting firm, specializing in consulting services and outsourcing solutions.\n\nAfter serving as the regional eBusiness manager, I was promoted to software factory manager for the eBusiness division. In this role, I:\n\n - Managed a team of 25-30 people, overseeing a remote software factory that supported numerous projects across Spain (IECISA , Inves).\n - Promoted the adoption of agile practices within the team, reviewed workflows, and established a set of good practices to enhance efficiency.\n - Supervised projects primarily involving portal solutions, such as Vignette (now OpenText) and Liferay, for which I actively worked to secure a partnership in Spain.",
-                  "es": "IECISA (Informática el Corte Inglés, S.A.) es la mayor consultora española, especializada en servicios de consultoría y soluciones de outsourcing.\n\nDespués de ejercer como gerente regional de eBusiness, fui promovido a gerente de la fábrica de software de la división eBusiness. En este rol, yo:\n\n - Gestioné un equipo de 25-30 personas, supervisando una fábrica de software remota que apoyaba numerosos proyectos en toda España (IECISA, Inves).\n - Promoví la adopción de prácticas ágiles dentro del equipo, revisé los flujos de trabajo y establecí un conjunto de buenas prácticas para mejorar la eficiencia.\n - Supervisé proyectos principalmente relacionados con soluciones de portales, como Vignette (ahora OpenText) y Liferay, para los que trabajé activamente en conseguir una asociación en España."
+                  "en": "IECISA (now Ayesa) is basically a titan in the Spanish consulting and outsourcing world. \n\nAfter cutting my teeth as the regional eBusiness manager, I got bumped up to run the entire software factory for the eBusiness division. It was a big step up. I found myself:\n\n - Leading a remote team of 25-30 developers, acting as the engine room for projects all over Spain.\n - Shaking off the dust by pushing the team towards agile practices, overhauling our workflows, and setting up coding standards to make us run like a well-oiled machine.\n - Overseeing massive portal projects using heavyweight tools like Vignette (now OpenText) and Liferay—and I even helped hustle to secure a Liferay partnership in Spain.",
+                  "es": "IECISA (ahora Ayesa) es básicamente un titán en el mundo de la consultoría y el outsourcing en España.\n\nDespués de currarme el puesto como gerente regional de eBusiness, me ascendieron para dirigir toda la fábrica de software de la división. Fue un salto importante. Me encontré:\n\n - Liderando un equipo en remoto de 25-30 desarrolladores, siendo la sala de máquinas de proyectos por toda España.\n - Quitando el polvo a los procesos impulsando al equipo hacia prácticas ágiles, renovando nuestros flujos de trabajo y estableciendo estándares de código para que funcionáramos como un reloj.\n - Supervisando proyectos de portales masivos usando herramientas pesadas como Vignette (ahora OpenText) y Liferay—e incluso me moví para conseguir cerrar un acuerdo de partnership de Liferay en España."
                 }
               }
             ],
@@ -651,8 +651,8 @@
             "challenges": [
               {
                 "description": {
-                  "en": "As a regional manager, I began with a team of 4 people, which grew to 10 as we earned customer trust by delivering projects on time despite challenging circumstances.\n\nThis role taught me the importance of meticulous attention to detail, including:\n - Creating accurate estimations and following up with customers.\n - Choosing the right technical approaches.\n - Managing team motivation, addressing issues, and handling all related responsibilities.\n\nWe worked with both private and public clients, with a notable specialization in eGovernment. Some of our projects are still operational today (https://www.asturias.es/, https://www.astursalud.es/).",
-                  "es": "Como gerente regional, empecé con un equipo de 4 personas, que creció hasta 10 a medida que ganábamos la confianza de los clientes entregando proyectos a tiempo a pesar de circunstancias difíciles.\n\nEste rol me enseñó la importancia de una atención meticulosa al detalle, incluyendo:\n - Crear estimaciones precisas y hacer seguimiento con los clientes.\n - Elegir los enfoques técnicos adecuados.\n - Gestionar la motivación del equipo, abordar problemas y asumir todas las responsabilidades relacionadas.\n\nTrabajamos con clientes tanto privados como públicos, con una notable especialización en eGovernment. Algunos de nuestros proyectos siguen operativos hoy (https://www.asturias.es/, https://www.astursalud.es/)."
+                  "en": "I started out as a regional manager with a tiny but mighty team of 4. As we kept hitting our deadlines—even when things got really chaotic—we earned a lot of trust and eventually grew the team to 10.\n\nThis job was a crash course in sweating the details. I learned the hard way how to:\n - Nail down solid estimates and actually keep customers in the loop.\n - Pick technical solutions that wouldn't come back to haunt us later.\n - Keep the team's spirits high, put out fires, and juggle the million little things that come with management.\n\nWe tackled everything from private enterprise gigs to heavy-duty eGovernment systems. In fact, some of the stuff we built is still running the public portals for the region today (like https://www.asturias.es/ and https://www.astursalud.es/). Not bad for legacy code!",
+                  "es": "Empecé como gerente regional con un equipo pequeño pero matón de 4 personas. A base de cumplir plazos (incluso cuando todo era un caos), nos ganamos la confianza de los clientes y acabamos creciendo hasta ser 10.\n\nEste trabajo fue un máster acelerado en prestar atención a los detalles. Aprendí a base de golpes a:\n - Clavar estimaciones realistas y mantener de verdad informados a los clientes.\n - Elegir soluciones técnicas que no nos persiguieran como fantasmas años después.\n - Mantener la moral del equipo alta, apagar fuegos y hacer malabares con el millón de cosas que implica la gestión.\n\nHicimos de todo, desde proyectos para empresas privadas hasta sistemas súper pesados de eGovernment. De hecho, parte de lo que construimos sigue moviendo los portales públicos de la región a día de hoy (como https://www.asturias.es/ y https://www.astursalud.es/). ¡Nada mal para ser código legacy!"
                 }
               }
             ],
@@ -685,8 +685,8 @@
             "challenges": [
               {
                 "description": {
-                  "en": "Neo Metrics (now acquired by Accenture and renamed Accenture Analytics) was the first Spanish firm specializing in consulting analytics. During my time there, the company grew from 30 to 100 employees, providing me with the opportunity to navigate rapidly changing environments and occasional chaos.\n\nAs a project manager, I:\n\n - Led a team of 4 engineers to develop a Web 2.0 central repository of commercial actions for Spain’s largest bank, which operates globally.\n - Faced challenges including tight deadlines, a steep learning curve, and mastering a full stack (Spring MVC).",
-                  "es": "Neo Metrics (ahora adquirida por Accenture y renombrada Accenture Analytics) fue la primera empresa española especializada en consultoría de analytics. Durante mi tiempo allí, la empresa creció de 30 a 100 empleados, proporcionándome la oportunidad de navegar entornos de cambio rápido y ocasional caos.\n\nComo project manager, yo:\n\n - Lideré un equipo de 4 ingenieros para desarrollar un repositorio central Web 2.0 de acciones comerciales para el mayor banco de España, que opera globalmente.\n - Enfrenté retos como plazos ajustados, una curva de aprendizaje pronunciada y dominar un full stack (Spring MVC)."
+                  "en": "Neo Metrics (which later got swallowed up by Accenture to become Accenture Analytics) was basically the pioneer of consulting analytics in Spain. I was there during a crazy growth spurt—we shot from 30 to 100 employees. It was fast-paced, sometimes a little chaotic, but incredibly fun.\n\nI stepped up as a project manager and led a group of 4 engineers. Our mission? Build a massive, \"Web 2.0\" centralized repository of commercial actions for the biggest bank in Spain.\n\nIt was trial by fire: brutal deadlines, a ridiculously steep learning curve, and having to master a full Java stack (Spring MVC) on the fly. We survived, and delivered.",
+                  "es": "Neo Metrics (que luego fue absorbida por Accenture para convertirse en Accenture Analytics) fue básicamente pionera en consultoría analítica en España. Estuve allí durante un estirón de crecimiento brutal: pasamos de 30 a 100 empleados. Iba todo a mil por hora, a veces era un poco caótico, pero increíblemente divertido.\n\nDi el paso a project manager y lideré un grupo de 4 ingenieros. ¿Nuestra misión? Construir un repositorio centralizado masivo estilo \"Web 2.0\" de acciones comerciales para el banco más grande de España.\n\nFue una auténtica prueba de fuego: plazos brutales, una curva de aprendizaje ridículamente empinada y tener que dominar un stack completo de Java (Spring MVC) sobre la marcha. Sobrevivimos y entregamos el proyecto."
                 }
               }
             ],
@@ -727,8 +727,8 @@
             "challenges": [
               {
                 "description": {
-                  "en": "As a software engineer, I collaborated with data scientists to develop processes and applications that helped customers interpret their extensive data. I played a key engineering role in several notable projects, including:\n\n - Optimizing Advertisement Scheduling: Developed a system for a TV channel to find the optimal schedule for advertisements while meeting numerous constraints. This involved solving a system of 300,000 inequations using Ilog (a commercial mathematical library), managing JVM Garbage Collector issues, consuming SOAP services via XFire, and providing a remote API via RMI.\n\n - Social Network Analysis Prototype: Built a prototype for a Spanish telco using Eclipse RCP, enabling the examination of customer relationships as a graph (using JUNG) to forecast behavior when a community member leaves.\n\n - Custom Struts-based Pipeline Dashboard: Designed and programmed a custom dashboard for a leading media group. This project included developing the web application, designing the datamart, and creating ETL processes (using PL/SQL) to generate forecasts and metrics for billing and income projections.\n\n - Other Projects: Worked on various smaller yet impactful projects using SAS.",
-                  "es": "Como ingeniero de software, colaboré con científicos de datos para desarrollar procesos y aplicaciones que ayudaban a los clientes a interpretar sus extensos datos. Desempeñé un papel clave de ingeniería en varios proyectos notables, incluyendo:\n\n - Optimización de programación de anuncios: Desarrollé un sistema para un canal de TV para encontrar la programación óptima de anuncios cumpliendo numerosas restricciones. Esto implicó resolver un sistema de 300.000 inecuaciones usando Ilog (una librería matemática comercial), gestionar problemas del Garbage Collector de la JVM, consumir servicios SOAP vía XFire y proporcionar una API remota vía RMI.\n\n - Prototipo de análisis de redes sociales: Construí un prototipo para una operadora española usando Eclipse RCP, permitiendo examinar las relaciones de clientes como un grafo (usando JUNG) para predecir el comportamiento cuando un miembro de la comunidad se va.\n\n - Dashboard personalizado basado en Struts: Diseñé y programé un dashboard personalizado para un grupo de medios líder. Este proyecto incluyó desarrollar la aplicación web, diseñar el datamart y crear procesos ETL (usando PL/SQL) para generar pronósticos y métricas de facturación y proyecciones de ingresos.\n\n - Otros proyectos: Trabajé en varios proyectos más pequeños pero impactantes usando SAS."
+                  "en": "Back when I was purely a software engineer, I spent my days geeking out alongside data scientists. We built apps and data pipelines that actually made sense of our clients' massive datasets. I got to be the lead engineer on some seriously cool projects:\n\n - **The TV Ad Tetris:** We built a scheduling optimizer for a major TV network. It meant solving a beast of 300,000 inequations using a math library called Ilog. I spent way too much time battling the JVM Garbage Collector, wiring up SOAP services via XFire, and exposing a remote API using RMI.\n\n - **Graphing Social Networks:** Before social network analysis was everywhere, I built an Eclipse RCP prototype for a telco. We used JUNG to visualize customer networks as graphs, trying to predict who would cancel their contract if a key 'influencer' left the group.\n\n - **The Media Dashboard:** I designed a custom Struts-based forecasting dashboard for a huge media group. I built the web app, designed the datamart, and even wrote PL/SQL ETLs to predict billing and revenue.\n\n - Plus, I got to dive into plenty of smaller data-crunching scripts using SAS.",
+                  "es": "En mi época puramente de ingeniero de software, me pasaba los días frikeando junto a los científicos de datos. Construíamos aplicaciones y pipelines de datos para que los clientes pudieran entender la inmensidad de sus datos. Fui el ingeniero principal en algunos proyectos realmente chulos:\n\n - **El Tetris de los anuncios de TV:** Construimos un optimizador de programación para una cadena de televisión. Implicaba resolver una bestialidad de 300.000 inecuaciones matemáticas usando una librería llamada Ilog. Pasé demasiado tiempo peleándome con el Garbage Collector de la JVM, conectando servicios SOAP vía XFire y exponiendo una API remota usando RMI.\n\n - **Grafos de Redes Sociales:** Antes de que el análisis de redes sociales estuviera en todas partes, monté un prototipo en Eclipse RCP para una operadora. Usamos JUNG para visualizar las redes de clientes como grafos, intentando predecir quién se daría de baja si un 'influencer' clave del grupo se iba.\n\n - **El Dashboard de Medios:** Diseñé un dashboard de predicción personalizado basado en Struts para un enorme grupo de comunicación. Construí la app web, diseñé el datamart y hasta escribí las ETLs en PL/SQL para predecir facturación e ingresos.\n\n - Además, me harté de escribir pequeños scripts de procesamiento de datos usando SAS."
                 }
               }
             ],
@@ -766,8 +766,8 @@
             "challenges": [
               {
                 "description": {
-                  "en": "My first working experience was as a software engineer intern at the University of Oviedo's research lab ([API Uniovi](http://www.api.uniovi.es)).\n\nDuring this internship, I contributed to two projects:\n\n- **KM4SME (Knowledge Management for Small and Medium Enterprises)**: Developed an interactive web-based knowledge management model for SMEs, funded by the European Union, using SharePoint and .NET.\n\n- **Data Mining Application**: Created an application for a German factory to automatically optimize cutting widths in their production process, using .NET and DLLs.\n",
-                  "es": "Mi primera experiencia laboral fue como becario de ingeniero de software en el laboratorio de investigación de la Universidad de Oviedo ([API Uniovi](http://www.api.uniovi.es)).\n\nDurante esta beca, contribuí a dos proyectos:\n\n- **KM4SME (Gestión del conocimiento para pequeñas y medianas empresas)**: Desarrollé un modelo interactivo de gestión del conocimiento basado en web para pymes, financiado por la Unión Europea, usando SharePoint y .NET.\n\n- **Aplicación de minería de datos**: Creé una aplicación para una fábrica alemana para optimizar automáticamente los anchos de corte en su proceso de producción, usando .NET y DLLs.\n"
+                  "en": "This is where it all started! My very first gig was as a software engineer intern at my alma mater's research lab ([API Uniovi](http://www.api.uniovi.es)). It was the perfect sandbox to transition from studying code to actually writing it for real-world problems.\n\nI got my hands on two main projects:\n\n- **KM4SME:** An EU-funded project where we built an interactive knowledge management web portal for small businesses using SharePoint and .NET. \n\n- **The Factory Optimizer:** I wrote a sweet little .NET application using custom DLLs for a German factory. It used data mining to automatically optimize the cutting widths in their manufacturing process, saving them material and money.\n",
+                  "es": "¡Aquí empezó todo! Mi primerísimo trabajo fue como becario en el laboratorio de investigación de mi universidad ([API Uniovi](http://www.api.uniovi.es)). Fue el entorno de pruebas perfecto para pasar de estudiar código a escribirlo para problemas reales.\n\nMe metí de lleno en dos proyectos principales:\n\n- **KM4SME:** Un proyecto financiado por la UE donde construimos un portal web interactivo de gestión del conocimiento para pymes usando SharePoint y .NET.\n\n- **El Optimizador de Fábrica:** Escribí una pequeña pero interesante aplicación en .NET usando DLLs propias para una fábrica alemana. Usaba minería de datos para optimizar automáticamente los anchos de corte en su proceso de fabricación, ahorrándoles material y dinero.\n"
                 }
               }
             ],
@@ -790,8 +790,8 @@
         "details": {
           "name": "deepmimic.ai",
           "description": {
-            "en": "I helped [Haliooo Ventures](https://halioooo.com) build their first initiative with https://deepmimic.ai.\n\nThis platform allows businesses to create simulated markets, synthetic focus groups, and people to spot market signals, validate strategies, messages, pricing, ... prior to the real launch.\n\nAs a fractional tech advisor, I acted mostly as a senior IC, from design to programming and deploying.\n\nThe platform was built using DDD on top of NextJS, Typescript, Clerk, FastAPI, Postgres and served via Kubernetes in AWS.",
-            "es": "Ayudé a [Haliooo Ventures](https://halioooo.com) a construir su primera iniciativa con https://deepmimic.ai.\n\nEsta plataforma permite a las empresas crear mercados simulados, grupos focales sintéticos y detectar señales de mercado, validar estrategias, mensajes, precios, etc. antes del lanzamiento real.\n\nComo asesor técnico fractional, actué principalmente como IC senior, desde el diseño hasta la programación y el despliegue.\n\nLa plataforma se construyó usando DDD sobre NextJS, Typescript, Clerk, FastAPI, Postgres y se sirve vía Kubernetes en AWS."
+            "en": "I teamed up with [Haliooo Ventures](https://halioooo.com) to help them get their first big idea off the ground: https://deepmimic.ai.\n\nIt's a wild concept—a platform that lets businesses spin up simulated markets and synthetic focus groups. You can test out strategies, fine-tune messaging, or play with pricing using AI personas before launching in the real world.\n\nI came on board as a fractional tech advisor, but honestly, I spent most of my time acting as a senior IC. I was in the trenches doing everything from system design and coding to getting it deployed.\n\nUnder the hood, we used a DDD approach built on Next.js, TypeScript, Clerk, FastAPI, and Postgres, all orchestrated smoothly via Kubernetes on AWS.",
+            "es": "Hice equipo con [Haliooo Ventures](https://halioooo.com) para ayudarles a lanzar su primera gran iniciativa: https://deepmimic.ai.\n\nEs un concepto alucinante: una plataforma que permite a las empresas crear mercados simulados y grupos focales sintéticos. Puedes probar estrategias, afinar mensajes o jugar con los precios usando personas generadas por IA antes de lanzarte al mundo real.\n\nEntré como asesor técnico fractional, pero sinceramente, me pasé la mayor parte del tiempo actuando como IC senior. Estuve en las trincheras haciendo de todo, desde el diseño del sistema y la programación hasta el despliegue.\n\nBajo el capó, usamos un enfoque DDD construido sobre Next.js, TypeScript, Clerk, FastAPI y Postgres, todo orquestado sin problemas mediante Kubernetes en AWS."
           },
           "URL": "https://deepmimic.ai",
           "image": {
@@ -838,8 +838,8 @@
         "details": {
           "name": "Malariapp",
           "description": {
-            "en": "QoC Android App - Open-source quality assessments tool connected with DHIS2 Health Information Servers. Helps with health center assessments, featuring automatic survey generation and data sync with DHIS2.",
-            "es": "QoC Android App - Herramienta de evaluación de calidad de código abierto conectada con servidores de información sanitaria DHIS2. Ayuda con evaluaciones de centros de salud, con generación automática de encuestas y sincronización de datos con DHIS2."
+            "en": "QoC Android App - A cool open-source tool for quality assessments that hooks right into DHIS2 Health Information Servers. It makes assessing health centers a breeze by automatically generating surveys and keeping all the data perfectly synced with DHIS2.",
+            "es": "QoC Android App - Una herramienta open-source genial para evaluaciones de calidad que se conecta directamente con los servidores de información sanitaria DHIS2. Facilita muchísimo evaluar centros de salud generando encuestas automáticamente y manteniendo todos los datos perfectamente sincronizados."
           },
           "URL": "https://github.com/EyeSeeTea/malariapp",
           "image": {
@@ -874,8 +874,8 @@
         "details": {
           "name": "Pictureapp",
           "description": {
-            "en": "QIS Malaria Surveillance - Open-source mobile application designed to report positive cases of **malaria detected in Cambodia** in near real-time to a DHIS2 server. Used by healthcare providers in the field after mRDT tests.",
-            "es": "QIS Malaria Surveillance - Aplicación móvil de código abierto diseñada para reportar casos positivos de malaria detectados en Camboya en casi tiempo real a un servidor DHIS2. Utilizada por proveedores de salud en el terreno tras pruebas mRDT."
+            "en": "QIS Malaria Surveillance - An open-source mobile app built to report positive **malaria cases in Cambodia** to a DHIS2 server in near real-time. It's actively used by healthcare heroes right out in the field right after performing mRDT tests.",
+            "es": "QIS Malaria Surveillance - Una app móvil open-source construida para reportar casos positivos de **malaria en Camboya** a un servidor DHIS2 casi en tiempo real. La usan activamente los héroes de la salud directamente sobre el terreno tras realizar las pruebas mRDT."
           },
           "URL": "https://github.com/EyeSeeTea/pictureapp",
           "image": {
@@ -910,8 +910,8 @@
         "details": {
           "name": "pagerank",
           "description": {
-            "en": "A groovy implementation of the pagerank algorithm from the MMDS course from Standford (via Coursera)",
-            "es": "Una implementación en Groovy del algoritmo PageRank del curso MMDS de Stanford (vía Coursera)"
+            "en": "Just a fun Groovy implementation of the PageRank algorithm that I put together while taking the MMDS course from Stanford on Coursera.",
+            "es": "Simplemente una divertida implementación en Groovy del algoritmo PageRank que monté mientras hacía el curso MMDS de Stanford en Coursera."
           },
           "URL": "https://github.com/ivanarrizabalaga/pagerank"
         },
@@ -934,8 +934,8 @@
         "details": {
           "name": "binary-tree-challenge",
           "description": {
-            "en": "Programming mini-challenge: Building a binary tree builder",
-            "es": "Mini-reto de programación: Construir un constructor de árboles binarios"
+            "en": "A neat little programming mini-challenge: whipping up a binary tree builder.",
+            "es": "Un mini-reto de programación bastante majo: montarse un constructor de árboles binarios."
           },
           "URL": "https://github.com/ivanarrizabalaga/binary-tree-challenge"
         },
@@ -958,8 +958,8 @@
         "details": {
           "name": "state-diagram-challenge",
           "description": {
-            "en": "Programming mini-challenge: Building a state diagram evaluator",
-            "es": "Mini-reto de programación: Construir un evaluador de diagramas de estado"
+            "en": "Another fun programming mini-challenge: building an evaluator for state diagrams.",
+            "es": "Otro mini-reto de programación divertido: construir un evaluador para diagramas de estado."
           },
           "URL": "https://github.com/ivanarrizabalaga/state-diagram-challenge"
         },
@@ -1037,156 +1037,7 @@
       {
         "details": {
           "name": {
-            "en": "ivo43: Grails in prod with an external log4j properties",
-            "es": "ivo43: Grails en producción con propiedades log4j externas"
-          },
-          "description": {
-            "en": "Configuring external log4j for a production grails app.",
-            "es": "Configuración de log4j externo para una aplicación Grails en producción."
-          },
-          "URL": "http://ivo43.blogspot.com/2015/02/grails-in-prod-with-external-log4j.html"
-        },
-        "type": "post",
-        "publishingDate": "2015-02-01"
-      },
-      {
-        "details": {
-          "name": {
-            "en": "Importing external domain classes into Grails",
-            "es": "Importar clases de dominio externas en Grails"
-          },
-          "URL": "https://stackoverflow.com/questions/23654116/importing-external-domain-classes-into-grails/23737647#23737647"
-        },
-        "type": "post",
-        "publishingDate": "2014-05-01"
-      },
-      {
-        "details": {
-          "name": {
-            "en": "ivo43: Integrando Gorm en Griffon (only Spanish)",
-            "es": "ivo43: Integrando Gorm en Griffon (solo en español)"
-          },
-          "description": {
-            "en": "Using Gorm inside a Griffon project.",
-            "es": "Uso de Gorm dentro de un proyecto Griffon."
-          },
-          "URL": "http://ivo43.blogspot.com/2014/05/integrando-gorm-en-griffon.html"
-        },
-        "type": "post",
-        "publishingDate": "2014-05-01"
-      },
-      {
-        "details": {
-          "name": {
-            "en": "console2 uses the wrong JAVA_HOME",
-            "es": "console2 usa el JAVA_HOME incorrecto"
-          },
-          "URL": "https://stackoverflow.com/questions/16009082/console2-uses-the-wrong-java-home/16912735#16912735"
-        },
-        "type": "post",
-        "publishingDate": "2013-06-01"
-      },
-      {
-        "details": {
-          "name": {
-            "en": "ivo43: Griffon: flujo creacion mvc (only spanish available)",
-            "es": "ivo43: Griffon: flujo creación MVC (solo disponible en español)"
-          },
-          "description": {
-            "en": "Cuando se crea un MVC a través de una de las variantes de:",
-            "es": "Cuando se crea un MVC a través de una de las variantes de:"
-          },
-          "URL": "http://ivo43.blogspot.com/2013/03/griffon-flujo-creacion-mvc.html"
-        },
-        "type": "post",
-        "publishingDate": "2013-03-01"
-      },
-      {
-        "details": {
-          "name": {
-            "en": "ivo43: Desmontando Log4j (only spanish available)",
-            "es": "ivo43: Desmontando Log4j (solo disponible en español)"
-          },
-          "description": {
-            "en": "Buenas, a quién queremos engañar, la mayoría llevamos años haciendo configuraciones de Log4j gracias a Google, copiando y pegando cachos hasta que funciona...técnicamente es lo que se conoce como…",
-            "es": "Buenas, a quién queremos engañar, la mayoría llevamos años haciendo configuraciones de Log4j gracias a Google, copiando y pegando cachos hasta que funciona...técnicamente es lo que se conoce como…"
-          },
-          "URL": "http://ivo43.blogspot.com/2013/02/desmontando-log4j.html"
-        },
-        "type": "post",
-        "publishingDate": "2013-02-01"
-      },
-      {
-        "details": {
-          "name": {
-            "en": "Debugging Griffon in Eclipse/STS — ivo43",
-            "es": "Depurar Griffon en Eclipse/STS — ivo43"
-          },
-          "description": {
-            "en": "How to debug your Griffon project under Eclipse/STS? Finally the answer.",
-            "es": "¿Cómo depurar tu proyecto Griffon en Eclipse/STS? Por fin la respuesta."
-          },
-          "URL": "http://ivo43.blogspot.com.es/2012/02/debugging-griffon-in-eclipsests.html"
-        },
-        "type": "post",
-        "publishingDate": "2012-02-01"
-      },
-      {
-        "details": {
-          "name": {
-            "en": "\"Adku is hiring\", the solution — ivo43",
-            "es": "\"Adku está contratando\", la solución — ivo43"
-          },
-          "description": {
-            "en": "The answer to a funny recruitment game posted by Adku, and a couple of thoughts about computing science and consulting.",
-            "es": "La respuesta a un divertido juego de reclutamiento publicado por Adku, y un par de reflexiones sobre informática y consultoría."
-          },
-          "URL": "http://ivo43.blogspot.com.es/2011/03/un-juego-ii.html"
-        },
-        "type": "post",
-        "publishingDate": "2011-03-01"
-      },
-      {
-        "details": {
-          "name": {
-            "en": "Online HTML/CSS/Javascript learning reference alternative to w3schools?",
-            "es": "¿Referencia de aprendizaje online de HTML/CSS/Javascript alternativa a w3schools?"
-          },
-          "URL": "https://stackoverflow.com/questions/4662304/online-html-css-javascript-learning-reference-alternative-to-w3schools/4662820#4662820"
-        },
-        "type": "post",
-        "publishingDate": "2011-01-01"
-      },
-      {
-        "details": {
-          "name": {
-            "en": "JAVASCRIPT - Why isn't this object changed?",
-            "es": "JAVASCRIPT - ¿Por qué no se cambia este objeto?"
-          },
-          "URL": "https://stackoverflow.com/questions/4557185/javascript-why-isnt-this-object-changed/4557522#4557522"
-        },
-        "type": "post",
-        "publishingDate": "2010-12-01"
-      },
-      {
-        "details": {
-          "name": {
-            "en": "Somos unos mantas (only available in spanish) — ivo43",
-            "es": "Somos unos mantas (solo disponible en español) — ivo43"
-          },
-          "description": {
-            "en": "Cuando empece a estudiar Informática tenía la ilusión de convertirme en alguien que hiciera un montón de cosas interesantes, cuyo trabajo en el día a día fuera respetado...",
-            "es": "Cuando empece a estudiar Informática tenía la ilusión de convertirme en alguien que hiciera un montón de cosas interesantes, cuyo trabajo en el día a día fuera respetado..."
-          },
-          "URL": "http://ivo43.blogspot.com/2007/11/somos-unos-mantas.html"
-        },
-        "type": "post",
-        "publishingDate": "2007-11-01"
-      },
-      {
-        "details": {
-          "name": {
-            "en": "Presentación de Blunder en Startup Grind Asturias",
+            "en": "Blunder presentation at Startup Grind Asturias",
             "es": "Presentación de Blunder en Startup Grind Asturias"
           },
           "description": {
@@ -1201,7 +1052,7 @@
       {
         "details": {
           "name": {
-            "en": "Zapiens: De legacy a producción y más alla",
+            "en": "Zapiens: From legacy to production and beyond",
             "es": "Zapiens: De legacy a producción y más alla"
           },
           "description": {
@@ -1217,7 +1068,7 @@
         "details": {
           "name": {
             "en": "Software architecture, people and other juices",
-            "es": "Software architecture, people and other juices"
+            "es": "Arquitectura de software, personas y otros jugos"
           },
           "description": {
             "en": "A pragmatic and experience-based presentation on software architecture, how to deal with people, and some lessons learned over the past 18 years.",
