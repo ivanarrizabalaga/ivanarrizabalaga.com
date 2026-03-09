@@ -36,7 +36,9 @@
     "posts": "Posts",
     "talks": "Talks",
     "readings": "Readings",
-    "navLabel": "Jump to section"
+    "navLabel": "Jump to section",
+    "showMore": "Show more",
+    "showLess": "Show less"
   },
   "skills": {
     "title": "A unique set of skills",

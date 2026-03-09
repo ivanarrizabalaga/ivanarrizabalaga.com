@@ -3,6 +3,7 @@ import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import { getPosts, getTalks, getRecommendations } from "@/lib/data";
 import { getYouTubeVideoId } from "@/lib/utils";
+import { ExpandableSummary } from "@/components/expandable-summary";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -183,9 +184,12 @@ export default async function WritingPage({ params }: Props) {
                   </p>
                 ) : null}
                 {r.summary ? (
-                  <p className="mt-2 line-clamp-3 text-sm text-foreground/70">
-                    {r.summary}
-                  </p>
+                  <ExpandableSummary
+                    summary={r.summary}
+                    showMoreLabel={t("showMore")}
+                    showLessLabel={t("showLess")}
+                    className="mt-2"
+                  />
                 ) : null}
               </div>
             </a>

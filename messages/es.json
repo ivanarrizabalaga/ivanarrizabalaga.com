@@ -36,7 +36,9 @@
     "posts": "Posts",
     "talks": "Charlas",
     "readings": "Lecturas",
-    "navLabel": "Ir a sección"
+    "navLabel": "Ir a sección",
+    "showMore": "Ver más",
+    "showLess": "Ver menos"
   },
   "skills": {
     "title": "Un conjunto único de habilidades",
