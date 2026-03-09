@@ -34,9 +34,6 @@ export async function generateMetadata(): Promise<Metadata> {
       template: "%s | Iván Arrizabalaga",
     },
     description,
-    icons: {
-      icon: "/favicon.ico",
-    },
     openGraph: {
       type: "website",
       siteName: "Iván Arrizabalaga",
