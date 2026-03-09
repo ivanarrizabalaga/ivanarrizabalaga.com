@@ -1,6 +1,6 @@
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
-import { getPosts, getTalks } from "@/lib/data";
+import { getPosts, getTalks, getRecommendations } from "@/lib/data";
 import { getYouTubeVideoId } from "@/lib/utils";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -11,11 +11,23 @@ export default async function WritingPage({ params }: Props) {
 
   const posts = getPosts(locale as "en" | "es");
   const talks = getTalks(locale as "en" | "es");
+  const recommendations = getRecommendations(locale as "en" | "es");
   const t = await getTranslations("writing");
+
+  const sortedRecommendations = [...recommendations].sort((a, b) => {
+    const dateA = a.publicationDate
+      ? new Date(a.publicationDate).getTime()
+      : 0;
+    const dateB = b.publicationDate
+      ? new Date(b.publicationDate).getTime()
+      : 0;
+    return dateB - dateA;
+  });
 
   const sections: { id: string; label: string }[] = [
     { id: "posts", label: t("posts") },
     { id: "talks", label: t("talks") },
+    { id: "readings", label: t("readings") },
   ];
 
   return (
@@ -120,6 +132,40 @@ export default async function WritingPage({ params }: Props) {
               </li>
             );
           })}
+        </ul>
+      </section>
+
+      <section
+        id="readings"
+        className="mt-12 scroll-mt-[calc(var(--header-height)+8rem)]"
+      >
+        <h2 className="font-mono text-lg font-semibold">{t("readings")}</h2>
+        <ul className="mt-4 space-y-4">
+          {sortedRecommendations.map((r) => (
+            <li key={r.title} className="rounded-lg border border-border p-4">
+              <a
+                href={r.URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium hover:underline"
+              >
+                {r.title}
+              </a>
+              {r.authors?.length && (
+                <p className="mt-1 text-base text-foreground/70">
+                  {r.authors.map((a) => `${a.name} ${a.surnames}`).join(", ")}
+                </p>
+              )}
+              {r.publicationDate && (
+                <p className="mt-1 text-xs text-foreground/50">
+                  {new Date(r.publicationDate).getFullYear()}
+                </p>
+              )}
+              {r.summary && (
+                <p className="mt-2 text-base text-foreground/70">{r.summary}</p>
+              )}
+            </li>
+          ))}
         </ul>
       </section>
     </div>

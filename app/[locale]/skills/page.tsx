@@ -2,7 +2,6 @@ import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import {
   getStudies,
-  getRecommendations,
   getHardSkills,
   getLanguages,
 } from "@/lib/data";
@@ -14,7 +13,6 @@ export default async function SkillsPage({ params }: Props) {
   setRequestLocale(locale);
 
   const studies = getStudies(locale as "en" | "es");
-  const recommendations = getRecommendations(locale as "en" | "es");
   const hardSkills = getHardSkills(locale as "en" | "es");
   const languages = getLanguages(locale as "en" | "es");
   const t = await getTranslations("skills");
@@ -31,15 +29,6 @@ export default async function SkillsPage({ params }: Props) {
       (a, b) =>
         new Date(b.startDate).getTime() - new Date(a.startDate).getTime()
     );
-  const sortedRecommendations = [...recommendations].sort((a, b) => {
-    const dateA = a.publicationDate
-      ? new Date(a.publicationDate).getTime()
-      : 0;
-    const dateB = b.publicationDate
-      ? new Date(b.publicationDate).getTime()
-      : 0;
-    return dateB - dateA;
-  });
 
   const sections: { id: string; label: string }[] = [
     { id: "languages", label: t("languages") },
@@ -47,7 +36,6 @@ export default async function SkillsPage({ params }: Props) {
     ...(certifications.length > 0
       ? [{ id: "courses", label: t("courses") }]
       : []),
-    { id: "books", label: t("books") },
   ];
 
   return (
@@ -123,37 +111,6 @@ export default async function SkillsPage({ params }: Props) {
           </ul>
         </section>
       )}
-
-      <section id="books" className="mt-12 scroll-mt-[calc(var(--header-height)+8rem)]">
-        <h2 className="font-mono text-lg font-semibold">{t("books")}</h2>
-        <ul className="mt-4 space-y-4">
-          {sortedRecommendations.map((r) => (
-            <li key={r.title} className="rounded-lg border border-border p-4">
-              <a
-                href={r.URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium hover:underline"
-              >
-                {r.title}
-              </a>
-              {r.authors?.length && (
-                <p className="mt-1 text-base text-foreground/70">
-                  {r.authors.map((a) => `${a.name} ${a.surnames}`).join(", ")}
-                </p>
-              )}
-              {r.publicationDate && (
-                <p className="mt-1 text-xs text-foreground/50">
-                  {new Date(r.publicationDate).getFullYear()}
-                </p>
-              )}
-              {r.summary && (
-                <p className="mt-2 text-base text-foreground/70">{r.summary}</p>
-              )}
-            </li>
-          ))}
-        </ul>
-      </section>
     </div>
   );
 }

@@ -2,7 +2,7 @@
   "nav": {
     "home": "Home",
     "experience": "Experience",
-    "writing": "Posts & Talks",
+    "writing": "Posts",
     "skills": "Skills",
     "contact": "Contact"
   },
@@ -32,9 +32,10 @@
     "explore": "Explore my experiences as"
   },
   "writing": {
-    "title": "Posts & Talks",
+    "title": "Posts, talks and readings",
     "posts": "Posts",
     "talks": "Talks",
+    "readings": "Readings",
     "navLabel": "Jump to section"
   },
   "skills": {
