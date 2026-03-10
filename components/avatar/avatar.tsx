@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import { cn } from "@/lib/utils";
 import { useScrollEyes } from "@/hooks/use-scroll-eyes";
+import { useMouseEyes } from "@/hooks/use-mouse-eyes";
 
 const ASSETS = {
   light: {
@@ -23,7 +24,8 @@ type AvatarProps = {
 export function Avatar({ className }: AvatarProps) {
   const { resolvedTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
-  const eyeOffset = useScrollEyes();
+  const eyeOffsetY = useScrollEyes();
+  const eyeOffsetX = useMouseEyes();
 
   useEffect(() => {
     setMounted(true);
@@ -51,7 +53,9 @@ export function Avatar({ className }: AvatarProps) {
         alt=""
         aria-hidden
         className="block w-full h-auto absolute top-0 left-0 transition-transform duration-100 ease-out"
-        style={{ transform: `translateY(${eyeOffset}px)` }}
+        style={{
+          transform: `translate(${eyeOffsetX}px, ${eyeOffsetY}px)`,
+        }}
       />
     </div>
   );
