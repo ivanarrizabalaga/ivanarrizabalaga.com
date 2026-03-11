@@ -1,4 +1,3 @@
-import { cookies } from "next/headers";
 import { NextRequest, NextResponse } from "next/server";
 
 const AUTH_COOKIE_NAME = "ivo_authorized";
