@@ -46,14 +46,14 @@ export default function IvoChat({ authorized }: Props) {
             }`}
           >
             <div
-              className={`max-w-[80%] rounded-md px-3 py-2 text-xs leading-relaxed ${
+              className={`max-w-[80%] rounded-md px-3 py-2 leading-relaxed ${
                 message.role === "user"
                   ? "bg-foreground text-background"
                   : "bg-muted text-foreground"
               }`}
             >
               {message.role === "assistant" ? (
-                <div className="text-xs leading-relaxed [&_p]:my-1 [&_p]:whitespace-pre-wrap [&_a]:underline [&_a]:underline-offset-4 [&_a]:decoration-foreground/40 hover:[&_a]:decoration-foreground [&_ul]:list-disc [&_ul]:pl-4 [&_ol]:list-decimal [&_ol]:pl-4 [&_code]:font-mono [&_pre]:my-2 [&_pre]:rounded [&_pre]:bg-background/60 [&_pre]:p-2">
+                <div className="leading-relaxed [&_p]:my-1 [&_p]:whitespace-pre-wrap [&_a]:underline [&_a]:underline-offset-4 [&_a]:decoration-foreground/40 hover:[&_a]:decoration-foreground [&_ul]:list-disc [&_ul]:pl-4 [&_ol]:list-decimal [&_ol]:pl-4 [&_code]:font-mono [&_pre]:my-2 [&_pre]:rounded [&_pre]:bg-background/60 [&_pre]:p-2">
                   <ReactMarkdown>{getMessageText(message)}</ReactMarkdown>
                 </div>
               ) : (
@@ -82,7 +82,7 @@ export default function IvoChat({ authorized }: Props) {
         className="flex items-center gap-2 rounded-md border border-border/60 bg-background/90 px-2 py-1"
       >
         <input
-          className="flex-1 bg-transparent px-2 py-1 text-sm text-foreground outline-none placeholder:text-foreground/50"
+          className="flex-1 bg-transparent px-2 py-1 text-foreground outline-none placeholder:text-foreground/50"
           placeholder={t("chat.inputPlaceholder")}
           value={input}
           onChange={(e) => setInput(e.target.value)}

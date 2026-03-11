@@ -1,27 +1,21 @@
 import { cookies } from "next/headers";
 import { NextRequest } from "next/server";
-import { streamText } from "ai";
-import { createTogetherAI } from "@ai-sdk/togetherai";
 
-import resumeData from "@/data/resume.json";
-import { IVO_SYSTEM_PROMPT } from "@/lib/ai/ivo-system-prompt";
-import { toModelMessages, type IncomingMessage } from "@/lib/ai/chat-messages";
+import { toModelMessages, type IncomingMessage, type ModelMessage } from "@/lib/ai/chat-messages";
 import { jsonError } from "@/lib/api-utils";
 import { createLogger, requestId } from "@/lib/logger";
+import type { Logger } from "@/lib/logger";
+
+import { IvoChatHandler } from "./ivo-chat-handler";
 
 const AUTH_COOKIE_NAME = "ivo_authorized";
 const AUTH_COOKIE_VALUE = "v1";
-const DEFAULT_MODEL = "moonshotai/Kimi-K2.5";
 
-export async function POST(request: NextRequest) {
-  const id = requestId("ivo");
-  const log = createLogger(id);
+type CookieStore = Awaited<ReturnType<typeof cookies>>;
 
-  log.info("ivo chat POST start");
-
-  const cookieStore = await cookies();
+/** Returns 401 Response if not authorized, null if OK. */
+async function checkAuth(cookieStore: CookieStore, log: Logger): Promise<Response | null> {
   const authCookie = cookieStore.get(AUTH_COOKIE_NAME);
-
   if (authCookie?.value !== AUTH_COOKIE_VALUE) {
     log.info("auth failed", { hasCookie: !!authCookie });
     return jsonError(
@@ -29,7 +23,24 @@ export async function POST(request: NextRequest) {
       401,
     );
   }
+  return null;
+}
 
+/** Returns API key or null (caller should return 503). */
+function getApiKey(log: Logger): string | null {
+  const apiKey = process.env.TOGETHERAI_API_KEY;
+  if (!apiKey) {
+    log.warn("missing TOGETHERAI_API_KEY");
+    return null;
+  }
+  return apiKey;
+}
+
+/** Parses request body and returns model messages, or an error Response. */
+async function fetchUserMessages(
+  request: NextRequest,
+  log: Logger,
+): Promise<ModelMessage[] | Response> {
   let input: unknown;
   try {
     input = await request.json();
@@ -39,62 +50,41 @@ export async function POST(request: NextRequest) {
   }
 
   const { messages } = input as { messages?: IncomingMessage[] };
-
   if (!messages || !Array.isArray(messages)) {
-    log.info("invalid payload", { hasMessages: !!messages, isArray: Array.isArray(messages) });
+    log.info("invalid payload", {
+      hasMessages: !!messages,
+      isArray: Array.isArray(messages),
+    });
     return jsonError("Invalid request payload: messages are required.", 400);
   }
 
-  const modelName = process.env.IVO_MODEL_NAME ?? DEFAULT_MODEL;
-  const apiKey = process.env.TOGETHERAI_API_KEY;
+  return toModelMessages(messages);
+}
 
+export async function POST(request: NextRequest) {
+  const id = requestId("ivo");
+  const log = createLogger(id);
+
+  log.info("ivo chat POST start");
+
+  const cookieStore = await cookies();
+  const authError = await checkAuth(cookieStore, log);
+  if (authError) return authError;
+
+  const apiKey = getApiKey(log);
   if (!apiKey) {
-    log.warn("missing TOGETHERAI_API_KEY");
     return jsonError(
       "Ivo is temporarily offline. Please reach out to the real Iván on LinkedIn instead.",
       503,
     );
   }
 
-  const systemWithResume = [
-    IVO_SYSTEM_PROMPT.trim(),
-    "",
-    "Here is the JSON representation of Iván's resume. Use it as the single source of truth for factual career details:",
-    JSON.stringify(resumeData),
-  ].join("\n\n");
+  const messagesOrError = await fetchUserMessages(request, log);
+  if (messagesOrError instanceof Response) return messagesOrError;
 
-  const mappedMessages = toModelMessages(messages);
+  const handler = new IvoChatHandler(log);
+  const streamOrError = await handler.sendMessage(apiKey, messagesOrError);
+  if (streamOrError instanceof Response) return streamOrError;
 
-  log.info("calling streamText", { model: modelName, messageCount: mappedMessages.length });
-
-  let result;
-  try {
-    const provider = createTogetherAI({ apiKey });
-    result = await streamText({
-      model: provider(modelName),
-      messages: [{ role: "system", content: systemWithResume }, ...mappedMessages],
-    });
-  } catch (e) {
-    log.error("streamText failed", e);
-    return jsonError(
-      "Ivo had trouble thinking. Please try again in a moment.",
-      503,
-    );
-  }
-
-  log.info("streamText ok, building stream response");
-
-  let response: Response;
-  try {
-    response = result.toUIMessageStreamResponse();
-  } catch (e) {
-    log.error("toUIMessageStreamResponse failed", e);
-    return jsonError(
-      "Ivo had trouble sending the reply. Please try again.",
-      500,
-    );
-  }
-
-  log.info("stream response ready");
-  return response;
+  return handler.streamResponse(streamOrError);
 }
