@@ -1,0 +1,10 @@
+/**
+ * Shared helpers for API route handlers.
+ */
+
+export function jsonError(message: string, status: number): Response {
+  return new Response(JSON.stringify({ error: message }), {
+    status,
+    headers: { "Content-Type": "application/json" },
+  });
+}
