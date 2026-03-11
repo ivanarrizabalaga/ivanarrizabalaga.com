@@ -5,6 +5,7 @@ import { useChat } from "@ai-sdk/react";
 import { ArrowUp } from "lucide-react";
 import { DefaultChatTransport } from "ai";
 import { useTranslations } from "next-intl";
+import ReactMarkdown from "react-markdown";
 
 type Props = { authorized: boolean };
 
@@ -51,7 +52,13 @@ export default function IvoChat({ authorized }: Props) {
                   : "bg-muted text-foreground"
               }`}
             >
-              <p className="whitespace-pre-wrap">{getMessageText(message)}</p>
+              {message.role === "assistant" ? (
+                <div className="text-xs leading-relaxed [&_p]:my-1 [&_p]:whitespace-pre-wrap [&_a]:underline [&_a]:underline-offset-4 [&_a]:decoration-foreground/40 hover:[&_a]:decoration-foreground [&_ul]:list-disc [&_ul]:pl-4 [&_ol]:list-decimal [&_ol]:pl-4 [&_code]:font-mono [&_pre]:my-2 [&_pre]:rounded [&_pre]:bg-background/60 [&_pre]:p-2">
+                  <ReactMarkdown>{getMessageText(message)}</ReactMarkdown>
+                </div>
+              ) : (
+                <p className="whitespace-pre-wrap">{getMessageText(message)}</p>
+              )}
             </div>
           </div>
         ))}

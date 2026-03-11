@@ -127,7 +127,7 @@ export default function TalkToIvoContent({ locale }: Props) {
         <h1 className="font-mono text-2xl font-bold tracking-tight text-foreground md:text-3xl">
           {t("title")}
         </h1>
-        <p className="mt-2 max-w-2xl text-sm text-foreground/80">{t("intro")}</p>
+        <p className="mt-2 font-mono text-sm text-foreground/70">{t("intro")}</p>
       </div>
 
       <div className="mt-8">
