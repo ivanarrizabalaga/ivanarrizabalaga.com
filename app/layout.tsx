@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { IBM_Plex_Sans, Space_Mono } from "next/font/google";
 import { getLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const ibmPlexSans = IBM_Plex_Sans({
@@ -70,6 +71,7 @@ export default async function RootLayout({
         className={`${ibmPlexSans.variable} ${spaceMono.variable} antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
