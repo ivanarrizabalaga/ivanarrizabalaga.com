@@ -55,7 +55,34 @@
   },
   "contact": {
     "title": "Contacto",
-    "location": "Ubicación"
+    "location": "Ubicación",
+    "talkToIvo": "Habla con Ivo",
+    "talkToIvoAriaLabel": "Habla con Ivo, mi gemelo digital para preguntas de entrevista."
+  },
+  "talkToIvo": {
+    "title": "Habla con Ivo (WORK IN PROGRESS)",
+    "intro": "Este es mi gemelo digital. Trátalo como una conversación de pasillo: pregunta por mi experiencia en JOOR, ClickDimensions, Zapiens,..., cómo construyo equipos o cómo enfoco la arquitectura y la IA.",
+    "pageTitle": "Habla con Ivo",
+    "invite": {
+      "title": "Introduce tu código de invitación",
+      "descriptionBeforeLink": "Así evitamos abusos y mantenemos los costes controlados. Si aún no tienes código, ",
+      "descriptionAfterLink": " y te paso uno.",
+      "linkedInLinkText": "escríbeme por LinkedIn",
+      "placeholder": "Código de invitación",
+      "continue": "Continuar"
+    },
+    "inviteError": {
+      "required": "Introduce tu código de invitación.",
+      "invalid": "Ese código no me cuadra. Si crees que es un error, escríbeme por LinkedIn.",
+      "network": "No he podido comprobar el código ahora. Prueba en un momento o escríbeme por LinkedIn."
+    },
+    "chat": {
+      "thinking": "Ivo está pensando...",
+      "inputPlaceholder": "Pregúntale a Ivo algo concreto sobre mi experiencia o enfoque...",
+      "send": "Enviar",
+      "sendTooltip": "Enviar mensaje",
+      "inviteHint": "Para mantener esto sostenible, necesitas un código de invitación para hablar con Ivo."
+    }
   },
   "theme": {
     "system": "Sistema",

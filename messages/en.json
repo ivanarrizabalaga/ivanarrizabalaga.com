@@ -55,7 +55,34 @@
   },
   "contact": {
     "title": "Get in Touch",
-    "location": "Location"
+    "location": "Location",
+    "talkToIvo": "Talk to Ivo",
+    "talkToIvoAriaLabel": "Talk to Ivo, my AI-powered digital twin for interview-style questions."
+  },
+  "talkToIvo": {
+    "title": "Talk to Ivo (WORK IN PROGRESS)",
+    "intro": "This is my digital twin. Treat it like a hallway conversation: ask about my experience, how I build teams, or how I approach architecture and AI.",
+    "pageTitle": "Talk to Ivo",
+    "invite": {
+      "title": "Enter your invite code",
+      "descriptionBeforeLink": "This prevents abuse and keeps the costs reasonable. If you don't have a code yet, ",
+      "descriptionAfterLink": " and I'll happily share one.",
+      "linkedInLinkText": "reach out to me on LinkedIn",
+      "placeholder": "Invite code",
+      "continue": "Continue"
+    },
+    "inviteError": {
+      "required": "Please enter your invite code.",
+      "invalid": "That invite code doesn't look right. If you think this is a mistake, reach out to Iván on LinkedIn.",
+      "network": "I couldn't verify that code right now. Please try again in a moment or reach out on LinkedIn."
+    },
+    "chat": {
+      "thinking": "Ivo is thinking...",
+      "inputPlaceholder": "Ask Ivo something specific about my experience or approach...",
+      "send": "Send",
+      "sendTooltip": "Send message",
+      "inviteHint": "To keep this sustainable, you'll need an invite code to chat with Ivo."
+    }
   },
   "theme": {
     "system": "System",

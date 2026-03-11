@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import { getProfile, getRelevantLinks } from "@/lib/data";
@@ -57,7 +58,7 @@ export default async function ContactPage({ params }: Props) {
 
   return (
     <div className="container relative z-10 mx-auto max-w-3xl px-4 py-16 md:py-24">
-      <div className="sticky top-(--header-height) z-40 -mx-4 border-b border-border/40 bg-background/95 px-4 py-4 backdrop-blur supports-[backdrop-filter]:bg-background/60 lg:top-0">
+      <div className="sticky top-(--header-height) z-40 -mx-4 border-b border-border/40 bg-background/95 px-4 py-4 backdrop-blur supports-backdrop-filter:bg-background/60 lg:top-0">
         <h1 className="font-mono text-2xl font-bold tracking-tight text-foreground md:text-3xl">{t("title")}</h1>
       </div>
 
@@ -109,6 +110,18 @@ export default async function ContactPage({ params }: Props) {
                 </a>
               </li>
             )}
+            <li className="flex items-center gap-3">
+              <span className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-border/60 text-[10px] font-semibold text-foreground/80">
+                I
+              </span>
+              <Link
+                href={`/${locale}/talk-to-ivo`}
+                className="text-base text-foreground/80 underline-offset-4 transition-colors hover:text-foreground hover:underline"
+                aria-label={t("talkToIvoAriaLabel")}
+              >
+                {t("talkToIvo")}
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
