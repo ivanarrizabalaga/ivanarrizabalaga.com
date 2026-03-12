@@ -61,7 +61,7 @@
     "talkToIvoAriaLabel": "Habla con Ivo, mi gemelo digital para preguntas de entrevista."
   },
   "talkToIvo": {
-    "title": "Habla con Ivo (WORK IN PROGRESS)",
+    "title": "Habla con Ivo (BETA)",
     "intro": "Este es mi gemelo digital. Trátalo como una conversación de pasillo: pregunta por mi experiencia en JOOR, ClickDimensions, Zapiens,..., cómo construyo equipos o cómo enfoco la arquitectura y la IA.",
     "pageTitle": "Habla con Ivo",
     "invite": {

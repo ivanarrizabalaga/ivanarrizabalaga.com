@@ -73,7 +73,13 @@ export function getTimelineItems(locale: Locale): TimelineItem[] {
     }
   }
 
-  items.sort((a, b) => parseDate(b.startDate) - parseDate(a.startDate));
+  items.sort((a, b) => {
+    const aPresent = a.endDate === null;
+    const bPresent = b.endDate === null;
+    if (aPresent && !bPresent) return -1;
+    if (!aPresent && bPresent) return 1;
+    return parseDate(b.startDate) - parseDate(a.startDate);
+  });
 
   return items;
 }

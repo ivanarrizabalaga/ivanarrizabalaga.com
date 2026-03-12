@@ -61,7 +61,7 @@
     "talkToIvoAriaLabel": "Talk to Ivo, my AI-powered digital twin for interview-style questions."
   },
   "talkToIvo": {
-    "title": "Talk to Ivo (WORK IN PROGRESS)",
+    "title": "Talk to Ivo (BETA)",
     "intro": "This is my digital twin. Treat it like a hallway conversation: ask about my experience (JOOR, ClickDimensions, Zapiens,...), how I build teams, or how I approach architecture and AI.",
     "pageTitle": "Talk to Ivo",
     "invite": {

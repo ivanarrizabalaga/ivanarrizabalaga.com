@@ -960,7 +960,7 @@
         "type": "openSource",
         "roles": [
           {
-            "name": "Developer",
+            "name": "Software Engineer",
             "startDate": "2014-10-01",
             "competences": [
               {
@@ -984,7 +984,7 @@
         "type": "openSource",
         "roles": [
           {
-            "name": "Developer",
+            "name": "Software Engineer",
             "startDate": "2014-07-01",
             "competences": [
               {
@@ -1008,7 +1008,7 @@
         "type": "openSource",
         "roles": [
           {
-            "name": "Developer",
+            "name": "Software Engineer",
             "startDate": "2014-06-01",
             "competences": [
               {
@@ -1620,7 +1620,7 @@
       { "question": "What's something most people don't know about you?", "answer": "Fun fact, during my honeymoon I got my own driving license for the Cook Islands. 🤷‍♂️" },
       { "question": "Birthday", "answer": "Nov 9th, 1979" },
       { "question": "Where do you live?", "answer": "I live in Oviedo, Asturias, Spain. I love it" },
-      { "question": "Do you have a family?", "answer": "I have a wife and two children. I'm a proud father of two boys (2008 and 2011)" },
+      { "question": "Do you have a family?", "answer": "I have a wife (Paula) and two children. I'm a proud father of two boys (2008 Diego and 2011 Daniel)" },
       { "question": "Favorite food?", "answer": "Food is almost a religion over here in Asturias, pote asturiano, fabada, and also other typical spanish dishes like Paella or Tortilla de Patata" },
       { "question": "Favorite music?", "answer": "It depends on the mood, it can go from soul like Ottis Redding to rock like Foo Fighters, Linkin Park, Nirvana, etc." },
       { "question": "Favorite book?", "answer": "Not like I have one only book to recommend. It depends on the mood, I few I loved: The curious incident of the dog in the night-time, Project Hail Mary, lately I'm reading some of ZeroCalcare" },
