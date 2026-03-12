@@ -23,18 +23,6 @@
       },
       "email": "ivan.arrizabalaga@gmail.com"
     },
-    "interestingFacts": [
-      {
-        "topic": {
-          "en": "First computer",
-          "es": "Primer ordenador"
-        },
-        "fact": {
-          "en": "Sinclair ZX Spectrum",
-          "es": "Sinclair ZX Spectrum"
-        }
-      }
-    ],
     "recommendations": [
       {
         "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
@@ -1585,68 +1573,73 @@
       }
     ]
   },
-  "careerPreferences": {
-    "preferences": {
-      "preferredCompetences": [
-        {
-          "name": "Go",
-          "type": "technology"
-        },
-        {
-          "name": "Java",
-          "type": "technology"
-        },
-        {
-          "name": "JavaScript",
-          "type": "technology"
-        },
-        {
-          "name": "Kotlin",
-          "type": "technology"
-        },
-        {
-          "name": "Python",
-          "type": "technology"
-        },
-        {
-          "name": "React",
-          "type": "technology"
-        },
-        {
-          "name": "Spring Boot",
-          "type": "technology"
-        },
-        {
-          "name": "TypeScript",
-          "type": "technology"
-        }
-      ],
-      "discardedCompetences": [
-        {
-          "name": "PHP",
-          "type": "technology"
-        },
-        {
-          "name": "Ruby on Rails",
-          "type": "technology"
-        },
-        {
-          "name": "SAS",
-          "type": "technology"
-        }
-      ],
-      "preferredRoles": [
-        "Backend Developer",
-        "Data Engineer",
-        "Director / General Manager",
-        "Engineering Management"
-      ]
-    },
-    "status": "openToOffers",
-    "requirements": {
-      "contractTypes": [
-        "permanent"
-      ]
-    }
+  "ivo": {
+    "personal": [
+      { "question": "How would you describe yourself in one sentence outside of work?", "answer": "I’d describe myself as a pragmatic and rational person who is equally driven by curiosity and humanism, always keeping my family and my well-being as my top priorities." },
+      { "question": "What do you do to disconnect from work?", "answer": "Hiking in nature (Asturias is awesome for that), basketball (still playing 2 or 3 times x week), and the rest of the usual stuff." },
+      { "question": "What's something most people don't know about you?", "answer": "Fun fact, during my honeymoon I got my own driving license for the Cook Islands. 🤷‍♂️" },
+      { "question": "Birthday", "answer": "Nov 9th, 1979" },
+      { "question": "Where do you live?", "answer": "I live in Oviedo, Asturias, Spain. I love it" },
+      { "question": "Do you have a family?", "answer": "I have a wife and two children. I'm a proud father of two boys (2008 and 2011)" },
+      { "question": "Favorite food?", "answer": "Food is almost a religion over here in Asturias, pote asturiano, fabada, and also other typical spanish dishes like Paella or Tortilla de Patata" },
+      { "question": "Favorite music?", "answer": "It depends on the mood, it can go from soul like Ottis Redding to rock like Foo Fighters, Linkin Park, Nirvana, etc." },
+      { "question": "Favorite book?", "answer": "Not like I have one only book to recommend. It depends on the mood, I few I loved: The curious incident of the dog in the night-time, Project Hail Mary, lately I'm reading some of ZeroCalcare" },
+      { "question": "Coffee or tea?", "answer": "Chocolate" }
+    ],
+    "lightPreferences": [
+      { "question": "Windows, Linux, Mac?", "answer": "It depends, Windows for gaming, Linux (Ubuntu) was my go to for 15 years or so and for the last 4 years I moved to Mac due to JOOR's requirements. I would be happy using just Linux though" },
+      { "question": "Development setup?", "answer": "I use two monitors: my laptop screen and a larger 32-inch monitor placed above it. I also have a simple setup that allows me to alternate between sitting on a yoga ball and standing"},
+      { "question": "IDE?", "answer": "I used to be a JetBrains fan but this year, like everybody, I moved over to Cursor and Claude"},
+      { "question": "What languages and technologies do you prefer?", "answer": "I prefer typed languages but for different reasons I have worked comfortable with Typescript, Python, Nextjs, React, ... historically I worked for many years with JVM languages like Java, Grails, but that was sometime ago" },
+      { "question": "Are there languages or technologies you'd rather not use?", "answer": "I'm not keen on PHP, Ruby on Rails, or SAS—not that I hate them; if the problem is solved and the team is productive, that's what matters." },
+      { "question": "What type of role are you looking for?", "answer": "Permanent. I'm open to either a hands-on lead role or a senior IC role." },
+      { "question": "How do you prefer to run 1:1s—agenda-driven or open?", "answer": "It depends, you have to read the situation, sometimes you have a very well organized agenda and sometimes you just have to listen. The key to avoid 2 typical mistakes, the manager just talking or the guy just reporting about projects", "roleContext": "management" },
+      { "question": "How do you prefer to align with product and other stakeholders—async written or sync meetings?", "answer": "it all starts with an initial conversation, top to bottom. It is important to understand the high level priorities and risks but once you set a direction you can start writing down stuff and sharing it to minimize nonsense meetings", "roleContext": "management" },
+      { "question": "What's your ideal meeting load in a week?", "answer": "Ideal is not real I would say. As a lead, one of my responsabilities is be the umbrella for the team so they have quality time. As an IC, I'm ok with having has many meetings as needed to clarify needs but writing is like a cheatcode we should use more often to move faster", "roleContext": "management" },
+      { "question": "How do you prefer to give feedback—in the moment or in a dedicated conversation?", "answer": "The rule of thumb is praise in public, criticize in private. But it all starts with a good relationship and trust. If you don't have that, you can't give feedback.", "roleContext": "management" },
+      { "question": "What tools do you prefer for team communication and documentation?", "answer": "Slack for ephimeral convos and Notion or Confluence for real decisions and more structured infor. Though this piece of the world is changing like crazy, I can see orgs moving decions made into git repos to have them under version control and facilitate agents work", "roleContext": "management" },
+      { "question": "How do you prefer to receive requirements—docs first or conversation first?", "answer": "There 2 different moments, prioritization and execution. For prioritization, convo first. For execution, doc first to set the stage", "roleContext": "ic" },
+      { "question": "Do you prefer deep focus blocks or more fragmented days with meetings?", "answer": "What type of psychopath prefers fragmentation? Focus is key to high deep quality work", "roleContext": "ic" },
+      { "question": "How do you prefer code reviews to be run—async or sync, size of batches?", "answer": "[Answer to be filled in]", "roleContext": "ic" },
+      { "question": "What's your preferred balance of pair programming vs solo work?", "answer": "It depends on different things, the experience on your team, your role within it, etc. I enjoy programming on my own but also pair programming with anyone out there. It can be fun either to learn or to teach. Anyways with agents around, probably the whole pair programming experience will go away as a common practice", "roleContext": "ic" }
+    ],
+    "values": [
+      { "question": "What do you value most in a team culture?", "answer": "Transparency, trust, and a good balance between work and personal life", "roleContext": "management" },
+      { "question": "What's non-negotiable for you in an engineering org?", "answer": "The org must be made of humble, curious people. Ego is a dangerous trait in engineering and leads to bad decisions and bad teams", "roleContext": "management" },
+      { "question": "How do you balance developer happiness and business efficiency?", "answer": "You have to listen and be superempathic. You have to break the silos between eng, product, and business", "roleContext": "management" },
+      { "question": "What does good leadership mean to you in practice?", "answer": "Lead by example, stay close to the ground, assertive when needed and speak 2 different languages: biz and technology", "roleContext": "management" },
+      { "question": "How important is transparency from leadership to you?", "answer": "No transparency, no trust, no autonomy, no happiness, no productivity", "roleContext": "management" },
+      { "question": "What do you need from a manager to do your best work?", "answer": "Take informed decisions, give feedback, and be a good listener", "roleContext": "ic" },
+      { "question": "What do you value most in teammates?", "answer": "Curiosity, humility, and a willingness to learn", "roleContext": "ic" },
+      { "question": "How do you define quality in software?", "answer": "Quality is kind of subjective but maybe delivering what's promised", "roleContext": "ic" },
+      { "question": "What does work-life balance mean to you in practice?", "answer": "I've been around too long to understand that sometimes shit happens, but if you go for the long run you need a healthy balance, and focus is key for that", "roleContext": "ic" },
+      { "question": "What's your biggest lesson in your career?", "answer": "Say no when needed", "roleContext": "both" }
+    ],
+    "situations": [
+      { "question": "a time you had to make an unpopular decision. How did you communicate it?", "answer": "Shrinking teams due to economic context for instance. You have to let your leads know first, look for opportunities to minimize impact, and then communicate the decision to the team bringing all the data and context to make it easier to understand", "roleContext": "management" },
+      { "question": "a time you had to turn around an underperforming team or process. What did you do?", "answer": "Listen, capture metrics, expose these to the team, run a retro to consolidate action items and follow progress. It is very important for the ones not delivering that they understand whats missing. The change can be lead from the outside but only executed from  the inside", "roleContext": "management" },
+      { "question": "a time you disagreed with a peer or superior. How did you handle it?", "answer": "I tried to understand the friction first. His/her fears, points of view, etc. Sometimes I'm the one missing info, sometimes is the other way around, few times there is a foundational disagreement but it that happens you have to make a bet and go for it", "roleContext": "management" },
+      { "question": "a time you had to cut scope or say no to ship on time. How did you decide?", "answer": "Between scope and time changes the keywork is 'enough'. If you have the chance to deliver enough scope there is no need to push any date, else you have to make a call and adjust expectations", "roleContext": "management" },
+      { "question": "a time you had to fire or let someone go. How did you approach it?", "answer": "Firing is probably the hardest. It is needed but we don't talk about it too much. In such cases, I follow the yellow card, red card process. Basically I let the person know first, then start a pip for a few weeks before making the final call", "roleContext": "management" },
+      { "question": "a failure in a leadership role. What did you learn?", "answer": "Long time ago, around 2008 or so I was in charge of a growing team but lacked some chemistry. I though it would be cool to do some recurring trainings to improve our skills and asked the lastest hired guy to run the first one. It didn't work well cause the guys felt like I was diminishing them. I learned to feel the vibe of the group before exposing others", "roleContext": "management" },
+      { "question": "a time you had to push back on a technical decision. How did you do it?", "answer": "I'm sure I have made bad calls, no question. But most of them were justified by the context", "roleContext": "ic" },
+      { "question": "a time you failed technically (bug, outage, wrong approach). What did you learn?", "answer": "Back in 2006, while doing consulting at the client office I dropped a production table, yes this bad. I had toad opened with different environments and I ran the query on the wrong one. But I was lucky, I had a DBA right there in the office and we fixed it in 10mins. Between us, they should have never granted DROP permission in production", "roleContext": "ic" },
+      { "question": "a time you had to learn something new under pressure. How did you approach it?", "answer": "Many times! while doing consulting I had to learn a maths related library in 1 day cause they told the customer the expert was going to the office the next day, also while freelancing, I had to turn myself into an Android expert in a week, hahaha, so stressful", "roleContext": "ic" },
+      { "question": "a time you had to work with a difficult stakeholder or teammate. How did you handle it?", "answer": "Trust is key to gain access to people. There are few absolute jerks out there but most of people is just misundertood", "roleContext": "ic" },
+      { "question": "a time you had to simplify or refactor a complex system. What was your approach?", "answer": "Back in the day I used to rely on pen and paper to make a diagram of the flows and data structures, that was the trick to avoid falling into the code rabbit hole. Nowawadays with AI agents, I rely on them to do some mermaid diagrams for both static and dynamic behaviour (classes and sequence). Once I get it, I can start the design with decouplement in mind", "roleContext": "ic" },
+      { "question": "a time you disagreed with your manager. How did you resolve it?", "answer": "While I was doing some freelancing for Android I was told to implement some complex logic using a visitor pattern but the boss have read a very poor article with a bad example. I had to gently push back and explain why it was wrong, how to fix it and above all my sources", "roleContext": "ic" }
+    ],
+    "expectations": [
+      { "question": "What are you looking for in your next role as a leader?", "answer": "I would love to work in company with a deep tech DNA. Regardless of me being closer to higher management or closer to the team, I would love to work for a tech minded company with good leadership", "roleContext": "management" },
+      { "question": "What do you expect from the company (e.g. stability, growth, mission)?", "answer": "A little bit of everything honestly. Considering my family stability matters I ain't gonna lie but it is not like I need to work for a gigant corp. I think I don't belong there because of my inclination to find ways and not following processes blindly. BUT, mission is key too. I won't be working for military, gambling, ... I would love to work for a company with a mission that is aligned with my values and that I can be proud of", "roleContext": "management" },
+      { "question": "What would make you leave a role or company?", "answer": "IMO, people stay around when at least 2 out 3 of the following are right: what you get, what you learn, what you do. You can afford to miss one but not two", "roleContext": "management" },
+      { "question": "What kind of team size and stage do you prefer (e.g. scaling vs greenfield)?", "answer": "Not a big deal for me. I've been in both sides of the spectrum and I'm ok with both", "roleContext": "management" },
+      { "question": "How do you expect to be measured (e.g. outcomes vs output, team health)?", "answer": "I'm more than ok with metrics as long as they are meaningful and not just a number. IMO, there is a strong correlation between team happiness and team performance", "roleContext": "management" },
+      { "question": "What are you looking for in your next role as an IC?", "answer": "At this point of my career, becoming a 100% IC role is realistically hard for me. If possible, I would love to join an organization where I could work with experts on the field to get the best out of me", "roleContext": "ic" },
+      { "question": "What do you need from a manager?", "answer": "To listen, delegate, to understand technology and be clear about expectations", "roleContext": "ic" },
+      { "question": "What would make you leave a role?", "answer": "Once the conditions are set, the most common culprit could be the culture of the team. If it is made of egos, gossipers, and backstabbers, I'm out", "roleContext": "ic" },
+      { "question": "What kind of product or tech stack do you want to work with?", "answer": "Some go crazy over this but I'm not picky. I stay super curious about everything and as long as it is good enough for the job, I'm happy", "roleContext": "ic" },
+      { "question": "How do you expect feedback and growth to work (e.g. promotions, scope)?", "answer": "I think that setting expectations upfront, having a clear path and process to gather feedback is key. You can only improve when you're told what can you do better", "roleContext": "ic" }
+    ]
   }
 }

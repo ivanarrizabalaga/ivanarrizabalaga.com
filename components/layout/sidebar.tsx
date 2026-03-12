@@ -13,6 +13,7 @@ const navItems = [
   { href: "/skills", key: "skills" },
   { href: "/writing", key: "writing" },
   { href: "/contact", key: "contact" },
+  { href: "/talk-to-ivo", key: "talkToIvo" },
 ] as const;
 
 export function Sidebar() {

@@ -138,6 +138,22 @@ export interface Study {
   linkedCompetences?: Competence[];
 }
 
+export type IvoRoleContext = "management" | "ic" | "both";
+
+export interface IvoQuestionAnswer {
+  question: string;
+  answer: string;
+  roleContext?: IvoRoleContext;
+}
+
+export interface Ivo {
+  personal: Array<{ question: string; answer: string }>;
+  lightPreferences: IvoQuestionAnswer[];
+  values: IvoQuestionAnswer[];
+  situations: IvoQuestionAnswer[];
+  expectations: IvoQuestionAnswer[];
+}
+
 export interface ResumeData {
   aboutMe: {
     profile: Profile;
@@ -154,4 +170,5 @@ export interface ResumeData {
     hardSkills: HardSkill[];
     studies: Study[];
   };
+  ivo: Ivo;
 }
