@@ -838,6 +838,46 @@
       },
       {
         "details": {
+          "name": "ivanarrizabalaga.com",
+          "description": {
+            "en": "This site is my online resume paired with a highly trained digital twin—an AI that can chat about my experience, projects, and background in my voice.\n\nI set out to build something responsive, performant, and accessible, combining agent and my own engineering decisions",
+            "es": "Este sitio es mi currículum en línea junto con un gemelo digital muy entrenado: una IA que puede hablar de mi experiencia, proyectos y trayectoria con mi voz.\n\nMe propuse construir algo responsive, performant y accesible, combinando agentes y mi propio criterio"
+          },
+          "URL": "https://ivanarrizabalaga.com",
+          "image": {
+            "link": "/logo_profile.png",
+            "alt": "ivanarrizabalaga.com"
+          }
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Software Engineer",
+            "startDate": "2026-03-01",
+            "finishDate": "2026-03-31",
+            "competences": [
+              {
+                "name": "NextJS",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "Vercel",
+                "type": "technology"
+              },
+              {
+                "name": "Together AI",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "details": {
           "name": "Malariapp",
           "description": {
             "en": "QoC Android App - A cool open-source tool for quality assessments that hooks right into DHIS2 Health Information Servers. It makes assessing health centers a breeze by automatically generating surveys and keeping all the data perfectly synced with DHIS2.",
