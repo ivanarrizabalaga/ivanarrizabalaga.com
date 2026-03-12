@@ -1586,22 +1586,6 @@
     ]
   },
   "careerPreferences": {
-    "contact": {
-      "publicProfiles": [
-        {
-          "URL": "https://www.linkedin.com/in/ivanarrizabalaga/",
-          "type": "linkedin"
-        },
-        {
-          "URL": "https://stackoverflow.com/users/2249/ivan-arrizabalaga",
-          "type": "stackoverflow"
-        },
-        {
-          "URL": "https://github.com/ivanarrizabalaga",
-          "type": "github"
-        }
-      ]
-    },
     "preferences": {
       "preferredCompetences": [
         {
