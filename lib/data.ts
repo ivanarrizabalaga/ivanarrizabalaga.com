@@ -121,14 +121,6 @@ export function getHardSkills(locale: Locale) {
   return data.knowledge.hardSkills;
 }
 
-export function getInterestingFacts(locale: Locale) {
-  return data.aboutMe.interestingFacts.map((f) => ({
-    ...f,
-    topic: resolveBilingual(f.topic, locale),
-    fact: resolveBilingual(f.fact, locale),
-  }));
-}
-
 export function getRelevantLinks(locale: Locale) {
   return data.aboutMe.relevantLinks;
 }

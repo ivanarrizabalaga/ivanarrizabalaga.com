@@ -108,11 +108,6 @@ export interface Profile {
   email?: string;
 }
 
-export interface InterestingFact {
-  topic: Bilingual<string>;
-  fact: Bilingual<string>;
-}
-
 export interface RelevantLink {
   type: string;
   URL: string;
@@ -146,7 +141,6 @@ export interface Study {
 export interface ResumeData {
   aboutMe: {
     profile: Profile;
-    interestingFacts: InterestingFact[];
     recommendations: Recommendation[];
     relevantLinks: RelevantLink[];
   };
