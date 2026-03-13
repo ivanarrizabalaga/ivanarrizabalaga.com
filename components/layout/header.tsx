@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { ThemeSwitcher } from "@/components/layout/theme-switcher";
 import { LocaleSwitcher } from "@/components/layout/locale-switcher";
@@ -17,8 +17,10 @@ const navItems = [
 
 export function Header() {
   const t = useTranslations("nav");
+  const locale = useLocale();
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const resumePdfUrl = `/api/resume.pdf?locale=${locale}`;
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 lg:hidden">
@@ -26,7 +28,7 @@ export function Header() {
         <Link href="/" className="font-mono text-lg font-semibold">
           Ivan Arrizabalaga
         </Link>
-        <nav className="hidden items-center gap-6 md:flex">
+        <nav className="hidden items-center gap-4 md:flex">
           {navItems.map(({ href, key }) => (
             <Link
               key={key}
@@ -39,6 +41,17 @@ export function Header() {
               {t(key)}
             </Link>
           ))}
+          <a
+            href={resumePdfUrl}
+            download
+            className={cn(
+              "font-mono text-sm font-medium transition-colors hover:text-foreground/80 text-foreground/60",
+              "text-foreground/60"
+            )}
+            aria-label={t("downloadResume")}
+          >
+            {t("downloadResume")}
+          </a>
         </nav>
         <div className="flex items-center gap-2">
           <ThemeSwitcher />
@@ -68,6 +81,15 @@ export function Header() {
                 {t(key)}
               </Link>
             ))}
+            <a
+              href={resumePdfUrl}
+              download
+              onClick={() => setMobileOpen(false)}
+              className="rounded-md px-4 py-2 font-mono text-sm font-medium transition-colors hover:bg-accent text-foreground/70 flex items-center gap-2"
+              aria-label={t("downloadResume")}
+            >
+              {t("downloadResume")}
+            </a>
           </nav>
         </div>
       )}

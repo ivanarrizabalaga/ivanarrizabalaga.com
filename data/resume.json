@@ -892,7 +892,7 @@
         "type": "openSource",
         "roles": [
           {
-            "name": "Contributor",
+            "name": "Software Engineer",
             "startDate": "2015-05-01",
             "finishDate": "2016-11-30",
             "competences": [
@@ -928,7 +928,7 @@
         "type": "openSource",
         "roles": [
           {
-            "name": "Contributor",
+            "name": "Software Engineer",
             "startDate": "2015-05-01",
             "finishDate": "2016-11-30",
             "competences": [
@@ -1173,8 +1173,8 @@
         "name": "EN",
         "fullName": "English",
         "description": {
-          "en": "Almost bilingual, except when I meet someone from Liverpool 😉",
-          "es": "Casi bilingüe, salvo cuando me topo con alguien de Liverpool 😉"
+          "en": "Almost bilingual, except when I meet someone from Liverpool ;)",
+          "es": "Casi bilingüe, salvo cuando me topo con alguien de Liverpool ;)"
         }
       }
     ],
@@ -1228,8 +1228,8 @@
         ]
       },
       {
-        "studyType": "officialDegree",
-        "degreeAchieved": true,
+        "studyType": "certification",
+        "degreeAchieved": false,
         "name": "Algorithms",
         "startDate": "2013-01-01",
         "institution": {

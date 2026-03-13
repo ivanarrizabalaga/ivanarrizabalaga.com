@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { ThemeSwitcher } from "@/components/layout/theme-switcher";
 import { LocaleSwitcher } from "@/components/layout/locale-switcher";
@@ -18,7 +18,9 @@ const navItems = [
 
 export function Sidebar() {
   const t = useTranslations("nav");
+  const locale = useLocale();
   const pathname = usePathname();
+  const resumePdfUrl = `/api/resume.pdf?locale=${locale}`;
 
   return (
     <aside className="fixed left-0 top-0 z-40 hidden h-screen w-[360px] flex-col overflow-hidden border-r border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 lg:flex">
@@ -48,6 +50,17 @@ export function Sidebar() {
               {t(key)}
             </Link>
           ))}
+          <a
+            href={resumePdfUrl}
+            download
+            className={cn(
+              "rounded-md px-3 py-2 font-mono text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground",
+              "text-foreground/70"
+            )}
+            aria-label={t("downloadResume")}
+          >
+            {t("downloadResume")}
+          </a>
         </nav>
 
         {/* Avatar - 24px horizontal padding, max 360px */}

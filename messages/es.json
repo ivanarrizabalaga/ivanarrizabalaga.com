@@ -9,7 +9,18 @@
     "writing": "Publicaciones",
     "skills": "Habilidades",
     "contact": "Contacto",
-    "talkToIvo": "Habla con Ivo"
+    "talkToIvo": "Habla con Ivo",
+    "downloadResume": "Currículum"
+  },
+  "pdf": {
+    "sections": {
+      "experience": "Experiencia",
+      "projects": "Proyectos",
+      "education": "Formación",
+      "languages": "Idiomas",
+      "courses": "Cursos (últimos)",
+      "contact": "Contacto"
+    }
   },
   "home": {
     "title": "Sobre mí",

@@ -9,7 +9,18 @@
     "writing": "Posts",
     "skills": "Skills",
     "contact": "Contact",
-    "talkToIvo": "Talk to Ivo"
+    "talkToIvo": "Talk to Ivo",
+    "downloadResume": "Resume"
+  },
+  "pdf": {
+    "sections": {
+      "experience": "Experience",
+      "projects": "Projects",
+      "education": "Education",
+      "languages": "Languages",
+      "courses": "Courses (latest)",
+      "contact": "Contact"
+    }
   },
   "home": {
     "title": "About",
