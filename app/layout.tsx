@@ -3,6 +3,7 @@ import { IBM_Plex_Sans, Space_Mono } from "next/font/google";
 import { getLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const ibmPlexSans = IBM_Plex_Sans({
@@ -72,6 +73,7 @@ export default async function RootLayout({
       >
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
