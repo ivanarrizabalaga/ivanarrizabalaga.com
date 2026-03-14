@@ -24,8 +24,8 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 lg:hidden">
-      <div className="container flex h-14 items-center justify-between px-4">
-        <Link href="/" className="font-mono text-lg font-semibold">
+      <div className="container flex h-14 items-center justify-between px-4 md:px-6">
+        <Link href="/" className="font-mono text-lg font-semibold md:mr-6">
           Ivan Arrizabalaga
         </Link>
         <nav className="hidden items-center gap-4 md:flex">
@@ -53,7 +53,7 @@ export function Header() {
             {t("downloadResume")}
           </a>
         </nav>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 md:ml-6">
           <ThemeSwitcher />
           <LocaleSwitcher />
           <button
